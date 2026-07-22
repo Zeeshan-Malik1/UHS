@@ -1,0 +1,2 @@
+import {Navigate,useLocation} from 'react-router-dom';import {useAuth} from '../context/AuthContext';
+export function ProtectedRoute({children,roles}:{children:React.ReactNode;roles?:Array<'PATIENT'|'DOCTOR'|'ADMIN'>}){const {user,loading}=useAuth(),location=useLocation();if(loading)return <div className="route-loading" aria-label="Loading"/>;if(!user)return <Navigate to="/login" state={{from:location.pathname+location.search}} replace/>;if(roles&&!roles.includes(user.role))return <Navigate to={`/dashboard/${user.role.toLowerCase()}`} replace/>;return children}

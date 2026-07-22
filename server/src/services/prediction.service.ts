@@ -1,0 +1,5 @@
+import type {PredictionRequest,PredictionResult} from '@uhs/shared';
+export interface PredictionProvider{predict(input:PredictionRequest):Promise<PredictionResult>;version:string}
+class MockPredictionProvider implements PredictionProvider{version='mock-v1';async predict(input:PredictionRequest){const respiratory=input.symptoms.some(s=>['cough','sore throat','shortness of breath'].includes(s.toLowerCase()));return{disease:respiratory?'Seasonal upper respiratory infection':'General viral syndrome',confidence:respiratory ? .84 : .71,severity:'LOW_TO_MODERATE',specialist:'General Physician',recommendedMedicines:['Clinical review required before medication'],diet:{eat:['Warm fluids','Fruit and vegetables','Light meals'],avoid:['Alcohol','Highly processed foods']},workout:['Rest while feverish','Gentle walking as tolerated'],suggestedTests:['CBC if symptoms persist','Clinical examination'],disclaimer:'This AI-assisted result is informational and is not a medical diagnosis.'}}}
+// Replace only this provider with a TensorFlow/HTTP implementation when your trained model is ready.
+export const predictionProvider:PredictionProvider=new MockPredictionProvider();

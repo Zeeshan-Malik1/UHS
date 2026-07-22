@@ -1,0 +1,4 @@
+import {Routes,Route} from 'react-router-dom';
+import {Layout} from './components/Layout';
+import {Home,Doctors,DoctorProfile,Prediction,Hospitals,Library,About,Contact,Book,Auth,Dashboard,NotFound} from './pages';
+export default function App(){return <Layout><Routes><Route path="/" element={<Home/>}/><Route path="/doctors" element={<Doctors/>}/><Route path="/doctors/:id" element={<DoctorProfile/>}/><Route path="/predict" element={<Prediction/>}/><Route path="/hospitals" element={<Hospitals/>}/><Route path="/library" element={<Library/>}/><Route path="/about" element={<About/>}/><Route path="/contact" element={<Contact/>}/><Route path="/book" element={<Book/>}/><Route path="/login" element={<Auth mode="login"/>}/><Route path="/register" element={<Auth mode="register"/>}/><Route path="/forgot-password" element={<Auth mode="forgot"/>}/><Route path="/dashboard/:role" element={<Dashboard/>}/><Route path="*" element={<NotFound/>}/></Routes></Layout>}

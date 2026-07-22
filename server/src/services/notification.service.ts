@@ -1,0 +1,2 @@
+import type {NotificationType,Prisma} from '@prisma/client';import {prisma} from '../lib/prisma.js';import {getIo} from '../socket.js';
+export const notificationService={async create(userId:string,type:NotificationType,title:string,message:string,data?:Prisma.InputJsonValue){const notification=await prisma.notification.create({data:{userId,type,title,message,data}});getIo().to(`user:${userId}`).emit('notification:new',notification);return notification}};
