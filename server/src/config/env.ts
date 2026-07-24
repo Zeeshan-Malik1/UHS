@@ -1,4 +1,6 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
 import {z} from 'zod';
-const schema=z.object({NODE_ENV:z.enum(['development','test','production']).default('development'),PORT:z.coerce.number().default(4000),CLIENT_URL:z.string().default('http://localhost:5173'),DATABASE_URL:z.string().min(1),JWT_ACCESS_SECRET:z.string().min(32),JWT_REFRESH_SECRET:z.string().min(32),ACCESS_TOKEN_MINUTES:z.coerce.number().default(15),REFRESH_TOKEN_DAYS:z.coerce.number().default(30),SMTP_HOST:z.string().optional(),SMTP_PORT:z.coerce.number().default(587),SMTP_USER:z.string().optional(),SMTP_PASS:z.string().optional(),SMTP_FROM:z.string().default('UHS Care <care@uhs.health>'),UPLOAD_DIR:z.string().default('../uploads'),GOOGLE_MAPS_API_KEY:z.string().optional(),AI_MODEL_URL:z.string().optional()});
+dotenv.config();
+dotenv.config({path:'../.env',override:false});
+const schema=z.object({NODE_ENV:z.enum(['development','test','production']).default('development'),PORT:z.coerce.number().default(4000),CLIENT_URL:z.string().default('http://localhost:5173'),DATABASE_URL:z.string().min(1),JWT_ACCESS_SECRET:z.string().min(32),JWT_REFRESH_SECRET:z.string().min(32),ACCESS_TOKEN_MINUTES:z.coerce.number().default(15),REFRESH_TOKEN_DAYS:z.coerce.number().default(30),SMTP_HOST:z.string().optional(),SMTP_PORT:z.coerce.number().default(587),SMTP_USER:z.string().optional(),SMTP_PASS:z.string().optional(),SMTP_FROM:z.string().default('UHS Care <care@uhs.health>'),UPLOAD_DIR:z.string().default('../uploads'),GOOGLE_MAPS_API_KEY:z.string().optional(),GEMINI_API_KEY:z.string().optional(),AI_MODEL_URL:z.string().optional()});
 export const env=schema.parse(process.env);

@@ -1,0 +1,3571 @@
+[
+  {
+    "id": "1",
+    "filename": "1.pdf",
+    "title": "Beyond technology: Understanding digital healthcare through patient",
+    "shortTitle": "Beyond technology: Understanding digital healthcare thr...",
+    "heading": "Mohammed Saani Abdulai *, Eliasu Mumuni , Muhammed Abdulai",
+    "description": "Department of Communication, Innovation and Technology, Faculty of Communication and Media Studies (FCMS), University for Development Studies, Tamale, Ghana",
+    "readingTime": "15 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "beyond",
+      "technology",
+      "understanding",
+      "digital",
+      "healthcare",
+      "through",
+      "patient"
+    ],
+    "updatedAt": "2026-07-21T12:58:37.757Z",
+    "sections": [
+      {
+        "heading": "Mohammed Saani Abdulai *, Eliasu Mumuni , Muhammed Abdulai",
+        "blocks": [
+          "Department of Communication, Innovation and Technology, Faculty of Communication and Media Studies (FCMS), University for Development Studies, Tamale, Ghana"
+        ]
+      },
+      {
+        "heading": "A B S T R A C T",
+        "blocks": [
+          "Purpose: Digital transformation in healthcare systems within low- and middle-income countries offers significant potential to enhance operational efficiency and improve patient care. Ghana's implementation of the Lightwave Health Information Management System (LHIMS) and its transition to the Ghana Health Information Manage- ment System (GHIMS) represent important milestones in this process. However, limited empirical research has examined patients' lived experiences during such transitions, particularly how infrastructural instability and system changes shape care across different levels of healthcare delivery. This study addresses this gap by exploring patient experiences during the LHIMS–GHIMS transition in Northern Ghana. Methods: The study adopted a qualitative phenomenological design grounded in Sociotechnical Systems Theory (STS). Semi-structured interviews were conducted with 30 purposively selected patients across metropolitan, municipal, and rural healthcare facilities. Data were analyzed thematically to identify patterns in patient ex- periences with digital health system use and disruption. Results: Two interrelated themes emerged. First, participants described digital systems as improving organiza- tion, reducing waiting times, and minimizing loss of medical records, particularly in metropolitan and municipal settings. Second, participants reported that system disruptions, such as power outages and network failures, frequently interrupted care processes, with these challenges being more pronounced in rural facilities. These findings highlight that while digitalization enhances efficiency, its benefits are conditional on infrastructural reliability and system stability. Conclusion: Digital health transformation in resource-constrained environments is not merely a technological upgrade, but a sociotechnical process shaped by the alignment of infrastructure, organizational systems, and human actors. Sustaining its benefits requires strengthening infrastructure reliability, supporting healthcare workers, and continuously assessing patient experiences across diverse contexts to inform resilient, patient- centered digital health implementation.",
+          "1. Introduction"
+        ]
+      },
+      {
+        "heading": "into facility workflows to streamline registration, billing, clinical",
+        "blocks": [
+          "documentation, and follow-up care [7–9]."
+        ]
+      },
+      {
+        "heading": "persistent challenges related to infrastructure, technical capacity, and",
+        "blocks": [
+          "* Corresponding author.",
+          "E-mail address: msaani0010@gmail.com (M.S. Abdulai)."
+        ]
+      },
+      {
+        "heading": "Available online 30 May 2026",
+        "blocks": [
+          "2772-6533/© 2026 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by- nc-nd/4.0/)."
+        ]
+      },
+      {
+        "heading": "-- 1 of 10 --",
+        "blocks": [
+          "contextual fit [13–15]."
+        ]
+      },
+      {
+        "heading": "technical components, human actors, and institutional contexts jointly",
+        "blocks": [
+          "influence outcomes [18,19]."
+        ]
+      },
+      {
+        "heading": "of satisfaction or acceptance, which do not fully reflect the nuanced and",
+        "blocks": [
+          "context-dependent nature of patient experiences [20]."
+        ]
+      },
+      {
+        "heading": "recognized as central to service quality, sustained use, and equity in",
+        "blocks": [
+          "digital health systems [20,22–26]."
+        ]
+      },
+      {
+        "heading": "conditions and service delivery processes are variable and",
+        "blocks": [
+          "interdependent."
+        ]
+      },
+      {
+        "heading": "periences, particularly in the context of system disruptions and transi-",
+        "blocks": [
+          "tions (e.g., the LHIMS–GHIMS migration)?"
+        ]
+      },
+      {
+        "heading": "reliability, responsiveness, and equity of digital health systems in",
+        "blocks": [
+          "resource-constrained settings [22,25]."
+        ]
+      },
+      {
+        "heading": "more resilient, equitable, and patient-centered digital health systems in",
+        "blocks": [
+          "Ghana.",
+          "2. Theoretical framework"
+        ]
+      },
+      {
+        "heading": "nizational workflows, human actors, institutional routines, and the",
+        "blocks": [
+          "broader infrastructural environment."
+        ]
+      },
+      {
+        "heading": "but by how effectively the technical and social components of care de-",
+        "blocks": [
+          "livery function together [27,29]."
+        ]
+      },
+      {
+        "heading": "tients may experience delays, confusion, and diminished confidence in",
+        "blocks": [
+          "the care process [32,33]."
+        ]
+      },
+      {
+        "heading": "instead examine how healthcare delivery is co-produced through the",
+        "blocks": [
+          "interaction of systems, people, institutions, and infrastructure [34,35]."
+        ]
+      },
+      {
+        "heading": "where the effectiveness of technological innovation depends heavily on",
+        "blocks": [
+          "the resilience of the surrounding social and organizational environment.",
+          "3. Conceptual frameworks"
+        ]
+      },
+      {
+        "heading": "nical conditions, social processes, and organizational arrangements",
+        "blocks": [
+          "within healthcare delivery."
+        ]
+      },
+      {
+        "heading": "health workers mediate patients' encounters with digital systems during",
+        "blocks": [
+          "service delivery."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "2"
+        ]
+      },
+      {
+        "heading": "social elements are poorly aligned, patients may experience delays,",
+        "blocks": [
+          "frustration, discontinuity, and uncertainty."
+        ]
+      },
+      {
+        "heading": "Tables 1 and 2.)",
+        "blocks": [
+          "4. Materials and methods"
+        ]
+      },
+      {
+        "heading": "rience and make meaning of digitally mediated healthcare interactions",
+        "blocks": [
+          "within their everyday clinical encounters."
+        ]
+      },
+      {
+        "heading": "contexts. This perspective complements the phenomenological focus by",
+        "blocks": [
+          "situating individual experiences within broader systemic conditions."
+        ]
+      },
+      {
+        "heading": "how digital health systems were perceived and navigated within the",
+        "blocks": [
+          "sociotechnical context of care delivery."
+        ]
+      },
+      {
+        "heading": "lived experiences with digital health systems in Northern Ghana. This",
+        "blocks": [
+          "Fig. 1. Conceptual framework."
+        ]
+      },
+      {
+        "heading": "Table 1",
+        "blocks": [
+          "Theoretical Mapping and Constructs Guiding the Study."
+        ]
+      },
+      {
+        "heading": "Table 2",
+        "blocks": [
+          "Theme Generation tool."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "3"
+        ]
+      },
+      {
+        "heading": "trust in digitally mediated care across diverse sociocultural and infra-",
+        "blocks": [
+          "structural environments [36]."
+        ]
+      },
+      {
+        "heading": "regarding patients' interactions with digital health services in real-world",
+        "blocks": [
+          "settings [39]."
+        ]
+      },
+      {
+        "heading": "but as outcomes shaped by the alignment or misalignment of these",
+        "blocks": [
+          "interconnected elements."
+        ]
+      },
+      {
+        "heading": "initial translation, with an independent review and back-translation of",
+        "blocks": [
+          "key sections to ensure consistency with the original responses."
+        ]
+      },
+      {
+        "heading": "resulting in a total of 30 participants, with no substantially new themes",
+        "blocks": [
+          "emerging."
+        ]
+      },
+      {
+        "heading": "understanding of the sociotechnical factors shaping patient experiences",
+        "blocks": [
+          "[43,44]."
+        ]
+      },
+      {
+        "heading": "compare how patients felt about their care across the rural–urban",
+        "blocks": [
+          "spectrum and different levels of healthcare delivery.",
+          "• Tamale Teaching Hospital (TTH) is a tertiary referral and teaching"
+        ]
+      },
+      {
+        "heading": "infrastructure and active engagement in national system transitions,",
+        "blocks": [
+          "including the shift from LHIMS to GHIMS.",
+          "• Savelugu Municipal Hospital is a secondary-level facility serving"
+        ]
+      },
+      {
+        "heading": "peri-urban and rural populations, characterized by moderate",
+        "blocks": [
+          "resource constraints and intermittent digital connectivity.",
+          "• Tolon District Hospital is a district-level rural facility with limited"
+        ]
+      },
+      {
+        "heading": "infrastructure, reflecting the challenges of implementing digital",
+        "blocks": [
+          "health systems in peripheral settings."
+        ]
+      },
+      {
+        "heading": "patient experiences across urban, municipal, and rural healthcare con-",
+        "blocks": [
+          "texts, rather than reflecting arbitrary site selection."
+        ]
+      },
+      {
+        "heading": "service processes such as electronic registration, billing, records man-",
+        "blocks": [
+          "agement, or follow-up systems."
+        ]
+      },
+      {
+        "heading": "collection, key sampling criteria were established to ensure variation in",
+        "blocks": [
+          "participant characteristics, including age, gender, service department (e."
+        ]
+      },
+      {
+        "heading": "ducted based on pre-defined eligibility requirements, including prior",
+        "blocks": [
+          "engagement with digital health services at the facility."
+        ]
+      },
+      {
+        "heading": "continued iteratively at each facility until the predetermined sample size",
+        "blocks": [
+          "of 10 participants per hospital (total n = 30) was achieved."
+        ]
+      },
+      {
+        "heading": "single group. This approach ensured diversity in the sample without",
+        "blocks": [
+          "relying on arbitrary selection."
+        ]
+      },
+      {
+        "heading": "lowed an iterative process. First, all interview recordings were tran-",
+        "blocks": [
+          "scribed verbatim and read repeatedly to achieve immersion in the data."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "4"
+        ]
+      },
+      {
+        "heading": "then generated inductively from the data, while interpretation was",
+        "blocks": [
+          "guided by the broader sociotechnical orientation of the study."
+        ]
+      },
+      {
+        "heading": "vance to the research questions and their ability to capture the socio-",
+        "blocks": [
+          "technical dimensions of patients' experiences."
+        ]
+      },
+      {
+        "heading": "interpretive engagement with participants' narratives and iterative",
+        "blocks": [
+          "comparison across transcripts. See Fig. 2."
+        ]
+      },
+      {
+        "heading": "All procedures conducted in this study adhered to the ethical stan-",
+        "blocks": [
+          "dards established by the University for Development Studies, Ghana."
+        ]
+      },
+      {
+        "heading": "procedure encompassed guarantees of confidentiality, anonymity, and",
+        "blocks": [
+          "the freedom to withdraw at any time without repercussions."
+        ]
+      },
+      {
+        "heading": "the data, iterative analysis, and the use of verbatim participant quota-",
+        "blocks": [
+          "tions to ground interpretations in participants' lived experiences."
+        ]
+      },
+      {
+        "heading": "decisions made during data collection and analysis, ensuring trans-",
+        "blocks": [
+          "parency and methodological consistency [47]."
+        ]
+      },
+      {
+        "heading": "interpretation and ensuring that findings were grounded in participants'",
+        "blocks": [
+          "narratives rather than researcher assumptions [36]."
+        ]
+      },
+      {
+        "heading": "allowing readers to assess the applicability of the findings to similar",
+        "blocks": [
+          "contexts [47]."
+        ]
+      },
+      {
+        "heading": "“process”. The more dominant words were grouped into the major",
+        "blocks": [
+          "themes."
+        ]
+      },
+      {
+        "heading": "data analysis process. These constructed categories represent the key",
+        "blocks": [
+          "dimensions underlying participants' experiences and perspectives."
+        ]
+      },
+      {
+        "heading": "phenomenon under investigation and serve as the foundation for the",
+        "blocks": [
+          "subsequent presentation of results. Frequently used words + Constructed Categories = Major.",
+          "5. Results and analysis"
+        ]
+      },
+      {
+        "heading": "selected healthcare facilities, including facility type, location context,",
+        "blocks": [
+          "sample size, and the eligibility criteria used for participant selection."
+        ]
+      },
+      {
+        "heading": "The sociodemographic characteristics of participants are presented",
+        "blocks": [
+          "in Supplementary Table S1."
+        ]
+      },
+      {
+        "heading": "outcome of the interaction between technical conditions (e.g.,",
+        "blocks": [
+          "Fig. 2. Theme Identification. Source: Voyant tool (2026)."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "5"
+        ]
+      },
+      {
+        "heading": "-- 5 of 10 --",
+        "blocks": [
+          "infrastructure, digital systems) and social–organizational processes (e. g., staff mediation, workflow coordination)."
+        ]
+      },
+      {
+        "heading": "major themes derived from participants' experience:",
+        "blocks": [
+          "1. Theme 1: Sociotechnical Enablers of Patient Experience",
+          "2. Theme 2: Sociotechnical Constraints and System Fragility"
+        ]
+      },
+      {
+        "heading": "alignment, where digital tools are effectively integrated into service",
+        "blocks": [
+          "delivery processes."
+        ]
+      },
+      {
+        "heading": "tering till billing, it is now all done by computers, and this process is",
+        "blocks": [
+          "much more organized compared to the paper system.” (P01 at TTH)."
+        ]
+      },
+      {
+        "heading": "pace, and it also accelerates the whole process of work” (P03, Tamale",
+        "blocks": [
+          "Teaching Hospital)."
+        ]
+      },
+      {
+        "heading": "ability and structure of service delivery, which reduces uncertainty",
+        "blocks": [
+          "during care encounters."
+        ]
+      },
+      {
+        "heading": "tional processes, and human actors, reinforcing the core principles of",
+        "blocks": [
+          "Sociotechnical Systems Theory."
+        ]
+      },
+      {
+        "heading": "reducing delays in service delivery. One of the participants revealed",
+        "blocks": [
+          "that."
+        ]
+      },
+      {
+        "heading": "registration to billing has become computerized and I find it more",
+        "blocks": [
+          "organized than the paper system in the past”. (P05 at TTH)."
+        ]
+      },
+      {
+        "heading": "“It facilitates interdepartmental communication. As soon as my lab",
+        "blocks": [
+          "Fig. 3. Constructed Categories."
+        ]
+      },
+      {
+        "heading": "Table 3",
+        "blocks": [
+          "Sample Distribution Across Study Sites."
+        ]
+      },
+      {
+        "heading": "Total – – 30 participants Sampling continued until data saturation was achieved [40]",
+        "blocks": [
+          "Source: Authors' Construct (2026)."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "6"
+        ]
+      },
+      {
+        "heading": "results were uploaded, the doctor became aware of it. That would take days in",
+        "blocks": [
+          "the past before” (P19 at Saveluge Hospital)."
+        ]
+      },
+      {
+        "heading": "ability to synchronize multiple service points within a single operational",
+        "blocks": [
+          "framework."
+        ]
+      },
+      {
+        "heading": "times, and improved reliability, which contributed to enhanced trust in",
+        "blocks": [
+          "healthcare delivery."
+        ]
+      },
+      {
+        "heading": "misunderstandings. I would lose folders some years ago- now this is no",
+        "blocks": [
+          "longer the case. Everything is recorded in the computer”. (P08 at TTH)."
+        ]
+      },
+      {
+        "heading": "history is soon documented and even the doctor is aware of my previous",
+        "blocks": [
+          "visit” (P16 at Saveluge Hospital)."
+        ]
+      },
+      {
+        "heading": "efficiency and trust are co-produced as patients experience more orga-",
+        "blocks": [
+          "nized, predictable, and dependable healthcare processes."
+        ]
+      },
+      {
+        "heading": "on infrastructure stability, especially electricity and internet connec-",
+        "blocks": [
+          "tivity. It was in line with this that a participant explained."
+        ]
+      },
+      {
+        "heading": "process modern, but in our area, we only enjoy it on good days when",
+        "blocks": [
+          "everything works.” (P30 at Tolon Hospital). Another participant also added to the above establishment."
+        ]
+      },
+      {
+        "heading": "the system is working, it saves time and reduces confusion at the records",
+        "blocks": [
+          "office.” (P18 at Tolon Hospital)."
+        ]
+      },
+      {
+        "heading": "infrastructural limitations constrain the full realization of technological",
+        "blocks": [
+          "benefits."
+        ]
+      },
+      {
+        "heading": "multiple stages of care simultaneously, including registration, billing,",
+        "blocks": [
+          "consultation, and records management."
+        ]
+      },
+      {
+        "heading": "down manually. The lines were so big, and we even wasted nearly the",
+        "blocks": [
+          "entire morning registering…” (P01 at TTH)."
+        ]
+      },
+      {
+        "heading": "Another participant also underscored when asked about the system",
+        "blocks": [
+          "disruptions. “Yes, on one occasion the network was downed to nearly two hours."
+        ]
+      },
+      {
+        "heading": "All waited; nobody was able to check in or make payments…” (P03 at",
+        "blocks": [
+          "TTH). In a similar vein, one of the participants explained."
+        ]
+      },
+      {
+        "heading": "forced to halt until the generator was running. I had to wait approxi-",
+        "blocks": [
+          "mately an hour to see the consultant” (P05 at TTH)."
+        ]
+      },
+      {
+        "heading": "services further highlight the high degree of dependency on centralized",
+        "blocks": [
+          "digital systems, which limits local flexibility in responding to failures."
+        ]
+      },
+      {
+        "heading": "healthcare systems and underscore the need for more resilient infra-",
+        "blocks": [
+          "structural and operational support mechanisms."
+        ]
+      },
+      {
+        "heading": "connectivity expose the inherent fragility of these systems, limiting their",
+        "blocks": [
+          "reliability and consistency in everyday healthcare delivery."
+        ]
+      },
+      {
+        "heading": "soon as the network is turned off, all is terminated. It is contemporary",
+        "blocks": [
+          "and impressive yet delicate (P19 at Saveluge Hospital)."
+        ]
+      },
+      {
+        "heading": "“At least on each visit, there is a challenge. The lights will go off",
+        "blocks": [
+          "frequently, and the computers will crash…” (P22, at Saveluge Hospital)."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "7"
+        ]
+      },
+      {
+        "heading": "formative, remain conditionally effective, dependent on the alignment",
+        "blocks": [
+          "between technical infrastructure and contextual realities."
+        ]
+      },
+      {
+        "heading": "of healthcare workers to adapt, improvise, and maintain operational",
+        "blocks": [
+          "flow under constrained conditions."
+        ]
+      },
+      {
+        "heading": "“They lead us in a polite manner. I have even encountered clerks",
+        "blocks": [
+          "staying late to input missed information…” (P03 at TTH)."
+        ]
+      },
+      {
+        "heading": "“The system is good when the IT officer is present. Rapid technical",
+        "blocks": [
+          "support is significant…” (P18 at Savelugu Health care)."
+        ]
+      },
+      {
+        "heading": "don't touch the computers myself, but I interact with the staff…” (P12 at",
+        "blocks": [
+          "TTH)."
+        ]
+      },
+      {
+        "heading": "ing beyond normal hours to input missed data reflects a commitment to",
+        "blocks": [
+          "maintaining data continuity and system integrity, even after disruptions."
+        ]
+      },
+      {
+        "heading": "logical robustness, but by the capacity of human actors to sustain and",
+        "blocks": [
+          "adapt system operations in practice.",
+          "6. Discussion"
+        ]
+      },
+      {
+        "heading": "that these experiences are shaped by a dynamic interaction between",
+        "blocks": [
+          "technological systems, infrastructural conditions, and human agency."
+        ]
+      },
+      {
+        "heading": "on the degree of alignment between technical infrastructure, organiza-",
+        "blocks": [
+          "tional workflows, and human actors."
+        ]
+      },
+      {
+        "heading": "the literature by showing how infrastructural instability, such as power",
+        "blocks": [
+          "outages and network disruptions, actively reshapes patient experiences."
+        ]
+      },
+      {
+        "heading": "positions digital health systems as fluid and adaptive configurations,",
+        "blocks": [
+          "rather than static technological solutions."
+        ]
+      },
+      {
+        "heading": "disruptions occur, these benefits are undermined, revealing the fragility",
+        "blocks": [
+          "of digital health systems in resource-constrained settings."
+        ]
+      },
+      {
+        "heading": "successfully integrated with institutional workflows and supported by",
+        "blocks": [
+          "staff practices."
+        ]
+      },
+      {
+        "heading": "improved the organization of registration, billing, and clinical docu-",
+        "blocks": [
+          "mentation, reducing delays and minimizing the risk of lost records."
+        ]
+      },
+      {
+        "heading": "practical tools and as symbolic markers of modernization and institu-",
+        "blocks": [
+          "tional credibility."
+        ]
+      },
+      {
+        "heading": "integration of technical and social components within healthcare",
+        "blocks": [
+          "delivery."
+        ]
+      },
+      {
+        "heading": "unreliable, the potential benefits of digitalization remain uneven and",
+        "blocks": [
+          "conditional."
+        ]
+      },
+      {
+        "heading": "disruptions in the technical subsystem can lead to system-wide break-",
+        "blocks": [
+          "downs in service delivery."
+        ]
+      },
+      {
+        "heading": "the technical system is not adequately supported by the infrastructural",
+        "blocks": [
+          "and organizational environment."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "8"
+        ]
+      },
+      {
+        "heading": "dence on infrastructure, recognizing that failures are not isolated in-",
+        "blocks": [
+          "cidents but part of a broader systemic vulnerability."
+        ]
+      },
+      {
+        "heading": "disruptions, maintaining communication, and ensuring continuity of",
+        "blocks": [
+          "care."
+        ]
+      },
+      {
+        "heading": "functionality but also on the capacity of human actors to respond to",
+        "blocks": [
+          "system challenges."
+        ]
+      },
+      {
+        "heading": "emerges as a key factor in maintaining service continuity, particularly in",
+        "blocks": [
+          "contexts where technical systems are unreliable."
+        ]
+      },
+      {
+        "heading": "ness of these systems is therefore contingent upon achieving balance and",
+        "blocks": [
+          "alignment across these components. In the context of Northern Ghana, this alignment remains uneven."
+        ]
+      },
+      {
+        "heading": "proaches to digital health implementation and adopt holistic strategies",
+        "blocks": [
+          "that address both technical and social dimensions.",
+          "7. Practical and policy implications"
+        ]
+      },
+      {
+        "heading": "migration strategies that consider patient and staff experiences to",
+        "blocks": [
+          "maintain continuity and trust."
+        ]
+      },
+      {
+        "heading": "from fragile tools into enablers of equitable, patient-centered",
+        "blocks": [
+          "healthcare.",
+          "8. Conclusion"
+        ]
+      },
+      {
+        "heading": "the capacity of healthcare workers to mediate and sustain service de-",
+        "blocks": [
+          "livery during disruptions."
+        ]
+      },
+      {
+        "heading": "tegrates both patient and provider perspectives to better capture the full",
+        "blocks": [
+          "scope of sociotechnical dynamics in healthcare systems."
+        ]
+      },
+      {
+        "heading": "original draft, Methodology, Formal analysis, Conceptualization. Eliasu",
+        "blocks": [
+          "Mumuni: Writing – review & editing, Supervision, Methodology."
+        ]
+      },
+      {
+        "heading": "Muhammed Abdulai: Writing – review & editing, Supervision,",
+        "blocks": [
+          "Methodology."
+        ]
+      },
+      {
+        "heading": "This research did not receive any specific support from public,",
+        "blocks": [
+          "commercial, or non-profit agencies."
+        ]
+      },
+      {
+        "heading": "sions given are exclusively derived from independent academic",
+        "blocks": [
+          "research."
+        ]
+      },
+      {
+        "heading": "District Hospital for their cooperation throughout the fieldwork, as well",
+        "blocks": [
+          "as to all patients who willingly volunteered their experiences."
+        ]
+      },
+      {
+        "heading": "Appendix A. Supplementary data",
+        "blocks": [
+          "Supplementary data to this article can be found online at https://doi. org/10.1016/j.dialog.2026.100319."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "9"
+        ]
+      },
+      {
+        "heading": "dataset cannot be disclosed publicly due to ethical constraints and",
+        "blocks": [
+          "participant confidentiality."
+        ]
+      },
+      {
+        "heading": "transformation in healthcare: an interdisciplinary literature review, framework,",
+        "blocks": [
+          "and future research agenda. Technovation 2023;123:102716."
+        ]
+      },
+      {
+        "heading": "transformation. NPJ Digital Med 2019;2:21. https://doi.org/10.1038/s41746-019-",
+        "blocks": [
+          "0032-4."
+        ]
+      },
+      {
+        "heading": "[3] Maeda T. Advances in digital technology in healthcare. Hypertens Res 2025;48(2):",
+        "blocks": [
+          "810–2."
+        ]
+      },
+      {
+        "heading": "interventions to improve access to and quality of primary health care services: a",
+        "blocks": [
+          "scoping review. Int J Environ Res Public Health 2023;20(19):6854."
+        ]
+      },
+      {
+        "heading": "review. J Am Med Inform Assoc 2025;32(5):932–44. https://doi.org/10.1093/",
+        "blocks": [
+          "jamia/ocaf017."
+        ]
+      },
+      {
+        "heading": "and disease surveillance in low-resource settings. Glob Perspect Health Med Nurs",
+        "blocks": [
+          "2024;3(1)."
+        ]
+      },
+      {
+        "heading": "[7] Abdulai MS, Alhassan AR, Yakubu A. Digital health adoption in Ghana:",
+        "blocks": [
+          "opportunities and challenges. Ghana J Commun 2020;12(2):45–60. [8] Irihamye E, Hadad J, Ali N, Holthof B, Wafula F, Paton C, English M, Nagraj S."
+        ]
+      },
+      {
+        "heading": "impact in low-income and low-middle-income countries. Mayo Clin Proc Digit",
+        "blocks": [
+          "Health 2025;3(4):100261. https://doi.org/10.1016/j.mcpdig.2025.100261."
+        ]
+      },
+      {
+        "heading": "[9] Mumuni E, Mensah K. Ensuring accountability in the governance of media and the",
+        "blocks": [
+          "internet in Ghana. Media Foundation for West Africa; 2023."
+        ]
+      },
+      {
+        "heading": "management system for health service delivery in Ghana. BMJ Health Care Informa",
+        "blocks": [
+          "2023;30(1):e100769. https://doi.org/10.1136/bmjhci-2023-100769. [11] Ministry of Health Ghana. Health information system strategic plan 2021–2025. Accra: Ministry of Health; 2021."
+        ]
+      },
+      {
+        "heading": "[12] Acheampong EK. Electronic health records implementation in Ghana: lessons",
+        "blocks": [
+          "learned. Ghana Med J 2022;56(3):150–8."
+        ]
+      },
+      {
+        "heading": "management software on healthcare data quality. Healthcare Informa Res 2024;30",
+        "blocks": [
+          "(1):35–41. https://doi.org/10.4258/hir.2024.30.1.35."
+        ]
+      },
+      {
+        "heading": "health information systems. PloS One 2023;18(2):e0297388. https://doi.org/",
+        "blocks": [
+          "10.1371/journal.pone.0297388."
+        ]
+      },
+      {
+        "heading": "[15] Saani AM. Healthcare provision and patient communication at Tamale teaching",
+        "blocks": [
+          "hospital in Northern Region of Ghana (Doctoral dissertation). 2021. [16] Ahmed MM, Okesanya OJ, Olaleke NO, Adigun OA, Adebayo UO, Oso TA, et al. Integrating digital health innovations to achieve universal health coverage. Healthcare 2025;13(9):1060. https://doi.org/10.3390/healthcare13091060."
+        ]
+      },
+      {
+        "heading": "pathways and the reintegration of returned migrants in Ghana. Human Settle",
+        "blocks": [
+          "Sustainability 2025;1(4):264–74."
+        ]
+      },
+      {
+        "heading": "[18] Greenhalgh T, Wherton J, Papoutsi C, Lynch J, Hughes G. Beyond adoption:",
+        "blocks": [
+          "evaluating health technologies. J Med Internet Res 2017;19(11):e367. https://doi. org/10.2196/jmir.8775."
+        ]
+      },
+      {
+        "heading": "[19] Sittig DF, Singh H. A sociotechnical model for health IT. BMJ Qual Saf 2010;19",
+        "blocks": [
+          "(Suppl. 3):i68–74. https://doi.org/10.1136/qshc.2010.042085."
+        ]
+      },
+      {
+        "heading": "shapes patient satisfaction in Ghana’s healthcare system. Dialogues in Health 2025;",
+        "blocks": [
+          "4:100254–62."
+        ]
+      },
+      {
+        "heading": "[21] Mensah NK, Kissi J, Okyere Boadu KA. Barriers to health information system",
+        "blocks": [
+          "adoption in Ghana. African J Health Informatics 2024;12(1):55–68. [22] Western D, Munthali C, Asante K. Digital fragility and sociotechnical resilience. Health Policy Plan 2025;40(2):211–26. https://doi.org/10.1093/heapol/czae123."
+        ]
+      },
+      {
+        "heading": "[23] Abdulai MS, Yakubu A, Alhassan AR. Sociocultural perspectives on digital health",
+        "blocks": [
+          "adoption in northern Ghana. Int J Health Policy Manag 2025;14(3):210–23. [24] Aytekin A. Digital health technologies in patient experience literature. Sustainability 2025;17(2):456. https://doi.org/10.3390/su17020456."
+        ]
+      },
+      {
+        "heading": "technologies: a scoping review. Digit Health 2024;10. https://doi.org/10.1177/",
+        "blocks": [
+          "20552076241282900."
+        ]
+      },
+      {
+        "heading": "[26] Abdulai M, Alhassan ARK, Sanus KM. Exploring dialectal variations on quality",
+        "blocks": [
+          "health communication and healthcare delivery in the Sissala District of Ghana. Lang Intercult Commun 2019;19(3):242–55."
+        ]
+      },
+      {
+        "heading": "[27] Trist E, Bamforth K. Some social and psychological consequences of the longwall",
+        "blocks": [
+          "method of coal-getting. Hum Relat 1951;4(1):3–38."
+        ]
+      },
+      {
+        "heading": "editors. Management Sciences: Models and Techniques. Vol. 2. Oxford: Pergamon",
+        "blocks": [
+          "Press; 1960. p. 83–97."
+        ]
+      },
+      {
+        "heading": "hospitals. Soc Theory Health 2024;22(4):285–300. https://doi.org/10.1057/",
+        "blocks": [
+          "s41285-024-00214-5. [30] Calegari R, Fettermann D. Sociotechnical barriers in digital health implementation. 2022."
+        ]
+      },
+      {
+        "heading": "[31] Glover S, et al. Organizational readiness and sociotechnical challenges in health IT",
+        "blocks": [
+          "adoption. 2024. [32] Mwogosi J, et al. Workflow disruption and trust in digital health systems in LMICs. 2025."
+        ]
+      },
+      {
+        "heading": "the perspectives of the patient and the health practitioners in Ghana. J Eval Clin",
+        "blocks": [
+          "Pract 2026;32(4):e70471."
+        ]
+      },
+      {
+        "heading": "[34] MDPI. Telehealth as a sociotechnical system: A systems analysis of interconnected",
+        "blocks": [
+          "components. 2023."
+        ]
+      },
+      {
+        "heading": "[35] Springer. Using socio-technical systems theory to study health information",
+        "blocks": [
+          "systems. 2024."
+        ]
+      },
+      {
+        "heading": "[36] Creswell JW, Poth CN. Qualitative inquiry and research design: Choosing among",
+        "blocks": [
+          "five approaches. 4th ed. Sage; 2018. [37] Moustakas C. Phenomenological research methods. Sage; 1994."
+        ]
+      },
+      {
+        "heading": "approach. Int J Med Inform 1999;55(2):87–101. https://doi.org/10.1016/S1386-",
+        "blocks": [
+          "5056(99)00011-8. [39] Yin RK. Case study research and applications. 6th ed. Sage; 2018."
+        ]
+      },
+      {
+        "heading": "[40] Guest G, Bunce A, Johnson L. How many interviews are enough? Field Meth 2006;",
+        "blocks": [
+          "18(1):59–82. https://doi.org/10.1177/1525822X05279903."
+        ]
+      },
+      {
+        "heading": "[41] Saunders B, Sim J, Kingstone T, et al. Saturation in qualitative research. Qual",
+        "blocks": [
+          "Quant 2018;52(4):1893–907. https://doi.org/10.1007/s11135-017-0574-8."
+        ]
+      },
+      {
+        "heading": "[42] Mumuni E, Al-hassan S, Oladele OI. Effects of mining on smallholder agriculture in",
+        "blocks": [
+          "Asutifi District of the Brong Ahafo Region, Ghana. 2012. [43] Hennink MM, Kaiser BN, Marconi VC. Code saturation vs. meaning saturation."
+        ]
+      },
+      {
+        "heading": "Qual Health Res 2017;27(4):591–608. https://doi.org/10.1177/",
+        "blocks": [
+          "1049732316665344."
+        ]
+      },
+      {
+        "heading": "intercultural learning in Estonia and Denmark. J Intercult Commun 2022;22(1):",
+        "blocks": [
+          "17–29."
+        ]
+      },
+      {
+        "heading": "graduates in Estonia: Motives and integration perspectives. Hum Arenas 2021;4(3):",
+        "blocks": [
+          "440–57."
+        ]
+      },
+      {
+        "heading": "rice production in Ashanti and Northern Regions in Ghana. Life Sci J 2012;9(3):",
+        "blocks": [
+          "377–81. [47] Lincoln YS, Guba EG. Naturalistic inquiry. Sage; 1985."
+        ]
+      },
+      {
+        "heading": "[48] Jensen CG, Jensen FG, Loft MI. Patients’ experiences with digital healthcare",
+        "blocks": [
+          "systems. J Med Internet Res 2024;26:e47278. https://doi.org/10.2196/47278."
+        ]
+      },
+      {
+        "heading": "about synchronous teleconsultation with a general practitioner: a mixed-method",
+        "blocks": [
+          "systematic literature review. BMC Primary Care 2025;26(1):259."
+        ]
+      },
+      {
+        "heading": "M.S. Abdulai et al. Dialogues in Health 9 (2026) 100319",
+        "blocks": [
+          "10"
+        ]
+      },
+      {
+        "heading": "-- 10 of 10 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "filename": "2.pdf",
+    "title": "Beyond urban bias: A circulation-based model for equitable medical",
+    "shortTitle": "Beyond urban bias: A circulation-based model for equita...",
+    "heading": "Atsushi Jinno a,b, Yoshihisa Tsuji a,b,*",
+    "description": "a Department of General Medicine, Shiga University of Medical Science, Otsu City, Shiga, Japan b Department of General Medicine, Sapporo Medical University, Sapporo City, Hokkaido, Japan",
+    "readingTime": "7 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "beyond",
+      "urban",
+      "bias",
+      "circulation",
+      "based",
+      "model",
+      "equitable",
+      "medical"
+    ],
+    "updatedAt": "2026-07-21T13:01:06.917Z",
+    "sections": [
+      {
+        "heading": "Atsushi Jinno a,b, Yoshihisa Tsuji a,b,*",
+        "blocks": [
+          "a Department of General Medicine, Shiga University of Medical Science, Otsu City, Shiga, Japan b Department of General Medicine, Sapporo Medical University, Sapporo City, Hokkaido, Japan"
+        ]
+      },
+      {
+        "heading": "A B S T R A C T",
+        "blocks": [
+          "Purpose: Urban–rural healthcare disparities remain a global challenge, driven by the concentration of medical resources in urban centers. We developed a circulation-based model integrating medical resource allocation, education, and digital health. Since 2020, this program has been implemented in Hokkaido, Japan. This study examines its structure and outcomes. Methods: The model includes physician and trainee rotation, structured referral pathways, community-based medical education, and digital infrastructure. A three-tier system was established: Esashi (primary/secondary care), Hakodate (tertiary center), and Sapporo (education and physician dispatch hub). Outcomes were assessed in three domains: health outcomes, financial sustainability, and educational outcomes. Educational outcomes were based on a previously published study in the same cohort. Results: Health outcomes showed overall improvement, with the standardized mortality ratio decreasing from 103.4 to 98.3 in males and from 104.8 to 100.5 in females, although these changes were not statistically sig- nificant. Pneumonia-related SMR decreased significantly in both males and females. Financial indicators improved, with inpatient revenue per patient increasing significantly from 26,553 to 38,478 JPY. In addition, medical students reported increased confidence in clinical competencies. Conclusion: This model improved health, financial, and educational outcomes by coordinating physician mobility, tiered regional collaboration, and digital connectivity."
+        ]
+      },
+      {
+        "heading": "(195 words)",
+        "blocks": [
+          "1. Introduction"
+        ]
+      },
+      {
+        "heading": "portunities, and specialized medical services are typically concentrated",
+        "blocks": [
+          "in urban centers, leaving rural populations with reduced access to care."
+        ]
+      },
+      {
+        "heading": "tural challenge. Japan is also one of the most rapidly aging societies in",
+        "blocks": [
+          "the world, with more than 29% of the population aged 65 years or older."
+        ]
+      },
+      {
+        "heading": "while healthcare resources remain concentrated in large metropolitan",
+        "blocks": [
+          "areas [1]."
+        ]
+      },
+      {
+        "heading": "approximately 70 km (a 1.5-h drive) from Hakodate and about 300 km",
+        "blocks": [
+          "from Sapporo, with winter weather posing a significant barrier to access."
+        ]
+      },
+      {
+        "heading": "disparities through static physician allocation, such as providing",
+        "blocks": [
+          "* Corresponding author at: Address: S1 W17, Chuo-ku, Sapporo 060-8556, Japan.",
+          "E-mail address: tsujiy.sapporo@gmail.com (Y. Tsuji)."
+        ]
+      },
+      {
+        "heading": "Available online 26 June 2026",
+        "blocks": [
+          "2772-6533/© 2026 Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/)."
+        ]
+      },
+      {
+        "heading": "limited schooling options for physicians' children, may further",
+        "blocks": [
+          "discourage long-term rural relocation for dual-career physician couples."
+        ]
+      },
+      {
+        "heading": "on these perspectives, we developed a circulation-based model that links",
+        "blocks": [
+          "geographically distributed institutions through digital connectivity."
+        ]
+      },
+      {
+        "heading": "development across regions, allowing both urban and rural systems to",
+        "blocks": [
+          "co-evolve."
+        ]
+      },
+      {
+        "heading": "local governments, this study describes the design and early outcomes of",
+        "blocks": [
+          "this model.",
+          "2. Methods"
+        ]
+      },
+      {
+        "heading": "tional study to compare outcomes between the pre-implementation",
+        "blocks": [
+          "period (2015–2019) and the post-implementation period (2020\u0000 2023)."
+        ]
+      },
+      {
+        "heading": "inpatient and emergency care planning, while tertiary centers provide",
+        "blocks": [
+          "advanced and specialized services."
+        ]
+      },
+      {
+        "heading": "urban tertiary center in the city of Sapporo (population approximately",
+        "blocks": [
+          "1.9 million; physician density 3.3 per 1000 population in 2020) [2,3]."
+        ]
+      },
+      {
+        "heading": "Hakodate and approximately 280 km from Sapporo, with winter",
+        "blocks": [
+          "weather acting as a significant barrier."
+        ]
+      },
+      {
+        "heading": "outpatient visits—are concentrated at EPH, hospital data were consid-",
+        "blocks": [
+          "ered representative of regional healthcare activity."
+        ]
+      },
+      {
+        "heading": "week rotation period. In 2023, eight residents participated in the CBME",
+        "blocks": [
+          "program, each completing at least one month of training at EPH."
+        ]
+      },
+      {
+        "heading": "at the urban site (Sapporo Medical University) and trainees and in-",
+        "blocks": [
+          "structors at EPH."
+        ]
+      },
+      {
+        "heading": "in Hakodate or Sapporo, while relatively stable patients received",
+        "blocks": [
+          "ongoing care at EPH (Fig. 1)."
+        ]
+      },
+      {
+        "heading": "operable electronic medical record (EMR) system supported continuity",
+        "blocks": [
+          "of care, with weekly case conferences linking Esashi and Sapporo."
+        ]
+      },
+      {
+        "heading": "ensure the secure and appropriate handling of personal health",
+        "blocks": [
+          "information."
+        ]
+      },
+      {
+        "heading": "This study does not involve individual-level patient data and thus did",
+        "blocks": [
+          "not require ethics committee approval."
+        ]
+      },
+      {
+        "heading": "Table 1",
+        "blocks": [
+          "Comparison of Medical Areas in Hokkaido and National Averages in Japan."
+        ]
+      },
+      {
+        "heading": "Aging Rate (≥65 years,",
+        "blocks": [
+          "%)"
+        ]
+      },
+      {
+        "heading": "Esashi 21,000 1423 42 1.2 91.5 324th",
+        "blocks": [
+          "The Physician Maldistribution Index was calculated using the official methodology defined by the Ministry of Health, Labour and Welfare, Japan. This index is a government-reported indicator used in national health workforce policy and is calculated and published for each secondary medical area. National rankings are based on these official reports."
+        ]
+      },
+      {
+        "heading": "A. Jinno and Y. Tsuji Dialogues in Health 9 (2026) 100325",
+        "blocks": [
+          "2"
+        ]
+      },
+      {
+        "heading": "unequal variances and small sample sizes, with p < 0.05 considered",
+        "blocks": [
+          "statistically significant."
+        ]
+      },
+      {
+        "heading": "(malignancy, cerebrovascular disease, heart disease, and pneumonia),",
+        "blocks": [
+          "stratified by sex."
+        ]
+      },
+      {
+        "heading": "annual fiscal year reports. Operating ratio (%), outpatient revenue per",
+        "blocks": [
+          "patient (JPY), and inpatient revenue per patient (JPY) were analyzed."
+        ]
+      },
+      {
+        "heading": "(Mihara et al., 2025 [8]), which was conducted with approval from the",
+        "blocks": [
+          "Institutional Review Board of Sapporo Medical University (Approval No."
+        ]
+      },
+      {
+        "heading": "5–1-15). In that study, students' self-confidence was assessed using a",
+        "blocks": [
+          "validated 5-point Likert scale across 15 domains.",
+          "3. Results"
+        ]
+      },
+      {
+        "heading": "strated a borderline improvement in women (p = 0.06). Changes in",
+        "blocks": [
+          "malignancy were modest."
+        ]
+      },
+      {
+        "heading": "were not higher than those observed in the general population of Hok-",
+        "blocks": [
+          "kaido [6]."
+        ]
+      },
+      {
+        "heading": "ated the workload of permanent clinicians, and participating physicians",
+        "blocks": [
+          "reported high levels of professional satisfaction."
+        ]
+      },
+      {
+        "heading": "domains such as emergency care, clinical skills, community medicine,",
+        "blocks": [
+          "and evidence-based medicine.",
+          "4. Discussion"
+        ]
+      },
+      {
+        "heading": "while maintaining local service capacity and supporting physician",
+        "blocks": [
+          "training (Table 2)."
+        ]
+      },
+      {
+        "heading": "layer rotation model linking urban (Sapporo), intermediate (Hakodate), and",
+        "blocks": [
+          "rural (Esashi) healthcare levels."
+        ]
+      },
+      {
+        "heading": "System (MRS), which supports patient circulation, functions as a foundational",
+        "blocks": [
+          "infrastructure that further promotes and sustains this circulation."
+        ]
+      },
+      {
+        "heading": "A. Jinno and Y. Tsuji Dialogues in Health 9 (2026) 100325",
+        "blocks": [
+          "3"
+        ]
+      },
+      {
+        "heading": "supervision, function as highly productive environments in which care",
+        "blocks": [
+          "delivery and learning are co-produced."
+        ]
+      },
+      {
+        "heading": "While rotation-based systems are not new, this model reconceptu-",
+        "blocks": [
+          "alizes continuity by shifting its unit from the individual to the system."
+        ]
+      },
+      {
+        "heading": "allowing medical resources to remain continuously present in rural",
+        "blocks": [
+          "areas."
+        ]
+      },
+      {
+        "heading": "quality but provide high-value opportunities for skill acquisition while",
+        "blocks": [
+          "contributing to healthcare delivery and system sustainability."
+        ]
+      },
+      {
+        "heading": "development funding or performance-based domestic",
+        "blocks": [
+          "mechanisms—may be required.",
+          "5. Limitations and Future Research"
+        ]
+      },
+      {
+        "heading": "findings. Finally, long-term outcomes, including physician retention and",
+        "blocks": [
+          "workforce stability, were not assessed."
+        ]
+      },
+      {
+        "heading": "Future research should include multicenter implementation studies",
+        "blocks": [
+          "or interrupted time series analyses to better account for secular trends."
+        ]
+      },
+      {
+        "heading": "and formal cost-effectiveness analyses are needed to evaluate the sus-",
+        "blocks": [
+          "tainability and scalability of the model.",
+          "6. Conclusion"
+        ]
+      },
+      {
+        "heading": "demonstrates how physician mobility, digital connectivity, and regional",
+        "blocks": [
+          "collaboration can support the sustainability of rural healthcare systems."
+        ]
+      },
+      {
+        "heading": "addressing health workforce maldistribution in geographically",
+        "blocks": [
+          "dispersed regions."
+        ]
+      },
+      {
+        "heading": "using this tool, the authors reviewed and edited the content as needed",
+        "blocks": [
+          "and take full responsibility for the content of the publication."
+        ]
+      },
+      {
+        "heading": "zation. Yoshihisa Tsuji: Writing – original draft, Supervision, Project",
+        "blocks": [
+          "administration, Methodology, Data curation, Conceptualization."
+        ]
+      },
+      {
+        "heading": "Table 2",
+        "blocks": [
+          "Key Outcomes Before and After Implementation."
+        ]
+      },
+      {
+        "heading": "Inpatient revenue per patient (JPY) 26,553 (25,592–27,514) 38,478 (30,690–46,266) 0.03",
+        "blocks": [
+          "The standardized mortality ratio (SMR) was calculated for the Minami-Hiyama area using the 2015 Japanese national population as the reference. Values are presented as mean (95% confidence intervals). P-values were calculated using Welch's t-test. The study periods were defined as pre-implementation (2015–2019) and post- implementation (2020–2023). The following financial indicators were evaluated at Esashi Prefectural Hospital (EPH): operating balance ratio (%), outpatient reve- nue per patient (JPY), and inpatient revenue per patient (JPY)."
+        ]
+      },
+      {
+        "heading": "A. Jinno and Y. Tsuji Dialogues in Health 9 (2026) 100325",
+        "blocks": [
+          "4"
+        ]
+      },
+      {
+        "heading": "-- 4 of 5 --",
+        "blocks": [
+          "to evaluate the outcomes of the proposed model."
+        ]
+      },
+      {
+        "heading": "This work received no external commercial funding. The authors",
+        "blocks": [
+          "declare no conflicts of interest."
+        ]
+      },
+      {
+        "heading": "Declaration of competing interest",
+        "blocks": [
+          "The author declares no competing interests."
+        ]
+      },
+      {
+        "heading": "Satoshi Suzuki, Yoshihiro Fujiya, and Naoki Asakage for their valuable",
+        "blocks": [
+          "contributions to this work."
+        ]
+      },
+      {
+        "heading": "://www8.cao.go.jp/kourei/english/annualreport/index-wh.html; 2025. accessed",
+        "blocks": [
+          "19 June 2025. [2] Japan Medical Analysis Platform. https://jmap.jp/cities/detail/city/1361; 2025. accessed 19 June 2025."
+        ]
+      },
+      {
+        "heading": "[3] Portal site of official statistics of Japan (e-Stat). https://www.e-stat.go.jp/; 2025",
+        "blocks": [
+          "[accessed 19 June 2025]."
+        ]
+      },
+      {
+        "heading": "[4] Tsuji Y. Rural medical education design in Minami-Hiyama. Med Educ Jpn 2023;54",
+        "blocks": [
+          "(5):467–73."
+        ]
+      },
+      {
+        "heading": "[5] National Institute of Public Health. https://www.niph.go.jp/soshiki/07shougai/",
+        "blocks": [
+          "datakatsuyou/mainpage.html; 2025 [accessed 19 June 2025]."
+        ]
+      },
+      {
+        "heading": "promotion policy (FY2024–FY2029). https://www.hiyama.pref.hokkaido.lg.jp/h",
+        "blocks": [
+          "k/hgc/kikakusyukan/iryou_minamihiyama.html; 2025. accessed 19 June 2025."
+        ]
+      },
+      {
+        "heading": "ds/2024/03/472d545fe35290c11915acf620ed9baf-1.pdf; 2025 [accessed 19 June",
+        "blocks": [
+          "2025]."
+        ]
+      },
+      {
+        "heading": "[8] Mihara H, et al. Community-based medical education (CBME) in Japan: an",
+        "blocks": [
+          "exploration. BMC Med Educ 2025;25:734."
+        ]
+      },
+      {
+        "heading": "ry-outlooks/2025-global-health-care-executive-outlook.html; 2025 [accessed 19",
+        "blocks": [
+          "June 2025]."
+        ]
+      },
+      {
+        "heading": "WHO; 2020. https://www.who.int/docs/default-source/documents/gs4dhdaa2a9f",
+        "blocks": [
+          "352b0445bafbc79ca799dce4d.pdf."
+        ]
+      },
+      {
+        "heading": "inequities in health. J Clin Epidemiol 2014;67(1):56–64. https://doi.org/10.1016/",
+        "blocks": [
+          "j.jclinepi.2013.08.005."
+        ]
+      },
+      {
+        "heading": "Workforce 2030. https://iris.who.int/server/api/core/bitstreams/3ef6ee65-4",
+        "blocks": [
+          "2fa-4d2b-9c75-d55b2df17f9a/content; 2025 [accessed 19 June 2025]."
+        ]
+      },
+      {
+        "heading": "urban hospitals in South Korea: a nationwide observational study. J Clin Med 2023;",
+        "blocks": [
+          "12(19):6252. https://doi.org/10.3390/jcm12196252."
+        ]
+      },
+      {
+        "heading": "implementing electronic health records in resource-limited settings. J Am Med",
+        "blocks": [
+          "Inform Assoc 2010;17(3):237–44."
+        ]
+      },
+      {
+        "heading": "A. Jinno and Y. Tsuji Dialogues in Health 9 (2026) 100325",
+        "blocks": [
+          "5"
+        ]
+      },
+      {
+        "heading": "-- 5 of 5 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "filename": "3.pdf",
+    "title": "Regular Article",
+    "shortTitle": "Regular Article",
+    "heading": "b Department of Psychology, University of Rajshahi, Rajshahi, 6205, Bangladesh",
+    "description": "c Department of Population Science and Human Resource Development, University of Rajshahi, Rajshahi, 6205, Bangladesh",
+    "readingTime": "9 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "regular",
+      "article"
+    ],
+    "updatedAt": "2026-07-23T09:20:39.031Z",
+    "sections": [
+      {
+        "heading": "b Department of Psychology, University of Rajshahi, Rajshahi, 6205, Bangladesh",
+        "blocks": [
+          "c Department of Population Science and Human Resource Development, University of Rajshahi, Rajshahi, 6205, Bangladesh"
+        ]
+      },
+      {
+        "heading": "A B S T R A C T",
+        "blocks": [
+          "Background: The purpose of the study was to examine the association of religiosity, internet addiction, and sleep quality with mental health problems among medical students in Bangladesh. Methods: This cross-sectional study involved 500 medical students from four medical universities, selected through a multistage random sampling process. Mental health problems, internet addiction, and sleep quality were assessed using the Bangla-adapted questionnaires. The chi-square test and binary logistic regression analysis were used to determine the prevalence and associated factors of mental health concerns related to religiosity. Results: A total of 54.2% of students suffered from mental health issues. The significant associated factors of mental health problems were gender, marital status, smoking status, sleep quality, and internet addiction. The findings revealed that non-religious students experienced 2.63 times more mental health-related issues than religious students (aOR = 2.63, 95% CI: 1.61- 4.30). Participants with internet addiction and poor sleep quality had 3.1 times (aOR = 3.10, 95% CI: 2.05-4.71) and 4.36 times (aOR = 4.36, 95% CI: 2.21-8.63), respectively, higher mental health problems compared to those without internet addiction and good sleep quality. Conclusion: Religiosity, internet addiction, and poor sleep quality have significantly correlated with the mental health of medical students. So, these findings may aid medical authorities and mental health practitioners in boosting the mental health of medical students.",
+          "1. What we already know",
+          "1. Mental health was significantly influenced by the sleep quality and",
+          "internet addiction.",
+          "2. There was a significant negative correlation between mental health",
+          "problems and religiosity.",
+          "2. What this article adds",
+          "1. This study confirmed that religiosity, internet addiction, and sleep"
+        ]
+      },
+      {
+        "heading": "quality are combinedly associated with mental health providing a",
+        "blocks": [
+          "more specific understanding in a specific cultural context.",
+          "2. Region specific data help the understanding the medical students'"
+        ]
+      },
+      {
+        "heading": "mental health, which may differ from other countries such as",
+        "blocks": [
+          "Western countries and also Asian countries.",
+          "3. Evidence from lower-middle-income countries like Bangladesh can"
+        ]
+      },
+      {
+        "heading": "be strengthen the global understanding of medical students' mental",
+        "blocks": [
+          "health.",
+          "3. Introduction"
+        ]
+      },
+      {
+        "heading": "et al., 2024). Poor mental health significantly decreases quality of life,",
+        "blocks": [
+          "impairs daily activities, and may result in further physical difficulties."
+        ]
+      },
+      {
+        "heading": "health problems than the general population, due to facing challenges",
+        "blocks": [
+          "and requiring autonomous decision-making over their lives and studies."
+        ]
+      },
+      {
+        "heading": "health issues compared to their peers in other academic disciplines",
+        "blocks": [
+          "* Corresponding author. Department of Clinical Psychology, University of Rajshahi, Rajshahi, 6205, Bangladesh.",
+          "E-mail addresses: abhannanru.ac.bd@gmail.com (Md.A.H. Mondal), nitaikumarsaha10@gmail.com (N.K. Saha), moynulhaquepshrd22@gmail.com (M. Haque), mdmasom153@gmail.com (M. Mia)."
+        ]
+      },
+      {
+        "heading": "Available online 20 May 2026",
+        "blocks": [
+          "2590-2911/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+        ]
+      },
+      {
+        "heading": "smoking, and sleep quality influence mental health (Banna et al., 2023;",
+        "blocks": [
+          "Boksa, 2017; Sayeed et al., 2021; Scott et al., 2021)."
+        ]
+      },
+      {
+        "heading": "mental health issues and cultural identity (religious affiliations) and the",
+        "blocks": [
+          "degree of religious engagement (religiosity)."
+        ]
+      },
+      {
+        "heading": "A study conducted on Bangladeshi medical students identified the",
+        "blocks": [
+          "risk factors for mental health during COVID-19 (Ashiq et al., 2023)."
+        ]
+      },
+      {
+        "heading": "tors, as well as effective intervention techniques tailored to this",
+        "blocks": [
+          "population.",
+          "4. Methods"
+        ]
+      },
+      {
+        "heading": "(MOMC). Students came from various parts of Bangladesh to study at",
+        "blocks": [
+          "these four medical colleges."
+        ]
+      },
+      {
+        "heading": "43 males) did not give their consent to participate in this study; 8 stu-",
+        "blocks": [
+          "dents (1 female, 7 males) did not complete the questionnaires correctly."
+        ]
+      },
+      {
+        "heading": "sampling process was entirely random. The duration of the collection",
+        "blocks": [
+          "was August 2024 to January 2025."
+        ]
+      },
+      {
+        "heading": "The inclusion criteria were that the students were from a medical",
+        "blocks": [
+          "college in Bangladesh and were in the first to final years."
+        ]
+      },
+      {
+        "heading": "Exclusion criteria for this study were students who were not Ban-",
+        "blocks": [
+          "gladeshi citizens and students studying in private medical colleges."
+        ]
+      },
+      {
+        "heading": "Students having serious physical (diagnosed by a doctor) and mental",
+        "blocks": [
+          "health problems (diagnosed by a psychiatrist)."
+        ]
+      },
+      {
+        "heading": "aid to participate in this study. All information was collected anony-",
+        "blocks": [
+          "mously to consider the privacy and confidentiality of the participants."
+        ]
+      },
+      {
+        "heading": "the participants. The Bangla-adapted General Health questionnaire",
+        "blocks": [
+          "measured the mental health of the medical students (Islam et al., 2024)."
+        ]
+      },
+      {
+        "heading": "Muslim), Internet addiction (absent and present), and religiosity (reli-",
+        "blocks": [
+          "gious and non-religious)."
+        ]
+      },
+      {
+        "heading": "Md.A.H. Mondal et al. Social Sciences & Humanities Open 13 (2026) 102963",
+        "blocks": [
+          "2"
+        ]
+      },
+      {
+        "heading": "status (Mumenin et al., 2024). The Cronbach's alpha for this scale was",
+        "blocks": [
+          "0.81, indicating good reliability."
+        ]
+      },
+      {
+        "heading": "with a Five-point Likert scale (0 to 5). The total score ranges from 20 to",
+        "blocks": [
+          "100. A cutoff score of 50 was used for indicated internet addiction"
+        ]
+      },
+      {
+        "heading": "2014; Young, 1998). The Cronbach alpha was 0.85, suggesting good",
+        "blocks": [
+          "internal consistency."
+        ]
+      },
+      {
+        "heading": "et al., 2018). The Cronbach alpha was 0.78, suggesting satisfactory in-",
+        "blocks": [
+          "ternal consistency."
+        ]
+      },
+      {
+        "heading": "question was previously used among Bangladeshi students to measure",
+        "blocks": [
+          "religiosity (Mondal et al., 2024)."
+        ]
+      },
+      {
+        "heading": "significant result was considered if the P-value was <0.05. All statistical",
+        "blocks": [
+          "tests were done by Stata 17.",
+          "5. Results"
+        ]
+      },
+      {
+        "heading": "half (56.6%) were found to have internet addiction. Overall, 54.2% of",
+        "blocks": [
+          "the participants reported symptoms of mental health problems."
+        ]
+      },
+      {
+        "heading": "problems were also significantly more common among unmarried in-",
+        "blocks": [
+          "dividuals (56.2%) compared to married individuals (29.7%) (p < 0.001)."
+        ]
+      },
+      {
+        "heading": "experience mental health issues (59.9%) than their religious counter-",
+        "blocks": [
+          "parts (34.2%) (p < 0.001)."
+        ]
+      },
+      {
+        "heading": "religious individuals had 2.63 times (95% CI: 1.61-4.30) higher odds",
+        "blocks": [
+          "of mental health problems than religious individuals.",
+          "6. Discussions"
+        ]
+      },
+      {
+        "heading": "Table 1",
+        "blocks": [
+          "Characteristics and the prevalence of mental health problems of the respondents."
+        ]
+      },
+      {
+        "heading": "Variables Frequency",
+        "blocks": [
+          "(%)"
+        ]
+      },
+      {
+        "heading": "Age 0.291",
+        "blocks": [
+          "≤19 117 (23.4) 52 (44.4) 65 (55.6) 20-22 213 (42.6) 91 (42.7) 122 (57.3) ≥23 170 (34.0) 86 (50.6) 84 (49.4)"
+        ]
+      },
+      {
+        "heading": "Obese",
+        "blocks": [
+          "53 (10.6) 20 (45.8) 33 (62.2)"
+        ]
+      },
+      {
+        "heading": "Family income (in taka) 0.373",
+        "blocks": [
+          "≤20000 236 (47.2) 106 (44.9) 130 (55.1) 20001-30000 96 (19.2) 50 (52.1) 46 (47.9) >30000 168 (33.6) 73 (43.5) 95 (56.5)"
+        ]
+      },
+      {
+        "heading": "Md.A.H. Mondal et al. Social Sciences & Humanities Open 13 (2026) 102963",
+        "blocks": [
+          "3"
+        ]
+      },
+      {
+        "heading": "-- 3 of 6 --",
+        "blocks": [
+          "among medical students and examines their association with religiosity."
+        ]
+      },
+      {
+        "heading": "marital status, smoking status, sleep quality, IA, and religiosity are",
+        "blocks": [
+          "significantly associated with mental health problems."
+        ]
+      },
+      {
+        "heading": "marital responsibilities requires effective time management, a positive",
+        "blocks": [
+          "attitude, and strong personal discipline (Dag-um et al., 2024)."
+        ]
+      },
+      {
+        "heading": "may contribute to irregular sleep patterns and, subsequently, adverse",
+        "blocks": [
+          "mental health outcomes (Wilkinson, 2023; Willcock et al., 2004)."
+        ]
+      },
+      {
+        "heading": "mental health by promoting emotional resilience, self-regulation, and",
+        "blocks": [
+          "community support."
+        ]
+      },
+      {
+        "heading": "cial acceptance, and positive feedback from friends and other people",
+        "blocks": [
+          "living in the society may be linked to better mental health outcomes."
+        ]
+      },
+      {
+        "heading": "binary response limits variability and may cause misclassification,",
+        "blocks": [
+          "potentially obscuring the true association with mental health issues."
+        ]
+      },
+      {
+        "heading": "enhancing understanding of the intricate relationship between explan-",
+        "blocks": [
+          "atory variables and mental health.",
+          "7. Practical implications"
+        ]
+      },
+      {
+        "heading": "habits. Early screening efforts could be introduced to identify students at",
+        "blocks": [
+          "risk of poor sleep, problematic internet use, or mental health problems."
+        ]
+      },
+      {
+        "heading": "mental health suggests that culturally sensitive and contextually suitable",
+        "blocks": [
+          "coping strategies could benefit the well-being of medical students."
+        ]
+      },
+      {
+        "heading": "highlight the potential importance of incorporating culturally sensitive",
+        "blocks": [
+          "techniques into students' support programs.",
+          "8. Conclusions"
+        ]
+      },
+      {
+        "heading": "Table 2",
+        "blocks": [
+          "Associated factors of mental health."
+        ]
+      },
+      {
+        "heading": "Female 2.02 (1.39-2.92) 2.20 (1.51-",
+        "blocks": [
+          "3.21) 2.33 (1.52- 3.57) 2.39 (1.54- 3.69)"
+        ]
+      },
+      {
+        "heading": "Unmarried 3.03 (1.46-6.27) 3.64 (1.72-",
+        "blocks": [
+          "7.70) 3.14 (1.41- 6.98) 3.35 (1.48- 7.55)"
+        ]
+      },
+      {
+        "heading": "Yes 2.19 (1.22-3.92) 1.83 (0.96-",
+        "blocks": [
+          "3.52) 2.08 (1.07- 4.05)"
+        ]
+      },
+      {
+        "heading": "Poor 6.23 (3.36-11.52) 4.42 (2.27-",
+        "blocks": [
+          "8.61) 4.36 (2.21- 8.63)"
+        ]
+      },
+      {
+        "heading": "Present 4.26 (2.93-6.21) 3.37 (2.24-",
+        "blocks": [
+          "5.08) 3.10 (2.05- 4.71)"
+        ]
+      },
+      {
+        "heading": "religious",
+        "blocks": [
+          "2.87 (1.85-4.46) 2.63 (1.61- 4.30)"
+        ]
+      },
+      {
+        "heading": "tion Criterion, ‘BIC, Bayesian Information Criterion, odds ratios in bold indicate",
+        "blocks": [
+          "statistically significant."
+        ]
+      },
+      {
+        "heading": "Md.A.H. Mondal et al. Social Sciences & Humanities Open 13 (2026) 102963",
+        "blocks": [
+          "4"
+        ]
+      },
+      {
+        "heading": "-- 4 of 6 --",
+        "blocks": [
+          "unmarried students were more likely to develop mental health issues."
+        ]
+      },
+      {
+        "heading": "approaches to developing mental health strategies that address both",
+        "blocks": [
+          "lifestyle and psychosocial factors among medical students."
+        ]
+      },
+      {
+        "heading": "original draft, Validation, Resources, Project administration, Method-",
+        "blocks": [
+          "ology, Investigation, Formal analysis, Data curation, Conceptualization."
+        ]
+      },
+      {
+        "heading": "nul Haque: Writing – review & editing, Writing – original draft, Soft-",
+        "blocks": [
+          "ware, Methodology, Formal analysis, Data curation, Conceptualization."
+        ]
+      },
+      {
+        "heading": "Masom Mia: Writing – review & editing, Writing – original draft,",
+        "blocks": [
+          "Methodology, Formal analysis, Data curation."
+        ]
+      },
+      {
+        "heading": "shahi Medical College, Rajshahi-6000, Bangladesh (Ref. RMC/ERC/",
+        "blocks": [
+          "2024/158)."
+        ]
+      },
+      {
+        "heading": "We confirm that the data supporting the findings of this study will be",
+        "blocks": [
+          "shared upon reasonable request."
+        ]
+      },
+      {
+        "heading": "anonymously to consider the privacy and confidentiality of the",
+        "blocks": [
+          "participants."
+        ]
+      },
+      {
+        "heading": "reviewed and edited the content as needed and take full responsibility",
+        "blocks": [
+          "for the content of the publication."
+        ]
+      },
+      {
+        "heading": "This research did not receive any specific grant from funding",
+        "blocks": [
+          "agencies in the public, commercial, or not-for-profit sectors."
+        ]
+      },
+      {
+        "heading": "Declaration of competing interest",
+        "blocks": [
+          "The authors have declared no conflict of interest."
+        ]
+      },
+      {
+        "heading": "We would like to thank all the study participants for their full",
+        "blocks": [
+          "cooperation."
+        ]
+      },
+      {
+        "heading": "References",
+        "blocks": [
+          "Abbasy, A. A., Johora, F., Sakin, S. A., Khan, A. A., Nilufar, S., Ferdoush, J., & Salam, A. I."
+        ]
+      },
+      {
+        "heading": "8–11. https://doi.org/10.3329/iahsmj.v5i1.65693",
+        "blocks": [
+          "Al-Mamun, F., Abdullah, A. M., Almerab, M. M., Al Mamun, M., & Mamun, M. A. (2024)."
+        ]
+      },
+      {
+        "heading": "10.3389/fpsyt.2023.1142724",
+        "blocks": [
+          "Babar, A., Jawwad, G., Shujaat, K., Khurshid, A., Niaz, A., Ahmad, A., & Laique, T. (2024). Assessment of stress prevalence among Pakistani medical students, 07/26."
+        ]
+      },
+      {
+        "heading": "disorders among university students in Bangladesh. Scientific Reports, 13(1), Article",
+        "blocks": [
+          "20527. https://doi.org/10.1038/s41598-023-47101-z"
+        ]
+      },
+      {
+        "heading": "Berthold, A., & Ruch, W. (2014). Satisfaction with life and character strengths of non-",
+        "blocks": [
+          "religious and religious people: It's practicing one's religion that makes the difference."
+        ]
+      },
+      {
+        "heading": "Neuroscience, 42(3), 147–149. https://doi.org/10.1503/jpn.170060",
+        "blocks": [
+          "Buysse, D. J., Reynolds, C. F., 3rd, Monk, T. H., Berman, S. R., & Kupfer, D. J. (1989). The"
+        ]
+      },
+      {
+        "heading": "research. Psychiatry Research, 28(2), 193–213. https://doi.org/10.1016/0165-1781",
+        "blocks": [
+          "(89)90047-4"
+        ]
+      },
+      {
+        "heading": "Dag-um, I., Guiruela, I., Murillo, A., Tadlas, M., & Taja-on, E. (2024). Spousal",
+        "blocks": [
+          "commitments and student life: A Study on married students in higher education, 23 pp."
+        ]
+      },
+      {
+        "heading": "Devine, J., Hinks, T., & Naveed, A. (2019). Happiness in Bangladesh: The role of religion",
+        "blocks": [
+          "and connectedness, 2019/02/01 Journal of Happiness Studies, 20(2), 351–371. https://doi.org/10.1007/s10902-017-9939-x."
+        ]
+      },
+      {
+        "heading": "Dwivedi, N., Sachdeva, S., & Taneja, N. (2021). Depression among medical students of",
+        "blocks": [
+          "India: Meta-analysis of published research studies using screening instruments. Indian Journal of Social Psychiatry, 37(2), 183–190. https://doi.org/10.4103/ijsp."
+        ]
+      },
+      {
+        "heading": "Public Health, 30(2), 465–473. https://doi.org/10.1007/s10389-020-01304-0",
+        "blocks": [
+          "Islam, A., Siraji, M. A., Shaoli, S. S., Jerin, R., Elahi, S. M. F., Ahmed, T., Jahan, N., Sultana, S., Alom, M. F., Pintu, M. P. S., Mir, R., Das, P. S., & Haque, S. (2024)."
+        ]
+      },
+      {
+        "heading": "17(3), 844–851. https://doi.org/10.4314/ahs.v17i3.27",
+        "blocks": [
+          "Kim, J. H. (2019). Multicollinearity and misleading statistical results. Korean Journal of"
+        ]
+      },
+      {
+        "heading": "Anesthesiology, 72(6), 558–569. https://doi.org/10.4097/kja.19087",
+        "blocks": [
+          "Leite, ˆA., Nobre, B., & Dias, P. (2023). Religious identity, religious practice, and religious"
+        ]
+      },
+      {
+        "heading": "Mondal, H., Mondal, S., & Baidya, C. (2018). Comparison of perceived sleep quality",
+        "blocks": [
+          "among urban and rural adult population by Bengali Pittsburgh sleep quality index."
+        ]
+      },
+      {
+        "heading": "sociodemographic variables, 2025/01/01/ Social Sciences & Humanities Open, 12,",
+        "blocks": [
+          "Article 101699. https://doi.org/10.1016/j.ssaho.2025.101699. Mondal, M. A. H., Zubair, M. B. U., Sarker, P. C., Siddique, M. N., & Hossain, M. G."
+        ]
+      },
+      {
+        "heading": "Md.A.H. Mondal et al. Social Sciences & Humanities Open 13 (2026) 102963",
+        "blocks": [
+          "5"
+        ]
+      },
+      {
+        "heading": "Hasan Rashed, M. M., Hossen, A., Basar, M. R., & Hossain, M. S. (2024). Screening",
+        "blocks": [
+          "depression among university students utilizing GHQ-12 and machine learning."
+        ]
+      },
+      {
+        "heading": "75–83. https://doi.org/10.1016/j.ajp.2013.10.011",
+        "blocks": [
+          "Rtbey, G., Shumet, S., Birhan, B., & Salelew, E. (2022). Prevalence of mental distress and"
+        ]
+      },
+      {
+        "heading": "Sandu, C., Mahmoud, N., Butiu, O., Moln´ar, R. I., & Mihai, A. (2025). The impact of",
+        "blocks": [
+          "religious beliefs on mental health: A self-assessment Study among medical students. Religions, 16(12), 1501. https://www.mdpi.com/2077-1444/16/12/1501."
+        ]
+      },
+      {
+        "heading": "students of Bangladesh: A cross-sectional study, 2021/01/01/ Children and Youth",
+        "blocks": [
+          "Services Review, 120, Article 105771. https://doi.org/10.1016/j. childyouth.2020.105771."
+        ]
+      },
+      {
+        "heading": "sleep quality leads to better mental health: A meta-analysis of randomised controlled",
+        "blocks": [
+          "trials. Sleep Medicine Reviews, 60, Article 101556. https://doi.org/10.1016/j."
+        ]
+      },
+      {
+        "heading": "357–360. https://doi.org/10.5694/j.1326-5377.2004.tb06325.x",
+        "blocks": [
+          "Young, K. S. (1998). Internet addiction: The emergence of a new clinical disorder."
+        ]
+      },
+      {
+        "heading": "stress among Universiti sains Malaysia medical students. Malaysian Journal of",
+        "blocks": [
+          "Medical Sciences, 17(1), 30–37."
+        ]
+      },
+      {
+        "heading": "Md.A.H. Mondal et al. Social Sciences & Humanities Open 13 (2026) 102963",
+        "blocks": [
+          "6"
+        ]
+      },
+      {
+        "heading": "-- 6 of 6 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "filename": "4.pdf",
+    "title": "Use of pre-workout dietary supplements is associated with lower sleep",
+    "shortTitle": "Use of pre-workout dietary supplements is associated wi...",
+    "heading": "a Factor-Inwentash Faculty of Social Work, University of Toronto, Toronto, ON, Canada",
+    "description": "b Department of Management, Policy and Community Health, University of Texas Health Science Center at Houston, Houston, TX, USA c Department of Pediatrics, University of California, San Francisco, San Francisco, CA, USA",
+    "readingTime": "6 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "workout",
+      "dietary",
+      "supplements",
+      "associated",
+      "with",
+      "lower",
+      "sleep"
+    ],
+    "updatedAt": "2026-07-23T09:20:56.084Z",
+    "sections": [
+      {
+        "heading": "a Factor-Inwentash Faculty of Social Work, University of Toronto, Toronto, ON, Canada",
+        "blocks": [
+          "b Department of Management, Policy and Community Health, University of Texas Health Science Center at Houston, Houston, TX, USA c Department of Pediatrics, University of California, San Francisco, San Francisco, CA, USA"
+        ]
+      },
+      {
+        "heading": "A B S T R A C T",
+        "blocks": [
+          "This study aimed to investigate the association between the use of pre-workout dietary supplements and average sleep duration among adolescents and young adults. Data from Wave 2 of the Canadian Study of Adolescent Behaviors (N = 912) were analyzed. Multinomial logistic regression analyses were conducted to investigate the cross-sectional association between the use of pre-workout dietary supplements in the past 12 months and average sleep duration in the past 2 weeks. Adolescents and young adults who reported pre-workout dietary supplement use were at greater risk (RRR 2.53, 95% CI 1.27–5.05, p = 0.09) of reporting ≤5 h of average sleep per night relative to 8 h of sleep. Findings underscore that the high caffeine content of pre-workout dietary supplements is associated with shorter sleep durations, which are well below the recommended guidelines for adolescents and young adults. Health and mental health care professionals should educate pre-workout users on the association between use and sleep.",
+          "1. Introduction"
+        ]
+      },
+      {
+        "heading": "evidence suggesting improvements in muscular endurance, but little",
+        "blocks": [
+          "effect on endurance exercise performance and strength [1]."
+        ]
+      },
+      {
+        "heading": "254 mg per serving [3]. However, caffeine consumption can negatively",
+        "blocks": [
+          "impact sleep, including a significant reduction in sleep duration [7]."
+        ]
+      },
+      {
+        "heading": "was hypothesized that pre-workout use would be associated with lower",
+        "blocks": [
+          "sleep duration.",
+          "2. Methods"
+        ]
+      },
+      {
+        "heading": "mended techniques were added to the survey, including reCAPTCHA",
+        "blocks": [
+          "* Correspondence author at. Factor-Inwentash Faculty of Social Work, University of Toronto, 246 Bloor Street W, Toronto, Ontario, Canada, M5S 1V4.",
+          "E-mail address: kyle.ganson@utoronto.ca (K.T. Ganson)."
+        ]
+      },
+      {
+        "heading": "Available online 30 November 2025",
+        "blocks": [
+          "2667-3436/© 2025 The Authors. Published by Elsevier B.V. This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by- nc-nd/4.0/)."
+        ]
+      },
+      {
+        "heading": "of Toronto (#41707), and written informed consent was obtained from",
+        "blocks": [
+          "all participants."
+        ]
+      },
+      {
+        "heading": "ments and substances?” with “pre-workout drinks or powders” as a",
+        "blocks": [
+          "potential option [2]."
+        ]
+      },
+      {
+        "heading": "recommended sleep guidelines for both adolescents (8–10 h) and adults",
+        "blocks": [
+          "(7–9 h) in Canada [8,9]."
+        ]
+      },
+      {
+        "heading": "included those who identified as cisgender girls and women, cisgender",
+        "blocks": [
+          "boys and men, and transgender and gender-expansive participants. Control variables included symptoms of depression and anxiety."
+        ]
+      },
+      {
+        "heading": "ety Disorder 7-Item (range: 0–21) [13]. Weight training (any/none) in",
+        "blocks": [
+          "the past 30 days was also assessed."
+        ]
+      },
+      {
+        "heading": "17.0, and statistical significance was determined using two-sided p<",
+        "blocks": [
+          "0.05.",
+          "3. Results"
+        ]
+      },
+      {
+        "heading": "years (SD = 3.8), 57.4 % identifying as girls and young women, 62.2 %",
+        "blocks": [
+          "identifying as White, and 55.1 % identifying as heterosexual (Table 1)."
+        ]
+      },
+      {
+        "heading": "over the past 2 weeks (34.9 %). Over one in five participants reported",
+        "blocks": [
+          "pre-workout use in the past 12 months (22.2 %)."
+        ]
+      },
+      {
+        "heading": "significantly associated with 5 or fewer hours of sleep, relative to 8 h of",
+        "blocks": [
+          "sleep.",
+          "4. Discussion"
+        ]
+      },
+      {
+        "heading": "pre-workout in the past 12 months was associated with significantly",
+        "blocks": [
+          "fewer average hours of sleep per night in the past 2 weeks."
+        ]
+      },
+      {
+        "heading": "mended 13 h. Thus, the effects of caffeine on the body may impair sleep",
+        "blocks": [
+          "duration."
+        ]
+      },
+      {
+        "heading": "Sample Characteristics of Participants in the Canadian Study of Adolescent",
+        "blocks": [
+          "Health Behaviors (N= 912)."
+        ]
+      },
+      {
+        "heading": "a Measured using the Patient Health Questionnaire 9-Item (range =",
+        "blocks": [
+          "0–27)."
+        ]
+      },
+      {
+        "heading": "b Measures using the Generalized Anxiety Disorder 7-Item (range = 0–21)",
+        "blocks": [
+          "M = Mean; SD = Standard deviation."
+        ]
+      },
+      {
+        "heading": "K.T. Ganson et al. Sleep Epidemiology 5 (2025) 100124",
+        "blocks": [
+          "2"
+        ]
+      },
+      {
+        "heading": "-- 2 of 4 --",
+        "blocks": [
+          "of data collection, which limits the generalizability of the findings."
+        ]
+      },
+      {
+        "heading": "single-item assessment of sleep duration alone does not provide a deeper",
+        "blocks": [
+          "understanding of how pre-workout use may impact overall sleep quality."
+        ]
+      },
+      {
+        "heading": "temporal relationship between pre-workout use and sleep duration is",
+        "blocks": [
+          "warranted.",
+          "5. Conclusion"
+        ]
+      },
+      {
+        "heading": "warranted to gather more information on how the frequency and dose of",
+        "blocks": [
+          "pre-workout use impact sleep duration and quality."
+        ]
+      },
+      {
+        "heading": "Toronto (#41707), and written informed consent was obtained from all",
+        "blocks": [
+          "participants via survey checkbox."
+        ]
+      },
+      {
+        "heading": "This study was funded by the Connaught New Researcher Award",
+        "blocks": [
+          "(#512586; KTG) at the University of Toronto."
+        ]
+      },
+      {
+        "heading": "Availability of data and code statement",
+        "blocks": [
+          "Data and code may be made available upon reasonable request."
+        ]
+      },
+      {
+        "heading": "Methodology, Conceptualization. Jason M. Nagata: Writing – review &",
+        "blocks": [
+          "editing, Methodology, Conceptualization."
+        ]
+      },
+      {
+        "heading": "Declaration of competing interest",
+        "blocks": [
+          "All authors declare no conflicts of interest."
+        ]
+      },
+      {
+        "heading": "supplements, safety implications, and performance outcomes: a brief review. J Int",
+        "blocks": [
+          "Soc Sports Nutr 2018;15."
+        ]
+      },
+      {
+        "heading": "of Adolescent Health Behaviors Use of Legal Appearance- and Performance-",
+        "blocks": [
+          "Enhancing Drugs Health Behaviors. Subst Use Misuse 2023;58:289–97."
+        ]
+      },
+      {
+        "heading": "[3] Jagim A, Harty P, Camic C. Common Ingredient Profiles of Multi-Ingredient Pre-",
+        "blocks": [
+          "Workout Supplements. Nutrients 2019;11:254."
+        ]
+      },
+      {
+        "heading": "workout ingestion on strength performance, lower body power, and anaerobic",
+        "blocks": [
+          "capacity. J Int Soc Sports Nutr 2016;13:11. [5] Grgic J. Effects of Caffeine on Resistance Exercise: a Review of Recent Research. Sports Med 2021;51:2281–98."
+        ]
+      },
+      {
+        "heading": "[6] Desbrow B, Hall S, O’Connor H, et al. Caffeine content of pre-workout supplements",
+        "blocks": [
+          "commonly used by Australian consumers. Drug Test Anal 2019;11:523–9."
+        ]
+      },
+      {
+        "heading": "[7] Gardiner C, Weakley J, Burke LM, et al. The effect of caffeine on subsequent sleep:",
+        "blocks": [
+          "a systematic review and meta-analysis. Sleep Med Rev 2023;69:101764."
+        ]
+      },
+      {
+        "heading": "integration of physical activity, sedentary behaviour, and sleep. Appl Physiol Nutr",
+        "blocks": [
+          "Metab 2020;45:S57–102."
+        ]
+      },
+      {
+        "heading": "for Children and Youth: an Integration of Physical Activity. Sedentary Behaviour,",
+        "blocks": [
+          "and Sleep. Appl Physiol Nutr Metab 2016;41:S311–27."
+        ]
+      },
+      {
+        "heading": "[10] Tarokh L, Saletin JM, Carskadon MA. Sleep in adolescence: physiology, cognition",
+        "blocks": [
+          "and mental health. Neurosci Biobehav Rev 2016;70:182–8."
+        ]
+      },
+      {
+        "heading": "[11] Zhang J, Paksarian D, Lamers F, et al. Sleep Patterns and Mental Health Correlates",
+        "blocks": [
+          "in US Adolescents. J Pediatr 2017;182:137–43."
+        ]
+      },
+      {
+        "heading": "[12] Kroenke K, Spitzer RL, Williams JBW. The PHQ-9: validity of a brief depression",
+        "blocks": [
+          "severity measure. J Gen Intern Med 2001;16:606–13."
+        ]
+      },
+      {
+        "heading": "Table 2",
+        "blocks": [
+          "Associations Between Pre-Workout Use and Average Sleep per Night among Participants in the Canadian Study of Adolescent Health Behaviors."
+        ]
+      },
+      {
+        "heading": "RRR (95 % CI)a p RRR (95 % CI)a p RRR (95 % CI)a p RRR (95 % CI)a p",
+        "blocks": [
+          "Pre-Workout Use, Past 12 Months 2.53 (1.27–5.05) 0.009 1.33 (0.77–2.31) 0.309 1.09 (0.66–1.81) 0.727 1.26 (0.59–2.69) 0.546 Note: The table presents the abbreviated outputs of a single multinominal logistic regression analysis with pre-workout use as the independent variable and average sleep per night as the dependent variable, adjusting for covariates. Boldface indicates statistical significance at p< 0.05. RRR = Relative risk ratio; CI = Confidence interval. a Adjusted for age, gender, race/ethnicity, sexual orientation, highest completed education, PHQ-9 score, GAD-7 score, and any weight training in the past 30 days."
+        ]
+      },
+      {
+        "heading": "K.T. Ganson et al. Sleep Epidemiology 5 (2025) 100124",
+        "blocks": [
+          "3"
+        ]
+      },
+      {
+        "heading": "[13] Spitzer RL, Kroenke K, Williams JBW, et al. A brief measure for assessing",
+        "blocks": [
+          "generalized anxiety disorder: the GAD-7. Arch Intern Med 2006;166:1092–7."
+        ]
+      },
+      {
+        "heading": "[14] Reichert CF, Deboer T, Landolt H. Adenosine, caffeine, and sleep–wake regulation:",
+        "blocks": [
+          "state of the science and perspectives. J Sleep Res 2022;31:e13597."
+        ]
+      },
+      {
+        "heading": "Activity and Blood Pressure Independently of Caffeine Content: role of Habitual",
+        "blocks": [
+          "Versus Nonhabitual Drinking. Circulation 2002;106:2935–40."
+        ]
+      },
+      {
+        "heading": "supplementation on blood pressure in adults: a systematic review and dose-",
+        "blocks": [
+          "response meta-analysis. Clin Nutr ESPEN 2023;58:165–77."
+        ]
+      },
+      {
+        "heading": "[17] Ganson KT. Reframing the problem of the harms associated with muscle-building",
+        "blocks": [
+          "dietary supplements use. Perform Enhanc Health 2024:100279."
+        ]
+      },
+      {
+        "heading": "[18] Knowles OE, Drinkwater EJ, Urwin CS, et al. Inadequate sleep and muscle strength:",
+        "blocks": [
+          "implications for resistance training. J Sci Med Sport 2018;21:959–68."
+        ]
+      },
+      {
+        "heading": "K.T. Ganson et al. Sleep Epidemiology 5 (2025) 100124",
+        "blocks": [
+          "4"
+        ]
+      },
+      {
+        "heading": "-- 4 of 4 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "filename": "5.pdf",
+    "title": "Interactive effects of lysine restriction, vitamin fortification, and insoluble",
+    "shortTitle": "Interactive effects of lysine restriction, vitamin fort...",
+    "heading": "b Department of Animal Science, Agriculture Faculty, University of Zanjan, Iran",
+    "description": "c Department of Anatomical Sciences, Faculty of Medicine, Zanjan University of Medical Sciences, Zanjan, Iran",
+    "readingTime": "18 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "interactive",
+      "effects",
+      "lysine",
+      "restriction",
+      "vitamin",
+      "fortification",
+      "insoluble"
+    ],
+    "updatedAt": "2026-07-23T09:21:04.095Z",
+    "sections": [
+      {
+        "heading": "b Department of Animal Science, Agriculture Faculty, University of Zanjan, Iran",
+        "blocks": [
+          "c Department of Anatomical Sciences, Faculty of Medicine, Zanjan University of Medical Sciences, Zanjan, Iran"
+        ]
+      },
+      {
+        "heading": "A B S T R A C T",
+        "blocks": [
+          "This 2 × 2 × 2 + 1 factorial trial examined digestible lysine:CP (6.2 vs. 5.7%), vitamins (standard vs. enhanced), and fiber (0 vs. 0.5% Arbocel®) effects on jejunal morphometry in 756 male Ross 308 broilers (d10–40) fed 12% reduced-CP diets vs. control. Protein and lysine reduction had limited effects on overall intestinal dimensions, though jejunal length declined (P = 0.041). Insoluble fiber significantly enlarged cecal surface area (P = 0.023, +15.2%). Vitamin × fiber and lysine × fiber interactions significantly influenced intestinal segment weights and lengths (P < 0.05). CP reduction markedly decreased epithelial length (-12.3%), villus height (-10.5%), villus surface area (VSA) (-18.7%), and wall thickness (P ≤ 0.001), while lysine restriction alone had minimal impact except on crypt number (P = 0.002). Vitamin fortification enhanced epithelial length (+8.4%), villus height (+9.1%), and enterocyte count (+11.2%), in HV2F0 birds. Synergistic fiber × vitamin and fiber × lysine in- teractions significantly modulated epithelial structure (P < 0.05). AI-based ImageJ analysis outperformed Cell^ A, detecting 5.2% shorter villi and 10.9% deeper crypts, confirming its superiority in microstructural assessment. CP and lysine reductions altered goblet cell number and crypt dimensions, whereas fiber increased goblet cell area and ratios (+14.6%). Vitamin effects on goblet metrics were modest but significant (P = 0.032). In conclusion, while CP and lysine reduction perturbed jejunal microstructure, synergistic supplementation with vitamins and insoluble fiber effectively supported mucosal integrity, highlighting their compensatory role in maintaining gut health under protein-reduced conditions."
+        ]
+      },
+      {
+        "heading": "model for studying these intestinal adaptations and their implications",
+        "blocks": [
+          "for efficient production."
+        ]
+      },
+      {
+        "heading": "et al. (1998). Catabolism varies with starch digestion rate (Yin et al.,",
+        "blocks": [
+          "2019) and amino acid form (protein-bound vs. non- bound) (Eugenio"
+        ]
+      },
+      {
+        "heading": "protein accretion, maximizing their efficiency is critical in reduced",
+        "blocks": [
+          "crude protein (RCP) diets."
+        ]
+      },
+      {
+        "heading": "Protein is a major cost in poultry diets, primarily supplied by soybean",
+        "blocks": [
+          "* Corresponding authors.",
+          "E-mail addresses: ahmad.salahi@znu.ac.ir (A. Salahi), shahir_m@znu.ac.ir (M.H. Shahir)."
+        ]
+      },
+      {
+        "heading": "Available online 21 January 2026",
+        "blocks": [
+          "2451-943X/© 2026 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/)."
+        ]
+      },
+      {
+        "heading": "(Aviagen, 2014). Well-formulated low-CP diets often require synthetic",
+        "blocks": [
+          "AA supplementation to prevent imbalances (Tajudeen et al., 2022)."
+        ]
+      },
+      {
+        "heading": "countries, where reducing dependence on imported soybean meal can",
+        "blocks": [
+          "lower production costs and environmental burdens (Salahi et al., 2025)."
+        ]
+      },
+      {
+        "heading": "glycinin—has been linked to altered gut short-chain fatty acid (SCFA)",
+        "blocks": [
+          "profiles and improved cardiac health in mice (Furukawa et al., 2024)."
+        ]
+      },
+      {
+        "heading": "reflect an adaptive metabolic response, suggesting such diets can",
+        "blocks": [
+          "maintain intestinal health."
+        ]
+      },
+      {
+        "heading": "passage rate, and can stimulate mucosal morphology and cecal devel-",
+        "blocks": [
+          "opment (Moradi et al., 2021)."
+        ]
+      },
+      {
+        "heading": "intestine across multiple magnifications, offering deeper insights into",
+        "blocks": [
+          "how nutritional strategies reshape gastrointestinal structure in broilers."
+        ]
+      },
+      {
+        "heading": "lation and lysine levels in supporting broiler performance and health",
+        "blocks": [
+          "(Nasr & Kheiri, 2017)."
+        ]
+      },
+      {
+        "heading": "14, and VAXXON® H120-CLONE (Newcastle + Infectious Bronchitis) in",
+        "blocks": [
+          "drinking water at day 23."
+        ]
+      },
+      {
+        "heading": "A post-hoc power analysis was conducted using G*Power software",
+        "blocks": [
+          "(version 3.1.9.7) following Faul et al. (2009) to validate the sample size."
+        ]
+      },
+      {
+        "heading": "relevant differences, ensuring robustness and reliability of the results",
+        "blocks": [
+          "(Faul et al., 2009)."
+        ]
+      },
+      {
+        "heading": "ranged from 252.9 to 257.6 g. Starter-phase feed intake (0–10 days;",
+        "blocks": [
+          "pelleted) averaged 240 g per bird."
+        ]
+      },
+      {
+        "heading": "Birds were fed a corn–soybean meal–based diet across three phases",
+        "blocks": [
+          "(days 10–20, 21–30, and 31–40), incorporating a 12 % reduction in CP."
+        ]
+      },
+      {
+        "heading": "satory matrix to test interactions between key nutrients specifically",
+        "blocks": [
+          "within this RCP background, rather than to evaluate factors in isolation."
+        ]
+      },
+      {
+        "heading": "F0 and F1 indicate insoluble fiber (Arbocel®) supplementation at 0 %",
+        "blocks": [
+          "and 0.5 %, respectively."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "2"
+        ]
+      },
+      {
+        "heading": "0.85 % saline solution without applying pressure to preserve tissue",
+        "blocks": [
+          "integrity."
+        ]
+      },
+      {
+        "heading": "measured length of the cecum. This approach provides a reliable and",
+        "blocks": [
+          "physiologically relevant estimate of cecal surface morphology."
+        ]
+      },
+      {
+        "heading": "ferred onto albumin-coated microscope slides and subsequently dried in",
+        "blocks": [
+          "an electric oven at 54–55 ◦C for 2 h (Fig. 1)."
+        ]
+      },
+      {
+        "heading": "Table 1",
+        "blocks": [
+          "Ingredients and formulation of the diets fed between days 10–20 and 31–40 days (as-fed basis, % unless noted)."
+        ]
+      },
+      {
+        "heading": "L-Gly 0 0.23 0.23 0.23 0.23 0.037 0.037 0.037 0.037",
+        "blocks": [
+          "Treatment (H: High Lys/CP=6.2 %; L: Low Lys/CP=5.7 %; V1: Standard Vitamin; V2: Enhanced Vitamin; F0: No Fiber; F1: 0.5 % Arbocel® Fiber). Minor deviations (±0.1 %) are attributable to rounding of ingredient inclusion rates. All ingredients are expressed as percentage of diet (as-fed basis), equivalent to g/kg. Soybean oil was used as the dietary fat source."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "3"
+        ]
+      },
+      {
+        "heading": "immersion times of 15, 15, 5, 5, and 5 min; 10 s; 3–4 min; 10 s; 10 min;",
+        "blocks": [
+          "10 s; 3 min; and two consecutive 20-minute incubations, respectively."
+        ]
+      },
+      {
+        "heading": "mounting medium, ensuring air bubbles were carefully removed prior to",
+        "blocks": [
+          "sealing."
+        ]
+      },
+      {
+        "heading": "Table 2",
+        "blocks": [
+          "Formulated and analyzed nutrient composition of the experimental diets during 10–40 days of age ( %)."
+        ]
+      },
+      {
+        "heading": "DEB (mEq/kg) 193 168.4 168.5 168.4 168.5 168.7 168.8 168.7 168.8",
+        "blocks": [
+          "* The discrepancy between calculated and analyzed CP (e.g., 20.5 % vs. 21.58 %) arises from natural variations in ingredient composition; analyses were conducted",
+          "post-formulation. CP was reduced by ~12 % compared to the control to test the sustainability of reduced-crude protein (RCP) diets, following Salahi et al. (2025). Lysine was isolated as an independent factor (H = 6.2, L = 5.7 g dLys/100 g CP) to examine its specific role in AA balance, despite proportional reductions in other AAs. The Starch/CP and Phos/CP×100 ratios are reported to highlight shifts in energy-protein density and nutrient utilization in RCP diets. Abbreviations: SID: Stan- dardized ileal digestible; AV. P: Available phosphorus; DCAB/DEB: Dietary cation-anion balance."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "4"
+        ]
+      },
+      {
+        "heading": "the total number of goblet cells across all observable crypts within the",
+        "blocks": [
+          "field of view were carefully counted for each replicate."
+        ]
+      },
+      {
+        "heading": "another rinse, a resting period of 10 min was employed to enhance",
+        "blocks": [
+          "glycogen visualization, followed by brief borax treatment (15 sec)."
+        ]
+      },
+      {
+        "heading": "to further discriminate acidic mucins and enhance goblet cell",
+        "blocks": [
+          "characterization."
+        ]
+      },
+      {
+        "heading": "Morphometric data from Cell^A software (Olympus BX51 micro-",
+        "blocks": [
+          "scope) were validated using ImageJ v1.53t (NIH, Schneider et al., 2012)."
+        ]
+      },
+      {
+        "heading": "Dietary vitamin supplementation levels: standard (Aviagen®) recommendations",
+        "blocks": [
+          "(V1) versus extra fortification (V2)."
+        ]
+      },
+      {
+        "heading": "calpan), B6 (pyridoxine), B₉ (folate), B12 (cobalamin), D3 (cholecalciferol), K3",
+        "blocks": [
+          "(menadione), H2 (biotin)."
+        ]
+      },
+      {
+        "heading": "Table 4",
+        "blocks": [
+          "Morphometric parameters of gastrointestinal organs in broilers at 40 days of age fed reduced-crude protein diets with different lysine ratios, vitamin, and insoluble fiber levels. Treatment DeW DeL (cm) JejW JejL IleW (g) IleL (cm) SmitW SmitL BW/ SmitW BW/ SmitL CecW (g) CecL CSA (cm2)"
+        ]
+      },
+      {
+        "heading": "Vit×Fiber 0.043 0.457 0.037 0.003 0.161 0.645 0.403 0.771 0.113 0.973 0.146 0.176 0.582",
+        "blocks": [
+          "Lys×Vit×Fiber 0.748 0.663 0.39 0.959 0.743 0.757 0.325 0.383 0.979 0.954 0.381 0.445 0.736 Data are presented as least squares means. Within a column, means without a common superscript letter differ significantly (P < 0.05). SEM: Standard error of the mean. Abbreviations: DeW: Duodenum weight; DeL: Duodenum length; JejW: Jejunum weight; JejL: Jejunum length; IleW: Ileum weight; IleL: Ileum length; SmitW: Small intestine weight; SmitL: Small intestine length; BW/SmitW: Body weight to small intestine weight ratio; BW/SmitL: Body weight to small intestine length ratio; CecW: Total cecal weight (sum of both ceca); CecL: Average cecal length; CSA: Cecal surface area (calculated as 2πr × L, where r = CecW/[2×π×CecL]). Treatment codes: H and L denote digestible lysine-to-crude protein ratios of 6.2 and 5.7 g/100 g, respectively. V1 and V2 represent vitamin supplementation at standard (Aviagen® recommendation) and extra fortification levels, respectively. F0 and F1 indicate insoluble fiber supplementation at 0 % and 0.5 % (Arbocel®), respectively. Data are least-squares means ± SEM (n = 12 birds/replicate). P-values from 2 × 2 × 2 factorial ANOVA.",
+          "* Overall P-Value."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "5"
+        ]
+      },
+      {
+        "heading": "characteristics. Future studies should integrate stereological sampling to",
+        "blocks": [
+          "strengthen quantitative accuracy (Mouton, 2002)."
+        ]
+      },
+      {
+        "heading": "using the general linear model (GLM) procedure in SPSS version 22",
+        "blocks": [
+          "Fig. 1. Workflow of jejunal tissue processing and staining for histomorphometric analysis. (A–C) Fixation in 10 % neutral buffered formalin. (D–F) Paraffin embedding and block preparation. (G–I) Microtome sectioning and slide mounting. (J–L) Periodic acid–Schiff (PAS) staining kit and the Olympus BX51 light mi- croscope used for image acquisition."
+        ]
+      },
+      {
+        "heading": "Table 5",
+        "blocks": [
+          "Jejunal lumen, villus, and crypt morphometric parameters in broilers fed reduced-crude protein diets with varying lysine, vitamin, and fiber levels."
+        ]
+      },
+      {
+        "heading": "Control",
+        "blocks": [
+          "(20.5 %"
+        ]
+      },
+      {
+        "heading": "CP)",
+        "blocks": [
+          "- - - 5978.8 4976.3 14,861.6 13,206.49 59,642,971 116,254 2196.7a 1927.6a 304.1 268.8 7.19 1.83ab",
+          "HV1F0 6.2 S 0 5822.6 5124.5 19,200.1 17,820.9 71,853,556 110,975 2041.2ab 1765.6abc 251.5 275.1 6.43 1.402c HV1F1 6.2 S 1 4628.7 3635.9 15,973.6 12,927.8 57,636,280 81,317 1914.7b 1640.2b 249.5 274.5 6.32 1.50bc HV2F0 6.2 E 0 4395.6 3369.9 18,190.4 16,831.1 54,417,928 91,025 2162.2a 1888.1ab 268.1 274.1 6.90 1.59abc HV2F1 6.2 E 1 5939.3 5289.1 15,095.6 12,765.8 49,806,800 42,525 2028.6ab 1769.2abc 259.5 261.2 6.69 1.27c LV1F0 5.7 S 0 4132.8 3147.6 18,400.9 17,232.1 63,920,289 65,652 1981.1ab 1688.5bc 302.5 293.1 5.76 1.60abc LV1F1 5.7 S 1 4002.1 3249.8 17,042.6 15,440.9 63,179,749 75,616 2055.1ab 1800.2abc 238.8 254.5 7.32 1.44bc LV2F0 5.7 E 0 5032.7 4519.8 20,607.4 17,277.6 64,756,298 79,287 2129.5ab 1858.5abc 278.1 271.3 7.21 1.98a LV2F1 5.7 E 1 4185.4 3489.8 16,287.2 13,348.8 51,453,350 79,570 2047.2ab 1779.2abc 274.8 267.8 6.76 1.43bc"
+        ]
+      },
+      {
+        "heading": "Lys×Vit×Fiber 0.165 0.07 0.711 0.765 0.37 0.921 0.501 0.380 0.092 0.419 0.277 0.917",
+        "blocks": [
+          "Data are presented as least squares means. Within a column, means without a common superscript letter differ significantly (P < 0.05). SEM: Standard error of the mean. Abbreviations: OLW: Outer lumen width; ILW: Inner lumen width; OLD: Outer lumen diameter; ILD: Inner lumen diameter; ILA: Inner lumen area; ILP: Inner lumen perimeter; EpiLen: Epithelium length (VH+CD); VH: Villus height; VW: Villus width; CD: Crypt depth; VH/CD: Villus height to crypt depth ratio; VSA: Villus surface area [VSA = 2π × (VW/2) × VH]. S: Standard vitamin level (Aviagen recommendation), E: Enhanced vitamin level. Data are least-squares means ± SEM (n = 12 birds/replicate). P-values from 2 × 2 × 2 factorial ANOVA.",
+          "* Overall P-Value."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "6"
+        ]
+      },
+      {
+        "heading": "applied. Prior to ANOVA, data normality and homogeneity of variances",
+        "blocks": [
+          "were confirmed using the Shapiro-Wilk and Levene’s tests, respectively."
+        ]
+      },
+      {
+        "heading": "parametric tests were applied. Mean comparisons were performed using",
+        "blocks": [
+          "Tukey’s HSD test, with statistical significance set at P < 0.05."
+        ]
+      },
+      {
+        "heading": "Table 6",
+        "blocks": [
+          "AI-assisted morphometric analysis of jejunal villi and crypts (4× magnification) in broilers under different dietary regimens."
+        ]
+      },
+      {
+        "heading": "Lys×Vit×Fiber 0.525 0.411 0.479 0.751 0.540 0.089",
+        "blocks": [
+          "Data are presented as least squares means. Within a column, means without a common superscript letter differ significantly (P < 0.05). SEM: Standard error of the mean. Abbreviations: VN: Villus number per field; VH: Villus height; VWtp: Villus width at the top; VWm: Villus width at the middle; CD: Crypt depth; VH/CD: Villus height to crypt depth ratio. S: Standard vitamin level (Aviagen recommendation), E: Enhanced vitamin level. Data are least-squares means ± SEM (n = 12 birds/ replicate). P-values from 2 × 2 × 2 factorial ANOVA.",
+          "* Overall P-Value."
+        ]
+      },
+      {
+        "heading": "Table 7",
+        "blocks": [
+          "Thickness of jejunal wall layers and crypt number at 10× magnification: a comparison between H&E and PAS staining methods."
+        ]
+      },
+      {
+        "heading": "Lys×Vit×Fiber 0.035 0.594 0.044 0.012 0.045 0.505 0.491 0.490 0.491",
+        "blocks": [
+          "Data are presented as least squares means. Within a column, means without a common superscript letter differ significantly (P < 0.05). SEM: Standard error of the mean. Abbreviations: LuCrptNo: Number of crypts surrounding the lumen; SeroTh: Serosa thickness; MuslTh: Muscularis propria thickness; SubmuTh: Submucosa thickness; TotalTh: Total wall thickness (sum of Serosa, Muscularis, and Submucosa). S: Standard vitamin level (Aviagen recommendation), E: Enhanced vitamin level. Data are least-squares means ± SEM (n = 12 birds/replicate). P-values from 2 × 2 × 2 factorial ANOVA.",
+          "* Overall P-Value."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "7"
+        ]
+      },
+      {
+        "heading": "height, crypt depth, epithelial and serosa/muscularis/submucosa",
+        "blocks": [
+          "thickness, as well as goblet cell and enterocyte counts and dimensions. Full results are reported in Tables 5–9."
+        ]
+      },
+      {
+        "heading": "right panel displays villus height-to-starch (VH/ST) and crypt depth-to-",
+        "blocks": [
+          "starch (CD/ST) ratios."
+        ]
+      },
+      {
+        "heading": "crypt depth). All primary results reported herein are based on Cell^A",
+        "blocks": [
+          "measurements. (Fig. 4)."
+        ]
+      },
+      {
+        "heading": "cosa and their total thickness (p ≤ 0.05), indicating complex interplays",
+        "blocks": [
+          "among dietary factors."
+        ]
+      },
+      {
+        "heading": "Table 8",
+        "blocks": [
+          "High-magnification analysis of jejunal crypt dimensions and goblet cell characteristics."
+        ]
+      },
+      {
+        "heading": "Lys×Vit×Fiber 0.823 0.006 0.061 0.001 0.0001 0.657 0.098 0.965 0.862 0.734 0.655 0.455",
+        "blocks": [
+          "Data are presented as least squares means. Within a column, means without a common superscript letter differ significantly (P < 0.05). SEM: Standard error of the mean. Abbreviations: Gob_CR: Number of goblet cells per crypt; CR_Len: Crypt length; CR_BsWd: Crypt base width; CrArea: Crypt cross-sectional area; CR_Prm: Crypt perimeter; AEZ_Th: Apical epithelial zone thickness; CrGbN: Number of goblet cells per crypt (100×); CrGbAr: Total area of goblet cells per crypt; GbCrRt: Ratio of goblet cell area to crypt area; GbVLH: Number of goblet cells in the villus head; GbVLRt: Ratio of goblet cell area to villus head area. Data are least-squares means ± SEM (n = 12 birds/replicate). P-values from 2 × 2 × 2 factorial ANOVA. Note: CrArea represents perimeter-based polygon area (40X: complete crypt outline, n = 10 crypts/section; 100X: cumulative goblet cell projection area).",
+          "* Overall P-Value."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "8"
+        ]
+      },
+      {
+        "heading": "ratios (Goblet Area to Villi Head Area Ratio, Goblet to Crypt Ratio), as",
+        "blocks": [
+          "visualized in Fig. 5."
+        ]
+      },
+      {
+        "heading": "(Ent_Cnt), while lysine restriction had no significant effect on any",
+        "blocks": [
+          "enterocyte-related parameters. Goblet cell counts remained unaffected."
+        ]
+      },
+      {
+        "heading": "than synergistic effects of these dietary components on intestinal",
+        "blocks": [
+          "morphology."
+        ]
+      },
+      {
+        "heading": "absence of major treatment effects is unlikely to be due to insufficient",
+        "blocks": [
+          "Fig. 2. Representative photomicrographs illustrating morphometric measurements in the jejunum. (A–C) Low-magnification view (4× objective) showing the jejunal architecture and lumen dimensions. (D) Measurement of villus height (VH) and crypt depth (CD). (E) High-magnification view (100× oil immersion) for measuring apical epithelial zone thickness (AEZ_Th, arrow). (F) Jejunal wall layer thicknesses (serosa, muscularis, submucosa) at 10× magnification. (G) Goblet cell distribution within a crypt (100×). (H) Enterocyte and goblet cell height measurements on a villus (40×, PAS staining). (I) Villus width measurement (100×). Corresponding quantitative data for all treatments, including standard errors (SEM) and significant differences, are presented in Tables 5, 7, 8, and 9."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "9"
+        ]
+      },
+      {
+        "heading": "-- 9 of 14 --",
+        "blocks": [
+          "sample size (Faul et al., 2009)."
+        ]
+      },
+      {
+        "heading": "striction alone had minimal impact on intestinal development, but its",
+        "blocks": [
+          "combination with dietary fiber led to subtle changes in gut morphology."
+        ]
+      },
+      {
+        "heading": "levels and their interaction with fiber, particularly in relation to cecal",
+        "blocks": [
+          "surface area and gut microbiota."
+        ]
+      },
+      {
+        "heading": "moderate crude CP reduction does not markedly alter gross intestinal",
+        "blocks": [
+          "morphology but significantly affects finer histomorphological features."
+        ]
+      },
+      {
+        "heading": "Table 9",
+        "blocks": [
+          "Effects of dietary lysine level, vitamin fortification, and insoluble fiber supplementation on enterocyte and goblet cell morphometrics in jejunal villus epithelium of broilers, analyzed using imageJ software (40× Magnification, PAS Staining). Treatment Ent_Cnt (Cells) Ent_HA (μm) Gob_Cnt (Cells) GobHt (μm) Ent_Dns (Cells/μm) Gob_Dens (Cells/μm)"
+        ]
+      },
+      {
+        "heading": "Lys×Vit×Fiber 0.404 0.411 0.451 0.399 0.955 0.526",
+        "blocks": [
+          "Lys: Lysine, Vit: Vitamin, Fib: Fiber, SEM: The standard error of the mean, Ent_Cnt: Number of Enterocytes in Field, Ent_HA: Average Enterocyte Height on Villus, Gob_Cnt: Number of Goblet Cells in Field, GobHt: Average Goblet Cell Height, Ent_Dns: Enterocyte Density, Gob_Dens: Goblet Cell Density. Treatment description: H and L for dLys/CP ratio of 6.2 and 5.7 respectively; V1 and V2 for vitamin supplementation level of broiler recommendation and extra supplementation respectively; F0 and F1 for insoluble fiber supplementation levels of 0 and Arbocel® added diets (on average 0.5 %) respectively. Data are least-squares means ± SEM (n = 12 birds/ replicate). P-values from 2 × 2 × 2 factorial ANOVA.",
+          "* Overall P-Value.",
+          "Fig. 3. Graphical representation of villus height relative to nutrient intake. The ratios of villus height (VH) to crude protein intake (VH/CP) and villus height to starch intake (VH/ST) are presented visually to illustrate comparative relationships between dietary treatments. Please note: These ratios are presented for descriptive, comparative purposes only and are not subject to formal statistical analysis in this context. Their inclusion aims to provide a visual perspective on nutrient utilization efficiency under different dietary regimens. Formal statistical analyses of morphometric parameters are presented in Tables 5–9 and corre- sponding figures."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "10"
+        ]
+      },
+      {
+        "heading": "length were notably reduced (P < 0.05). These findings are consistent",
+        "blocks": [
+          "Fig. 4. Comparison of jejunal villus height and crypt depth measurements obtained by two analytical software platforms. Field-based measurements using Cell^A software (3D cylinder columns) versus image analysis using ImageJ software (patterned box columns). Data are presented as means ± SEM (error bars). For each morphometric parameter (VH or CD), columns without a common. Superscript letter differs significantly (P < 0.05). 3.36 3.12 3.8 3.52 4.78 2.96 3.82 2.82 4.64 10.05 8.82 9.83 10.51 11.68 7.03 11.51 8.18 11.33 0 2 4 6 8 10 12 14 16 18"
+        ]
+      },
+      {
+        "heading": "GbCrRt GbVLRt",
+        "blocks": [
+          "Fig. 5. Impact of dietary treatments on goblet cell area ratios in the jejunum. Goblet cell area to villus head area ratio (GbVLRt) and goblet cell area to crypt area ratio (GbCrRt) in broilers fed reduced-protein diets with varying lysine (H, L), vitamin (S: standard; E: enhanced), and fiber (F0, F1) levels. The control diet (20.5 % CP) is included for reference. Data are presented as means ± SEM (error bars). Statistical analysis was performed using a 2 × 2 × 2 factorial ANOVA; P-values for main effects and interactions are reported in Table 8. No significant effects of lysine, vitamin, fiber, or their interactions were detected for these ratios (P > 0.05)."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "11"
+        ]
+      },
+      {
+        "heading": "-- 11 of 14 --",
+        "blocks": [
+          "with those reported by Tajudeen et al. (2022) and Laudadio et al."
+        ]
+      },
+      {
+        "heading": "AI-assisted (ImageJ) methods, which showed strong agreement,",
+        "blocks": [
+          "ensuring measurement reliability."
+        ]
+      },
+      {
+        "heading": "health. Overall, lysine reduction to 5.7 % appears to be a safe threshold",
+        "blocks": [
+          "without major adverse effects on intestinal morphology."
+        ]
+      },
+      {
+        "heading": "crypt and goblet cell metrics more strongly than vitamins, warranting",
+        "blocks": [
+          "further study on fiber-specific mechanisms."
+        ]
+      },
+      {
+        "heading": "amino acids, thereby exerting a more direct effect on enterocytes",
+        "blocks": [
+          "(Moss et al., 2018)."
+        ]
+      },
+      {
+        "heading": "three-dimensional insights and minimize potential biases of 2D analysis",
+        "blocks": [
+          "(Mouton, 2002)."
+        ]
+      },
+      {
+        "heading": "fiber-vitamin interactions enhancing epithelial integrity. Key strengths",
+        "blocks": [
+          "include the factorial design and multi-scale histomorphometric analysis."
+        ]
+      },
+      {
+        "heading": "intestinal morphology and support gastrointestinal development and",
+        "blocks": [
+          "overall performance."
+        ]
+      },
+      {
+        "heading": "lar analyses would yield a more holistic understanding of intestinal",
+        "blocks": [
+          "adaptation mechanisms."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "12"
+        ]
+      },
+      {
+        "heading": "Funding",
+        "blocks": [
+          "This research received no external funding."
+        ]
+      },
+      {
+        "heading": "Institutional review board statement",
+        "blocks": [
+          "Not applicable."
+        ]
+      },
+      {
+        "heading": "Data availability statement",
+        "blocks": [
+          "Not applicable."
+        ]
+      },
+      {
+        "heading": "Visualization, Validation, Software, Methodology, Investigation, Fund-",
+        "blocks": [
+          "ing acquisition, Formal analysis, Data curation, Conceptualization. M.H."
+        ]
+      },
+      {
+        "heading": "tion, Supervision. Zahra Abdi: Writing – review & editing, Supervision,",
+        "blocks": [
+          "Project administration, Methodology."
+        ]
+      },
+      {
+        "heading": "Declaration of competing interest",
+        "blocks": [
+          "The authors declare no competing interests."
+        ]
+      },
+      {
+        "heading": "(Morphology Laboratory), Eng. Reza Amini and Eng. Ali Afsar from",
+        "blocks": [
+          "Evonik Company for their valuable collaboration and assistance."
+        ]
+      },
+      {
+        "heading": "Supplementary material associated with this article can be found, in",
+        "blocks": [
+          "the online version, at doi:10.1016/j.vas.2026.100574."
+        ]
+      },
+      {
+        "heading": "References",
+        "blocks": [
+          "Aviagen, R. (2014). Ross broiler management handbook. Huntsville, AL: Aviagen Group."
+        ]
+      },
+      {
+        "heading": "AVMA. (2020). AVMA guidelines for the euthanasia of animals: 2020 edition (Version",
+        "blocks": [
+          "2020.0.1) (pp. 1–121). Schaumburg, IL: American Veterinary Medical Association. Barekatain, R., Nattrass, G., Tilbrook, A. J., Chousalkar, K., & Gilani, S. (2019). Reduced"
+        ]
+      },
+      {
+        "heading": "Science, 98(9), 3662–3675. https://doi.org/10.3382/ps/pey563",
+        "blocks": [
+          "Berres, J., Vieira, S. L., Dozier, W. A., Cortˆes, M. E., De Barros, R., Nogueira, E. T., &"
+        ]
+      },
+      {
+        "heading": "Research, 19(1), 68–79. https://doi.org/10.3382/japr.2009-00085",
+        "blocks": [
+          "Cardinal, K. M., Moraes, M. L., Andretta, I., Schirmann, G. D., Belote, B. L., Barrios, M. A.,"
+        ]
+      },
+      {
+        "heading": "rbz4820180232",
+        "blocks": [
+          "Eugenio, F. A., van Milgen, J., Duperray, J., Sergheraert, R., & Le Floc’h, N. (2023)."
+        ]
+      },
+      {
+        "heading": "concentrations of amino acids, metabolites, and insulin. Animal : An International",
+        "blocks": [
+          "Journal Of Animal Bioscience, 17, Article 100684. https://doi.org/10.1016/j."
+        ]
+      },
+      {
+        "heading": "animal.2022.100684",
+        "blocks": [
+          "Faul, F., Erdfelder, E., Buchner, A., & Lang, A. G. (2009). Statistical power analyses using"
+        ]
+      },
+      {
+        "heading": "Methods, 41, 1149–1160. https://doi.org/10.3758/BRM.41.4.1149",
+        "blocks": [
+          "Furukawa, N., Kobayashi, M., Ito, M., Matsui, H., Ohashi, K., Murohara, T., Takeda, J. I.,"
+        ]
+      },
+      {
+        "heading": "pressure overload-induced heart failure by increasing short-chain fatty acid (SCFA)-",
+        "blocks": [
+          "producing gut microbiota and intestinal SCFAs. Clinical Nutrition, 43(1), 124–137."
+        ]
+      },
+      {
+        "heading": "Gu, X., & Li, D. (2004). Effect of dietary crude protein level on villous morphology,",
+        "blocks": [
+          "immune status and histochemistry parameters of digestive tract in weaning piglets. Animal Feed Science and Technology, 114(1–2), 113–126. https://doi.org/10.1016/j."
+        ]
+      },
+      {
+        "heading": "He, W. (2019). Utilization of energy substrates by chicken and pig enterocytes (Doctoral",
+        "blocks": [
+          "dissertation). Texas A&M University. https://hdl.handle.net/1969.1/184954."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "13"
+        ]
+      },
+      {
+        "heading": "Hong, C., Rhee, C. H., Pyo, M. C., & Lee, K. (2017). Anti-inflammatory effect of glucose-",
+        "blocks": [
+          "lysine Maillard reaction products on intestinal inflammation model in vivo. International Immunopharmacology, 52, 324–332. https://doi.org/10.1016/j."
+        ]
+      },
+      {
+        "heading": "C. Carey (Ed.), Avian energetics and nutritional ecology (pp. 105–135). Boston, MA:",
+        "blocks": [
+          "Springer. https://doi.org/10.1007/978-1-4613-0425-8_3."
+        ]
+      },
+      {
+        "heading": "Kelly, J. M., & McBride, B. W. (1990). The sodium pump and other mechanisms of",
+        "blocks": [
+          "thermogenesis in selected tissues. Proceedings of the Nutrition Society, 49(1), 185–202."
+        ]
+      },
+      {
+        "heading": "Kim, Y. S., & Ho, S. B. (2010). Intestinal goblet cells and mucins in health and disease:",
+        "blocks": [
+          "Recent insights and progress. Current Gastroenterology Reports, 12(5), 319–330."
+        ]
+      },
+      {
+        "heading": "McWilliams, S. R., & Karasov, W. H. (2014). Spare capacity and phenotypic flexibility in",
+        "blocks": [
+          "the digestive system of a migratory bird: Defining the limits of animal design. Proceedings of the Royal Society B: Biological Sciences, 281(1783), Article 20140308."
+        ]
+      },
+      {
+        "heading": "mucosal system mediated by calcium-sensing receptor activation. Journal of",
+        "blocks": [
+          "Agricultural and Food Chemistry, 63(46), 10437–10447. https://doi.org/10.1021/acs."
+        ]
+      },
+      {
+        "heading": "jafc.5b03812",
+        "blocks": [
+          "Moradi, S., Moradi, A., Atabaigi Elmi, V., & Abdollahi, M. R. (2021). Interactive effect of"
+        ]
+      },
+      {
+        "heading": "intestine morphology in broilers fed pelleted diets. Journal of Animal Physiology and",
+        "blocks": [
+          "Animal Nutrition, 105(6), 1113–1126."
+        ]
+      },
+      {
+        "heading": "intestinal forms for absorption, mucin formation and villus integrity. Animal Feed",
+        "blocks": [
+          "Science and Technology, 221, 284–303. Moss, A. F., Sydenham, C. J., Khoddami, A., Naranjo, V. D., Liu, S. Y., & Selle, P. H."
+        ]
+      },
+      {
+        "heading": "10.1016/j.anifeedsci.2018.01.001",
+        "blocks": [
+          "Mouton, P. R. (2002). Principles and practices of unbiased stereology: An introduction for bioscientists. Baltimore: The Johns Hopkins University Press."
+        ]
+      },
+      {
+        "heading": "acids and lysine levels on carcass and chemical composition of broiler. Iranian J. of",
+        "blocks": [
+          "Applied Animal Sci., 7(2), 313–320. Nguyen, T. N., Le, H. N., Eva, P., Alberto, F., & Le, T. H. (2021). Relationship between the"
+        ]
+      },
+      {
+        "heading": "ratio of villous height: Crypt depth and gut bacteria counts as well as production",
+        "blocks": [
+          "parameters in broiler chickens. Journal of Agriculture and Development, 20(1), 1–10."
+        ]
+      },
+      {
+        "heading": "Ezaki, T. (2000). Quantitative study of changes in intestinal morphology and mucus",
+        "blocks": [
+          "gel on total parenteral nutrition in rats. Journal of Surgical Research, 94(2), 99–106."
+        ]
+      },
+      {
+        "heading": "https://doi.org/10.1006/jsre.2000.5937",
+        "blocks": [
+          "Salahi, A., Shahir, M. H., Attia, Y. A., Nasr El-din Fahmy, K., Bovera, F., & Tufarelli, V."
+        ]
+      },
+      {
+        "heading": "Animal Research, 53(1), Article 2473419. https://doi.org/10.1080/",
+        "blocks": [
+          "09712119.2025.2473419"
+        ]
+      },
+      {
+        "heading": "analysis. Nature Methods, 9(7), 671–675. https://doi.org/10.1038/nmeth.2089",
+        "blocks": [
+          "Segú, H., Jalˇsevac, F., Pinent, M., Ard´evol, A., Terra, X., & Blay, M. T. (2022). Intestinal"
+        ]
+      },
+      {
+        "heading": "supplementation on growth, carcass yield, intestinal morphology, organ",
+        "blocks": [
+          "development, nutrient digestibility, and blood biochemical of broiler chickens."
+        ]
+      },
+      {
+        "heading": "Translational Animal Science, 7(1), txad098. https://doi.org/10.1093/tas/txad098",
+        "blocks": [
+          "Sousa, A. M. M., Meyer, K. A., Santpere, G., Gulden, F. O., & Sestan, N. (2017). Evolution"
+        ]
+      },
+      {
+        "heading": "226–247. https://doi.org/10.1016/j.cell.2017.06.036",
+        "blocks": [
+          "Stoll, B., Henry, J., Reeds, P. J., Yu, H., Jahoor, F., & Burrin, D. G. (1998). Catabolism"
+        ]
+      },
+      {
+        "heading": "10.1093/jn/128.3.606",
+        "blocks": [
+          "Tajudeen, H., Hosseindoust, A., Ha, S. H., Moturi, J., Mun, J. Y., Lee, C. B., Park, J. W.,"
+        ]
+      },
+      {
+        "heading": "ps.2008-00163",
+        "blocks": [
+          "Widyaratne, G. P., & Drew, M. D. (2011). Effects of protein level and digestibility on the"
+        ]
+      },
+      {
+        "heading": "595–603. https://doi.org/10.3382/ps.2010-01098",
+        "blocks": [
+          "Yin, D., Selle, P. H., Moss, A. F., Wang, Y., Dong, X., Xiao, Z., Guo, Y., & Yuan, J. (2019)."
+        ]
+      },
+      {
+        "heading": "A. Salahi et al. Veterinary and Animal Science 31 (2026) 100574",
+        "blocks": [
+          "14"
+        ]
+      },
+      {
+        "heading": "-- 14 of 14 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "article-001b842194",
+    "filename": "article-001b842194.pdf",
+    "title": "Disposal practices of unused and expired pharmaceuticals among the general public in Quetta city, Pakistan.",
+    "shortTitle": "Disposal practices of unused and expired pharmaceutical...",
+    "heading": "Disposal practices of unused and expired pharmaceuticals among the general public in Quetta city, Pakistan.",
+    "description": "T1 Disposal practices of unused and expired pharmaceuticals among the general public in Quetta city, Pakistan.",
+    "readingTime": "2 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "disposal",
+      "practices",
+      "unused",
+      "expired",
+      "pharmaceuticals",
+      "among",
+      "general",
+      "public",
+      "quetta",
+      "city"
+    ],
+    "updatedAt": "2026-07-23T09:24:24.663Z",
+    "sections": [
+      {
+        "heading": "TY PY JF VL IS SP DO SN LA",
+        "blocks": [
+          "T1 Disposal practices of unused and expired pharmaceuticals among the general public in Quetta city, Pakistan."
+        ]
+      },
+      {
+        "heading": "Objective",
+        "blocks": [
+          "Although community practices towards disposal of expired and unused medications vary globally, the phenomenon is neglected specifically in developing countries. We, therefore, aimed to assess the disposal practices of unused and expired pharmaceuticals among the general public in Quetta city, Pakistan."
+        ]
+      },
+      {
+        "heading": "Methods",
+        "blocks": [
+          "A questionnaire-based, cross-sectional survey was conducted among 830 respondents in Quetta city, Pakistan. A pre-validated, structured questionnaire was used for data collection. Data were coded and analyzed by Statistical Package for Social Science (SPSS) version 26. Both descriptive and inferential statistics were sued and p<0.05 was taken as significant."
+        ]
+      },
+      {
+        "heading": "Results",
+        "blocks": [
+          "Almost 87% of the respondents had unused medicines at their homes and reusing the medications was the purpose of medicine storage (50%). Medicines were mostly kept in refrigerators (36.0%) followed by bedrooms (28.8%). Fifty percent of the respondents never checked the expiry date before using the medications. The procedure to dispose of nearly expired or expired medicines was unknown to 88% of the respondents and for those reasons, medicines were disposed either in household trash or flushed in the toilet or sink. Interestingly, medicines were kept at home even after being expired by 27% of the respondents. Income was associated with reason of storing medicines (p = 0.004; φc = 0.402) while educational status had significant associations with storage of medications (p = 0.002; φc = 0.399), reading about storage instructions (p = 0.008; φc = 0.452) and checking expiry date before purchasing and using the medicines (p = 0.007; φc = 0.114 and p = 0.001; φc = 0.100) respectively."
+        ]
+      },
+      {
+        "heading": "Conclusion",
+        "blocks": [
+          "Improper storage and disposal of unused and expired medications is a common practice among study respondents and raised serious concerns. Findings of the"
+        ]
+      },
+      {
+        "heading": "-- 1 of 2 --",
+        "blocks": [
+          "current study call upon immediate development and implementation of the strategies to promote awareness and strengthen the pharmaceutical waste management program at the societal level."
+        ]
+      },
+      {
+        "heading": "-- 2 of 2 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "article-00273d22d4",
+    "filename": "article-00273d22d4.pdf",
+    "title": "Is lower back pain a growing issue in Pakistani adult population?",
+    "shortTitle": "Is lower back pain a growing issue in Pakistani adult p...",
+    "heading": "Is lower back pain a growing issue in Pakistani adult population?",
+    "description": "\\nDear Editor,\\n\\n\\nLow back pain (LBP) is not a disease itself, but it can be a sign of number of a number of conditions, such as pain near the midline, which can occasionally be localized sometimes, and occur between...",
+    "readingTime": "4 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "lower",
+      "back",
+      "pain",
+      "growing",
+      "issue",
+      "pakistani",
+      "adult",
+      "population"
+    ],
+    "updatedAt": "2026-07-23T09:19:11.739Z",
+    "sections": [
+      {
+        "heading": "TY PY PB VL IS DO SN LA",
+        "blocks": [
+          "T1 Is lower back pain a growing issue in Pakistani adult population?"
+        ]
+      },
+      {
+        "heading": "AB",
+        "blocks": [
+          "\\nDear Editor,\\n\\n\\nLow back pain (LBP) is not a disease itself, but it can be a sign of number of a number of conditions, such as pain near the midline, which can occasionally be localized sometimes, and occur between the inferior gluteal folds and costal margin, with or without referred leg pain [1,2]. The prevalence of LBP has been rising globally; According to recent studies Bangladesh, India, Nepal, Pakistan and Sri Lanka have rates of 64.8%, 19.8%, 69.5%, 40.6% and 36.2% respectively [3].\\n\\n\\nLBP can be categorised as either non-specific or specific. Non-specific means that the experience of pain cannot be confidently accounted for by another diagnosis such as an underlying disease, pathology or tissue damage. It is non-specific in about 90% of cases [4].\\n\\n\\nStudy conducted in a Pakistani Tertiary Care Hospital showed that most of the LBP patients are the ones in the 21–40 years old age group. The study highlighted that the most frequent risk factors associated with LBP are hypertension, dyslipidaemia, history of lower back trauma, history of prolonged unsupported sitting, office workers using desks and healthcare environment. Additionally, LBP was also identified in women at home. In Pakistan, a woman is expected to do tiring house chores which involves hand washing clothes and dishes, cooking and cleaning all the house without any care given to posture or comfort. Physical inactivity, soft foam mattresses, smoking, drinking, heavy lifting, sleep disorders and anxiety were also found in association with LBP [5].\\n\\n\\nNowadays, LBP has gained a significantly high attention in the Pakistani adult population, particularly among some occupations involving farmers, rickshaw drivers, office workers, teachers and textile workers.\\n\\n\\nEffective management of LBP requires a comprehensive approach tailored to whether the pain is specific or non-specific. For non- specific LBP, combining physical therapy, psychological support, lifestyle changes, and careful use of medications can significantly improve outcomes. Comprehensive clinical assessment and a biopsychosocial approach are crucial, especially for chronic cases. Prioritizing non-pharmacological interventions and focusing on rehabilitation can help maintain independence and quality of life.\\n\\n\\nDear Editor,\\n\\n\\nLow back pain (LBP) is not a disease itself, but it can be a sign of number of a number of conditions, such as pain near the midline, which can occasionally be localized sometimes, and occur between the inferior gluteal folds and costal margin, with or without referred leg pain [1,2]. The prevalence of LBP has been rising globally; According to recent studies Bangladesh, India, Nepal, Pakistan and Sri Lanka have rates of 64.8%, 19.8%, 69.5%, 40.6% and 36.2% respectively [3].\\n\\n\\nLBP can be categorised as either non-specific or specific. Non-specific means that the experience of pain cannot be confidently accounted for by another diagnosis such as an underlying disease, pathology or tissue damage. It is non-specific in about 90% of cases [4].\\n\\n\\nStudy conducted in a Pakistani Tertiary Care Hospital showed that most of the LBP patients are the ones in the 21–40 years old age group. The study highlighted that the most frequent risk factors associated with LBP are hypertension, dyslipidaemia, history of lower back trauma, history of prolonged unsupported sitting, office workers using desks and healthcare environment. Additionally, LBP was also identified in women at home. In Pakistan, a woman is expected to do tiring house chores which involves hand washing clothes and dishes, cooking and cleaning all the house without any care given to posture or comfort. Physical inactivity, soft foam mattresses, smoking, drinking, heavy lifting, sleep disorders and anxiety were also found in association with LBP [5].\\n\\n\\nNowadays, LBP has gained a significantly high attention in the Pakistani adult population, particularly among some occupations involving farmers, rickshaw drivers, office workers, teachers and textile workers.\\n\\n\\nEffective management of LBP requires a comprehensive approach tailored to whether the pain is specific or non-specific. For non-specific LBP, combining physical therapy, psychological support, lifestyle changes, and careful use of medications can significantly improve outcomes. Comprehensive clinical assessment and a biopsychosocial approach are crucial, especially for chronic cases. Prioritizing non-pharmacological interventions and focusing on rehabilitation can help maintain independence and quality of life.\\n"
+        ]
+      },
+      {
+        "heading": "-- 2 of 2 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "article-0030304861",
+    "filename": "article-0030304861.pdf",
+    "title": "DISTRIBUTION OF HEPATITIS B INFECTED POPULATION BY SEX AND AGE GROUPS IN DISTRICT D.I.KHAN, PAKISTAN",
+    "shortTitle": "DISTRIBUTION OF HEPATITIS B INFECTED POPULATION BY SEX...",
+    "heading": "DISTRIBUTION OF HEPATITIS B INFECTED POPULATION BY SEX AND AGE GROUPS IN DISTRICT D.I.KHAN, PAKISTAN",
+    "description": "T1 DISTRIBUTION OF HEPATITIS B INFECTED POPULATION BY SEX AND AGE GROUPS IN DISTRICT D.I.KHAN, PAKISTAN",
+    "readingTime": "2 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "distribution",
+      "hepatitis",
+      "infected",
+      "population",
+      "groups",
+      "district",
+      "khan",
+      "pakistan"
+    ],
+    "updatedAt": "2026-07-23T09:24:06.525Z",
+    "sections": [
+      {
+        "heading": "TY PY VL IS SP EP DO SN LA",
+        "blocks": [
+          "T1 DISTRIBUTION OF HEPATITIS B INFECTED POPULATION BY SEX AND AGE GROUPS IN DISTRICT D.I.KHAN, PAKISTAN"
+        ]
+      },
+      {
+        "heading": "AB",
+        "blocks": [
+          "Background: Significant morbidity and mortality is caused by untreated hepatitis B virus infection through cirrhosis and hepatocellular carcinoma. The objectives of our study were to determine distribution of hepatitis B infected population by sex and age groups in District D.I.Khan, Pakistan.\\n\\n\\nMaterials Methods: This cross-sectional study was done at District Health Office, D.I.Khan, Pakistan from January 30, 2021 to February 15, 2021. Data was collected for period from March 14, 2013 to January 28, 2021 for 2368 hepatitis B infected cases from population at risk consecutively. Sex and age groups were demographic variables. Data type was nominal for sex and ordinal for age groups. Distribution was analyzed by count, percentage and confidence intervals for proportion for population. Hypotheses for distribution were substantiated by chi-square goodness-of-fit test.\\n\\n\\nResults: Out of 2368 hepatitis B infected population, 1670 (70.52%) were men 698(29.48%) women, and 562 (23.73%) were in age group 0-20 years, 1266 (53.46%) in 21-40 years, 462 (19.51%) in 41-60 years 78 (3.30%) in 60 years. Our distribution by sex (p.00001) and age groups (p.00001) were different than expected respectively.\\n\\nConclusion: In our study, hepatitis B infection was more common in men than women and most common in age group 21-40 years, followed by 0-20 years, 41-60 years and 60 years. Our observed prevalence of hepatitis B infection in men was higher than expected in women it was lower than expected. Our observed prevalence in the four age groups was not similar to expected."
+        ]
+      },
+      {
+        "heading": "KW chi-square goodness of fit test",
+        "blocks": [
+          "KW pakistan."
+        ]
+      },
+      {
+        "heading": "-- 1 of 1 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "article-003f659e35",
+    "filename": "article-003f659e35.pdf",
+    "title": "Analyzing mosquito (Diptera: culicidae) diversity in Pakistan by DNA barcoding.",
+    "shortTitle": "Analyzing mosquito (Diptera: culicidae) diversity in Pa...",
+    "heading": "Analyzing mosquito (Diptera: culicidae) diversity in Pakistan by DNA barcoding.",
+    "description": "T1 Analyzing mosquito (Diptera: culicidae) diversity in Pakistan by DNA barcoding.",
+    "readingTime": "2 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "analyzing",
+      "mosquito",
+      "diptera",
+      "culicidae",
+      "diversity",
+      "pakistan",
+      "barcoding"
+    ],
+    "updatedAt": "2026-07-23T09:24:47.351Z",
+    "sections": [
+      {
+        "heading": "TY PY JF VL IS SP DO SN LA",
+        "blocks": [
+          "T1 Analyzing mosquito (Diptera: culicidae) diversity in Pakistan by DNA barcoding."
+        ]
+      },
+      {
+        "heading": "AB",
+        "blocks": [
+          "Although they are important disease vectors mosquito biodiversity in Pakistan is poorly known. Recent epidemics of dengue fever have revealed the need for more detailed understanding of the diversity and distributions of mosquito species in this region. DNA barcoding improves the accuracy of mosquito inventories because morphological differences between many species are subtle, leading to misidentifications.Sequence variation in the barcode region of the mitochondrial COI gene was used to identify mosquito species, reveal genetic diversity, and map the distribution of the dengue-vector species in Pakistan. Analysis of 1684 mosquitoes from 491 sites in Punjab and Khyber Pakhtunkhwa during 2010-2013 revealed 32 species with the assemblage dominated by Culex quinquefasciatus (61% of the collection). The genus Aedes (Stegomyia) comprised 15% of the specimens, and was represented by six taxa with the two dengue vector species, Ae. albopictus and Ae. aegypti, dominant and broadly distributed. Anopheles made up another 6% of the catch with An. subpictus dominating. Barcode sequence divergence in conspecific specimens ranged from 0-2.4%, while congeneric species showed from 2.3-17.8% divergence. A global haplotype analysis of disease- vectors showed the presence of multiple haplotypes, although a single haplotype of each dengue-vector species was dominant in most countries. Geographic distribution of Ae. aegypti and Ae. albopictus showed the later species was dominant and found in both rural and urban environments.As the first DNA-based analysis of mosquitoes in Pakistan, this study has begun the construction of a barcode reference library for the mosquitoes of this region. Levels of genetic diversity varied among species. Because of its capacity to differentiate species, even those with subtle morphological differences, DNA barcoding aids accurate tracking of vector populations."
+        ]
+      },
+      {
+        "heading": "-- 1 of 1 --",
+        "blocks": []
+      }
+    ]
+  },
+  {
+    "id": "article-02cd3e0f02",
+    "filename": "article-02cd3e0f02.pdf",
+    "title": "Hepatitis B and C Infection in Gujrat, Pakistan: A Cross Sectional Study",
+    "shortTitle": "Hepatitis B and C Infection in Gujrat, Pakistan: A Cros...",
+    "heading": "AB",
+    "description": "\\nObjective: This study was aimed to investigate the prevalence of Hep B and C, gender distribution, route of transmission,\\nfamily history of Hepatitis and treatment options.\\nStudy Design and Setting: This was a cross...",
+    "readingTime": "2 min read",
+    "category": "Healthcare",
+    "keywords": [
+      "hepatitis",
+      "infection",
+      "gujrat",
+      "pakistan",
+      "cross",
+      "sectional",
+      "study"
+    ],
+    "updatedAt": "2026-07-23T09:23:25.505Z",
+    "sections": [
+      {
+        "heading": "AB",
+        "blocks": [
+          "\\nObjective: This study was aimed to investigate the prevalence of Hep B and C, gender distribution, route of transmission,\\nfamily history of Hepatitis and treatment options.\\nStudy Design and Setting: This was a cross sectional study conducted at Dr Mujahid's Lab Bhimber road Gujrat, Pakistan.\\nMethodology: A total of 1181 individuals were included in this study. Among these 1181 individuals, 528 individuals were\\nscreened for hepatitis B and C by immuno chromatographic test (ICT) at Dr. Mujahid’s Lab, Bhimber road, Gujrat while\\nrest of the 653 individuals were asked about the hepatitis status by using a well- structured questionnaire. Other related\\nquestions were also included like age, sex, marital status, mode of transmission, and about treatment to evaluate the risk\\nfactors associated with disease. Data was analyzed by using SPSS 17.\\nResults: Prevalence of hepatitis B and C was 1.37% and 8.26% in surveyed while 1.5% and 9.1% in screened population\\nof district Gujrat respectively. In surveyed hepatitis C patients, 72% were females and 28% were males. Among these, 91%\\npatients were married and only 9% were unmarried. In case of hepatitis C, 9% stated polluted water, 9% medicines, 5.5%\\nfamily history, 3.7% barber, 2% endemic, 2% dental surgery, 2% unhygienic food and 2% typhoid fever as a cause of\\ninfection while for hepatitis B, 33% individual’s stated low standard hoteling as a cause of infection. Overall, incidence\\nof hepatitis was higher in screened individuals as compared to surveyed.\\nConclusion: This study concluded that hepatitis prevalence is high in district Gujarat. Moreover, Hepatitis C is more\\nfrequent than hepatitis B in this area.\\n"
+        ]
+      },
+      {
+        "heading": "-- 1 of 1 --",
+        "blocks": []
+      }
+    ]
+  }
+]
