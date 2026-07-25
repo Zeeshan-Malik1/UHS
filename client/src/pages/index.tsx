@@ -73,6 +73,45 @@ function AppointmentCountdown({startsAt,status}:{startsAt:string;status?:string}
   const parts=[days?`${days}d`:"",hours||days?`${hours}h`:"",minutes||hours||days?`${minutes}m`:"",`${seconds}s`].filter(Boolean);
   return <span className="appointment-countdown" aria-live="off">Starts in {parts.join(" ")}</span>;
 }
+function LiveQueueTracker({appointments}:{appointments:any[]}){
+  const appointment=[...(appointments??[])]
+    .filter(item=>["PENDING","APPROVED"].includes(item.status))
+    .sort((a,b)=>new Date(a.startsAt).getTime()-new Date(b.startsAt).getTime())[0];
+  const [alertsEnabled,setAlertsEnabled]=useState(
+    typeof Notification!=="undefined"&&Notification.permission==="granted",
+  );
+  const notified=useRef<string|null>(null);
+  const patientsAhead=Math.max(0,(appointment?.queuePosition??1)-1);
+  useEffect(()=>{
+    if(!appointment||!alertsEnabled||patientsAhead>3||notified.current===appointment.id)return;
+    new Notification("Your UHS appointment is getting close",{
+      body:patientsAhead===0?"You are next in the queue.":`${patientsAhead} patient${patientsAhead===1?"":"s"} ahead of you.`,
+    });
+    notified.current=appointment.id;
+  },[appointment?.id,patientsAhead,alertsEnabled]);
+  if(!appointment)return null;
+  const enableAlerts=async()=>{
+    if(typeof Notification==="undefined")return;
+    setAlertsEnabled((await Notification.requestPermission())==="granted");
+  };
+  return <article className="card live-queue-card">
+    <div className="live-queue-head"><div><span className="live-dot"/> Live queue</div><small>Updates every 15 seconds</small></div>
+    <div className="live-queue-main">
+      <div><small>Your appointment</small><strong>{appointment.appointmentNumber}</strong><span>Dr. {appointment.doctor?.user?.firstName} {appointment.doctor?.user?.lastName}</span></div>
+      <div className="queue-position"><small>Queue position</small><strong>{appointment.queuePosition}</strong><span>{patientsAhead===0?"You are next":`${patientsAhead} patient${patientsAhead===1?"":"s"} ahead`}</span></div>
+    </div>
+    <div className="live-queue-details">
+      <span><Clock/> Estimated wait <b>{appointment.liveWaitMinutes??appointment.estimatedWaitMinutes??0} min</b></span>
+      <span><Activity/> Queue status <b>{appointment.status==="APPROVED"?"Confirmed":"Awaiting approval"}</b></span>
+      <span><CalendarDays/> Scheduled <b>{new Date(appointment.startsAt).toLocaleString()}</b></span>
+    </div>
+    <div className="live-queue-footer">
+      <AppointmentCountdown startsAt={appointment.startsAt} status={appointment.status}/>
+      {patientsAhead<=3&&<b className="near-turn-message">{patientsAhead===0?"Please be ready—your turn is next.":`Your turn is close—only ${patientsAhead} patient${patientsAhead===1?"":"s"} ahead.`}</b>}
+      {!alertsEnabled&&typeof Notification!=="undefined"&&Notification.permission==="default"&&<Button variant="ghost" onClick={enableAlerts}>Enable queue alerts</Button>}
+    </div>
+  </article>;
+}
 const services = [
   {
     icon: BrainCircuit,
@@ -2920,27 +2959,30 @@ export function Dashboard() {
                 </div>
               </div>
               {active === "Overview" && (
-                <div className="dash-grid">
-                  <article className="card">
-                    <h3>Recent appointments</h3>
-                    {(data?.appointments ?? []).slice(0, 5).map((a: any) => (
-                      <p className="check-line" key={a.id}>
-                        <CalendarDays />
-                        {a.appointmentNumber} · Dr. {a.doctor?.user?.firstName}{" "}
-                        · {a.status}
-                      </p>
-                    ))}
-                  </article>
-                  <article className="card">
-                    <h3>Latest care updates</h3>
-                    {(data?.notifications ?? []).slice(0, 5).map((n: any) => (
-                      <p className="check-line" key={n.id}>
-                        <Check />
-                        {n.title}
-                      </p>
-                    ))}
-                  </article>
-                </div>
+                <>
+                  <LiveQueueTracker appointments={data?.appointments ?? []}/>
+                  <div className="dash-grid">
+                    <article className="card">
+                      <h3>Recent appointments</h3>
+                      {(data?.appointments ?? []).slice(0, 5).map((a: any) => (
+                        <p className="check-line" key={a.id}>
+                          <CalendarDays />
+                          {a.appointmentNumber} · Dr. {a.doctor?.user?.firstName}{" "}
+                          · {a.status}
+                        </p>
+                      ))}
+                    </article>
+                    <article className="card">
+                      <h3>Latest care updates</h3>
+                      {(data?.notifications ?? []).slice(0, 5).map((n: any) => (
+                        <p className="check-line" key={n.id}>
+                          <Check />
+                          {n.title}
+                        </p>
+                      ))}
+                    </article>
+                  </div>
+                </>
               )}
               {active === "Appointments" && (
                 <article className="card">

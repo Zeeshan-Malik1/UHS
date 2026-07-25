@@ -759,6 +759,29 @@ p {
 .prediction-history-actions { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
 .prediction-history-actions .btn svg { width:16px; height:16px; }
 .appointment-countdown { display:inline-flex; margin-left:7px; color:#dc2626; font-weight:800; font-variant-numeric:tabular-nums; }
+.live-queue-card { margin-bottom:20px; overflow:hidden; border-color:color-mix(in srgb,var(--primary) 32%,var(--line)); }
+.live-queue-head,.live-queue-main,.live-queue-details,.live-queue-footer { display:flex; align-items:center; gap:16px; }
+.live-queue-head { justify-content:space-between; margin-bottom:20px; }
+.live-queue-head>div { display:flex; align-items:center; gap:8px; color:var(--primary); font-weight:800; }
+.live-dot { width:9px; height:9px; border-radius:50%; background:#10b981; box-shadow:0 0 0 5px #10b98120; animation:queue-pulse 1.8s infinite; }
+.live-queue-main { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.live-queue-main>div { display:flex; flex-direction:column; gap:5px; padding:18px; border-radius:15px; background:var(--soft); }
+.live-queue-main strong { color:var(--ink); font-size:clamp(24px,4vw,36px); line-height:1; }
+.live-queue-main span { color:var(--ink); }
+.queue-position { text-align:center; }
+.queue-position strong { color:var(--primary); font-size:clamp(42px,7vw,64px); }
+.live-queue-details { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:14px; }
+.live-queue-details>span { display:flex; flex-wrap:wrap; align-items:center; gap:7px; padding:13px; color:var(--ink); border:1px solid var(--line); border-radius:12px; }
+.live-queue-details svg { width:18px; color:var(--primary); }
+.live-queue-details b { width:100%; }
+.live-queue-footer { flex-wrap:wrap; margin-top:16px; }
+.live-queue-footer .appointment-countdown { margin-left:0; }
+.near-turn-message { color:#0e9f78; }
+@keyframes queue-pulse { 50% { opacity:.45; transform:scale(.8); } }
+@media (max-width:700px) {
+  .live-queue-main,.live-queue-details { grid-template-columns:1fr; }
+  .queue-position { text-align:left; }
+}
 .prediction-history-modal { position:relative; width:min(950px,100%); max-height:90vh; overflow:auto; padding:28px; border-radius:22px; background:var(--soft); }
 .about-page { overflow: hidden; }
 .compact-about-main { height: calc(100vh - 78px); overflow: hidden; }
