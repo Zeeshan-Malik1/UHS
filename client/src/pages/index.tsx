@@ -47,7 +47,8 @@ import generatedArticles from "../data/generatedArticles.json";
 import { api, uploadRegistrationAvatar, uploadUrl } from "../services/api";
 import { authApi } from "../services/api";
 import { useAuth } from "../context/AuthContext";
-import { BlogModal, HealthLibrary } from "../components/HealthLibrary";
+import { useLanguage } from "../context/LanguageContext";
+import { BlogModal, HealthLibrary, translateBlogCards } from "../components/HealthLibrary";
 import { healthBlogs, type HealthBlog } from "../data/healthBlogs";
 import { MlPrediction, PredictionHistory } from "../components/MlPrediction";
 const reveal = {
@@ -375,6 +376,14 @@ const mapDoctor = (d: any) => ({
 });
 export function Home() {
   const [activeArticle, setActiveArticle] = useState<HealthBlog | null>(null);
+  const {language}=useLanguage();
+  const [urduHomeBlogs,setUrduHomeBlogs]=useState<Map<string,HealthBlog>>(new Map());
+  useEffect(()=>{
+    let active=true;
+    if(language==="en"){setUrduHomeBlogs(new Map());return()=>{active=false}}
+    translateBlogCards(healthBlogs.slice(0,3)).then(items=>{if(active)setUrduHomeBlogs(items)}).catch(()=>{});
+    return()=>{active=false};
+  },[language]);
   return (
     <>
       <section className="hero">
@@ -547,7 +556,9 @@ export function Home() {
           </Button>
         </div>
         <div className="article-grid">
-          {healthBlogs.slice(0, 3).map((article) => (
+          {healthBlogs.slice(0, 3).map((article) => {
+            const localized=language==="ur"?urduHomeBlogs.get(article.id):article;
+            return (
             <motion.article
               whileHover={{ y: -6 }}
               className="health-blog-card card"
@@ -564,21 +575,21 @@ export function Home() {
             >
               <img
                 src={article.coverImage}
-                alt={article.alt}
+                alt={localized?.alt??"صحت کا تعلیمی مضمون"}
                 loading="lazy"
                 decoding="async"
               />
               <div className="health-blog-card-body">
-                <span className="pill">{article.category}</span>
-                <h2>{article.title}</h2>
-                <p>{article.description}</p>
-                <small>{article.readingTime}</small>
+                <span className="pill">{localized?.category??"صحت"}</span>
+                <h2>{localized?.title??"اردو عنوان تیار ہو رہا ہے۔۔۔"}</h2>
+                <p>{localized?.description??"براہ کرم چند لمحے انتظار کریں۔"}</p>
+                <small>{localized?.readingTime??""}</small>
                 <Button variant="ghost" onClick={() => setActiveArticle(article)}>
                   Read More <ArrowRight />
                 </Button>
               </div>
             </motion.article>
-          ))}
+          )})}
           {/*
           {articles.map((a, i) => (
             <article className="article card" key={a.title}>
