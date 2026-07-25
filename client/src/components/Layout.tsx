@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import {
   Menu,
   X,
@@ -10,6 +10,7 @@ import {
   Phone,
   Mail,
   MapPin,
+  LogOut,
 } from "lucide-react";
 import { ChatAssistant } from "./ChatAssistant";
 import { useAuth } from "../context/AuthContext";
@@ -27,7 +28,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
     [dark, setDark] = useState(false),
     [scrolled, setScrolled] = useState(false);
   const loc = useLocation();
-  const { user } = useAuth();
+  const navigate = useNavigate();
+  const { user, logout } = useAuth();
+  const handleLogout = async () => {
+    await logout();
+    navigate("/");
+  };
   useEffect(() => {
     setOpen(false);
     window.scrollTo(0, 0);
@@ -77,7 +83,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
             {dark ? <Sun /> : <Moon />}
           </button>
           {panel ? (
-            <Link to={panel.to} className="nav-cta">{panel.label}</Link>
+            <>
+              <Link to={panel.to} className="nav-cta">{panel.label}</Link>
+              <button type="button" className="logout-link" onClick={handleLogout}><LogOut/> Logout</button>
+            </>
           ) : (
             <>
               <Link to="/login" className="login-link">Patient/Doctor</Link>
@@ -101,7 +110,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
               </NavLink>
             ))}
             {panel ? (
-              <Link to={panel.to}>{panel.label}</Link>
+              <>
+                <Link to={panel.to}>{panel.label}</Link>
+                <button type="button" className="mobile-logout" onClick={handleLogout}><LogOut/> Logout</button>
+              </>
             ) : (
               <>
                 <Link to="/login">Patient/Doctor login</Link>
