@@ -682,7 +682,7 @@ p {
 .article-read-more { display: flex; align-items: center; gap: 7px; color: var(--blue); font-weight: 700; font-size: 14px; margin-top: 18px; margin-bottom: 23px; }
 .article-read-more svg { width: 16px; }
 .article-modal-backdrop { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; padding: 24px; background: rgba(7,21,38,.56); backdrop-filter: blur(8px); }
-.article-modal { position: relative; width: min(900px, 100%); max-height: min(84vh, 900px); overflow: auto; padding: clamp(28px, 5vw, 58px); border-radius: 28px; color: var(--ink); background: color-mix(in srgb, var(--card) 93%, transparent); box-shadow: 0 30px 90px #07152666; }
+.article-modal { position: relative; width: min(900px, 100%); max-height: min(84vh, 900px); overflow: auto; padding: clamp(28px, 5vw, 58px); border-radius: 28px; color: var(--ink); background: color-mix(in srgb, var(--card) 93%, transparent); box-shadow: 0 30px 90px #102a4366; }
 .article-modal-close { position: sticky; top: -18px; float: right; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--ink); padding: 9px 14px; font-weight: 700; z-index: 2; }
 .article-modal header { padding-right: 70px; }
 .article-modal header h1 { font-size: clamp(30px, 5vw, 50px); line-height: 1.12; letter-spacing: -.04em; margin: 16px 0 8px; }
@@ -884,7 +884,7 @@ p {
 }
 footer {
   padding: 65px max(6vw, 30px) 25px;
-  background: #071526;
+  background: #102a43;
   color: #e4eefb;
 }
 .footer-grid {
