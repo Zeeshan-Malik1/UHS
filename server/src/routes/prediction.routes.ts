@@ -6,7 +6,7 @@ import {AppError} from '../lib/errors.js';
 import {mlPredictionService} from '../services/ml-prediction.service.js';
 
 const router=Router();
-const symptomSchema=z.array(z.string().min(1)).min(3).max(4).refine(items=>new Set(items.map(item=>item.trim().toLowerCase())).size===items.length,'Duplicate symptoms are not allowed');
+const symptomSchema=z.array(z.string().min(1)).min(3).max(8).refine(items=>new Set(items.map(item=>item.trim().toLowerCase())).size===items.length,'Duplicate symptoms are not allowed');
 
 router.get('/symptoms',authenticate,authorize('PATIENT'),async(req,res)=>{
   const selected=typeof req.query.selected==='string'?req.query.selected.split('|').map(item=>item.trim()).filter(Boolean):[];
@@ -49,6 +49,15 @@ router.get('/history',authenticate,authorize('PATIENT'),async(req,res)=>{
     precautions:record.precautions??(record.result as any)?.precautions??[],workout:record.workout??(record.result as any)?.workout??[],
     recoveryTips:record.recoveryTips??[],predictionDatetime:record.predictionDatetime??record.createdAt,createdAt:record.createdAt,
   }))});
+});
+
+router.delete('/:id',authenticate,authorize('PATIENT'),async(req,res)=>{
+  const id=z.string().min(1).parse(req.params.id);
+  const patient=await prisma.patient.findUniqueOrThrow({where:{userId:req.auth!.userId}});
+  const record=await prisma.aiPrediction.findFirst({where:{id,patientId:patient.id},select:{id:true}});
+  if(!record)throw new AppError(404,'Prediction result not found.');
+  await prisma.aiPrediction.delete({where:{id:record.id}});
+  res.json({success:true,message:'Prediction result deleted.'});
 });
 
 export default router;
