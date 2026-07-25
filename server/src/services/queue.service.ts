@@ -10,6 +10,7 @@ export function liveQueueValues<
     bookingTimestamp: Date;
     startsAt: Date;
     status: string;
+    queuePosition: number;
   },
 >(items: T[], now = new Date()) {
   const queue = items
@@ -19,11 +20,18 @@ export function liveQueueValues<
     .sort(
       (a, b) => a.bookingTimestamp.getTime() - b.bookingTimestamp.getTime(),
     );
-  const queueStartedAt = queue[0]?.bookingTimestamp.getTime() ?? now.getTime();
-  return queue.map((item, index) => {
+  const queueStartedAt = queue[0]?.startsAt.getTime() ?? now.getTime();
+  const activeWindows = queue
+    .map((item, originalIndex) => ({
+      item,
+      projectedStart:
+        queueStartedAt + originalIndex * CONSULTATION_MINUTES * 60000,
+      projectedEnd:
+        queueStartedAt + (originalIndex + 1) * CONSULTATION_MINUTES * 60000,
+    }))
+    .filter((window) => window.projectedEnd > now.getTime());
+  return activeWindows.map(({ item, projectedStart }, index) => {
     const queuePosition = index + 1;
-    const projectedStart =
-      queueStartedAt + index * CONSULTATION_MINUTES * 60000;
     return {
       ...item,
       queuePosition,
@@ -69,22 +77,37 @@ export async function appointmentsWithLiveQueue<
     bookingTimestamp: Date;
     startsAt: Date;
     status: string;
+    queuePosition: number;
   },
 >(db: Db, appointments: T[]) {
-  const groups = new Map<string, T[]>();
+  const groups = new Map<string, { doctorId: string; selectedDay: number }>();
   for (const appointment of appointments) {
-    const key = `${appointment.doctorId}:${appointment.selectedDay ?? appointment.startsAt.getDay()}`;
-    groups.set(key, [...(groups.get(key) ?? []), appointment]);
+    const selectedDay =
+      appointment.selectedDay ?? appointment.startsAt.getDay();
+    const key = `${appointment.doctorId}:${selectedDay}`;
+    groups.set(key, { doctorId: appointment.doctorId, selectedDay });
   }
   const values = new Map<
     string,
     { queuePosition: number; liveWaitMinutes: number }
   >();
   for (const group of groups.values()) {
-    for (const item of liveQueueValues(group)) values.set(item.id, item);
+    const completeQueue = await db.appointment.findMany({
+      where: {
+        doctorId: group.doctorId,
+        selectedDay: group.selectedDay,
+        status: { in: [...activeStatuses] },
+      },
+      orderBy: { bookingTimestamp: "asc" },
+    });
+    for (const item of liveQueueValues(completeQueue))
+      values.set(item.id, item);
   }
   return appointments.map((item) => ({
     ...item,
-    ...(values.get(item.id) ?? { liveWaitMinutes: 0 }),
+    ...(values.get(item.id) ?? {
+      queuePosition: item.queuePosition,
+      liveWaitMinutes: 0,
+    }),
   }));
 }
