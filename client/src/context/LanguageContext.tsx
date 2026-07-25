@@ -161,7 +161,14 @@ function TranslationLayer({language}:{language:Language}){
     };
     const flush=async()=>{
       flushTimer=undefined;
-      const texts=[...pending].slice(0,40);texts.forEach(text=>pending.delete(text));
+      const texts:string[]=[];
+      let characters=0;
+      for(const text of pending){
+        if(texts.length>=40)break;
+        if(texts.length&&characters+text.length>12000)break;
+        texts.push(text);characters+=text.length;
+      }
+      texts.forEach(text=>pending.delete(text));
       if(!texts.length||stopped)return;
       try{
         const results=await api<string[]>("/translation/urdu",{method:"POST",body:JSON.stringify({texts})});
@@ -176,7 +183,7 @@ function TranslationLayer({language}:{language:Language}){
       const stored=textOriginal.get(node);
       if(language==="en"){if(stored!==undefined&&current!==stored)node.nodeValue=stored;return}
       if(stored===undefined)textOriginal.set(node,current);
-      else if(current!==stored&&current!==render(stored))textOriginal.set(node,current);
+      else if(current!==stored&&current!==translate(stored)&&current!==render(stored))textOriginal.set(node,current);
       const source=textOriginal.get(node)??current,output=render(source);
       schedule(source);
       if(node.nodeValue!==output)node.nodeValue=output;
@@ -188,7 +195,7 @@ function TranslationLayer({language}:{language:Language}){
         const stored=originals.get(name);
         if(language==="en"){if(stored!==undefined&&current!==stored)element.setAttribute(name,stored);continue}
         if(stored===undefined)originals.set(name,current);
-        else if(current!==stored&&current!==render(stored))originals.set(name,current);
+        else if(current!==stored&&current!==translate(stored)&&current!==render(stored))originals.set(name,current);
         const source=originals.get(name)??current,output=render(source);schedule(source);if(current!==output)element.setAttribute(name,output);
       }
     };

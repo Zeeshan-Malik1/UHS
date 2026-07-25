@@ -9,7 +9,9 @@ const cache=new Map<string,string>();
 router.use(rateLimit({windowMs:15*60*1000,limit:60,standardHeaders:"draft-7",legacyHeaders:false}));
 
 router.post("/urdu",async(req,res)=>{
-  const {texts}=z.object({texts:z.array(z.string().trim().min(1).max(1200)).min(1).max(40)}).parse(req.body);
+  const {texts}=z.object({
+    texts:z.array(z.string().trim().min(1).max(6000)).min(1).max(40),
+  }).refine(value=>value.texts.reduce((total,text)=>total+text.length,0)<=16000,"Translation batch is too large.").parse(req.body);
   const missing=[...new Set(texts)].filter(text=>!cache.has(text));
   if(missing.length){
     if(!env.GEMINI_API_KEY)throw new AppError(503,"Urdu translation is temporarily unavailable.");
