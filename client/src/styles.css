@@ -2329,6 +2329,32 @@ footer {
 [dir="rtl"] .navbar,[dir="rtl"] .footer-grid,[dir="rtl"] .dashboard,[dir="rtl"] .booking-doctor,[dir="rtl"] .check-line { direction:rtl; }
 [dir="rtl"] input,[dir="rtl"] textarea,[dir="rtl"] select { text-align:right; }
 [dir="rtl"] .symptom-search-results button,[dir="rtl"] .big-search input { text-align:right; }
+[dir="rtl"] .hero { background-image:none; }
+[dir="rtl"] .hero::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url("/home.png") center right / cover no-repeat;
+  transform:scaleX(-1);
+}
+[dir="rtl"] .hero-shade {
+  background:linear-gradient(
+    to left,
+    rgba(244,250,255,.98) 0%,
+    rgba(240,248,255,.94) 34%,
+    rgba(234,246,255,.62) 53%,
+    rgba(214,237,253,.08) 74%
+  );
+}
+[data-theme="dark"][dir="rtl"] .hero-shade {
+  background:linear-gradient(
+    to left,
+    rgba(7,18,32,.98) 0%,
+    rgba(8,25,43,.93) 38%,
+    rgba(9,30,49,.58) 58%,
+    rgba(9,30,49,.15) 78%
+  );
+}
 
 /* Compact record cards for booking and role portals */
 .booking-card > .booking-doctor {
