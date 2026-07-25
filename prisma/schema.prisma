@@ -241,17 +241,26 @@ model DiseaseSymptom {
 }
 
 model AiPrediction {
-  id           String   @id @default(cuid())
-  patientId    String
-  patient      Patient  @relation(fields: [patientId], references: [id], onDelete: Cascade)
-  diseaseId    String?
-  disease      Disease? @relation(fields: [diseaseId], references: [id])
-  input        Json
-  result       Json
-  confidence   Float
-  modelVersion String
-  severity     String
-  createdAt    DateTime @default(now())
+  id                 String    @id @default(cuid())
+  patientId          String
+  patient            Patient   @relation(fields: [patientId], references: [id], onDelete: Cascade)
+  diseaseId          String?
+  disease            Disease?  @relation(fields: [diseaseId], references: [id])
+  input              Json
+  result             Json
+  confidence         Float
+  modelVersion       String
+  severity           String
+  predictedDisease   String?
+  selectedSymptoms   Json?
+  description        String?   @db.Text
+  diet               Json?
+  medications        Json?
+  precautions        Json?
+  workout            Json?
+  recoveryTips       Json?
+  predictionDatetime DateTime?
+  createdAt          DateTime  @default(now())
 
   @@index([patientId, createdAt])
 }

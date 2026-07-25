@@ -1,6 +1,161 @@
-import {useEffect,useState} from 'react';
-import {Link,NavLink,useLocation} from 'react-router-dom';
-import {Menu,X,Search,Sun,Moon,HeartPulse,Phone,Mail,MapPin} from 'lucide-react';
-import {ChatAssistant} from './ChatAssistant';
-const links=[['/','Home'],['/doctors','Find Doctors'],['/predict','AI Prediction'],['/hospitals','Nearby Hospitals'],['/library','Health Library'],['/about','About'],['/contact','Contact']];
-export function Layout({children}:{children:React.ReactNode}){const [open,setOpen]=useState(false),[dark,setDark]=useState(false),[scrolled,setScrolled]=useState(false);const loc=useLocation();useEffect(()=>{setOpen(false);window.scrollTo(0,0)},[loc.pathname]);useEffect(()=>{const fn=()=>setScrolled(scrollY>20);addEventListener('scroll',fn);return()=>removeEventListener('scroll',fn)},[]);useEffect(()=>{document.documentElement.dataset.theme=dark?'dark':'light'},[dark]);const compactAbout=loc.pathname==='/about';return <><header className={`navbar ${scrolled?'scrolled':''}`}><Link to="/" className="brand"><span><HeartPulse/></span><b>UHS</b></Link><nav>{links.map(([to,label])=><NavLink key={to} to={to} className={({isActive})=>isActive?'active':''}>{label}</NavLink>)}</nav><div className="nav-actions"><button aria-label="Search"><Search/></button><button aria-label="Toggle theme" onClick={()=>setDark(!dark)}>{dark?<Sun/>:<Moon/>}</button><Link to="/login" className="login-link">Patient/Doctor</Link><Link to="/admin-login" className="login-link">Admin</Link><Link to="/register" className="nav-cta">Get started</Link><button className="menu" aria-label="Menu" onClick={()=>setOpen(!open)}>{open?<X/>:<Menu/>}</button></div>{open&&<div className="mobile-menu">{links.map(([to,label])=><NavLink key={to} to={to}>{label}</NavLink>)}<Link to="/login">Patient/Doctor login</Link><Link to="/admin-login">Admin login</Link><Link to="/register">Create account</Link></div>}</header><main className={compactAbout?'compact-about-main':''}>{children}</main>{!compactAbout&&<footer><div className="footer-grid"><div><Link to="/" className="brand"><span><HeartPulse/></span><b>UHS</b></Link><p>Healthcare that understands you. One intelligent platform for a healthier life.</p></div><div><h4>Platform</h4><Link to="/doctors">Find doctors</Link><Link to="/predict">AI prediction</Link><Link to="/hospitals">Hospitals</Link></div><div><h4>Company</h4><Link to="/about">About us</Link><Link to="/library">Health library</Link><Link to="/contact">Contact</Link></div><div><h4>Get in touch</h4><p><Phone/>+92 51 111 847 847</p><p>care@uhs.health</p><p><MapPin/>Islamabad, Pakistan</p></div></div><div className="footer-bottom"><span>© 2026 Universal Health System</span><span>Privacy · Terms · Accessibility</span></div></footer>}<ChatAssistant/></>}
+import { useEffect, useState } from "react";
+import { Link, NavLink, useLocation } from "react-router-dom";
+import {
+  Menu,
+  X,
+  Search,
+  Sun,
+  Moon,
+  HeartPulse,
+  Phone,
+  Mail,
+  MapPin,
+} from "lucide-react";
+import { ChatAssistant } from "./ChatAssistant";
+import { useAuth } from "../context/AuthContext";
+const links = [
+  ["/", "Home"],
+  ["/doctors", "Find Doctors"],
+  ["/predict", "AI Prediction"],
+  ["/hospitals", "Nearby Hospitals"],
+  ["/library", "Health Library"],
+  ["/about", "About"],
+  ["/contact", "Contact"],
+];
+export function Layout({ children }: { children: React.ReactNode }) {
+  const [open, setOpen] = useState(false),
+    [dark, setDark] = useState(false),
+    [scrolled, setScrolled] = useState(false);
+  const loc = useLocation();
+  const { user } = useAuth();
+  useEffect(() => {
+    setOpen(false);
+    window.scrollTo(0, 0);
+  }, [loc.pathname]);
+  useEffect(() => {
+    const fn = () => setScrolled(scrollY > 20);
+    addEventListener("scroll", fn);
+    return () => removeEventListener("scroll", fn);
+  }, []);
+  useEffect(() => {
+    document.documentElement.dataset.theme = dark ? "dark" : "light";
+  }, [dark]);
+  const compactAbout = loc.pathname === "/about";
+  return (
+    <>
+      <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
+        <Link to="/" className="brand">
+          <span>
+            <HeartPulse />
+          </span>
+          <b>UHS</b>
+        </Link>
+        <nav>
+          {links.map(([to, label]) => (
+            <NavLink
+              key={to}
+              to={to}
+              className={({ isActive }) => (isActive ? "active" : "")}
+            >
+              {label}
+            </NavLink>
+          ))}
+        </nav>
+        <div className="nav-actions">
+          <button aria-label="Search">
+            <Search />
+          </button>
+          <button aria-label="Toggle theme" onClick={() => setDark(!dark)}>
+            {dark ? <Sun /> : <Moon />}
+          </button>
+          {user?.role === "PATIENT" && (
+            <Link to="/dashboard/patient" className="login-link">
+              Patient Portal
+            </Link>
+          )}
+          <Link to="/login" className="login-link">
+            Patient/Doctor
+          </Link>
+          <Link to="/admin-login" className="login-link">
+            Admin
+          </Link>
+          <Link to="/register" className="nav-cta">
+            Get started
+          </Link>
+          <button
+            className="menu"
+            aria-label="Menu"
+            onClick={() => setOpen(!open)}
+          >
+            {open ? <X /> : <Menu />}
+          </button>
+        </div>
+        {open && (
+          <div className="mobile-menu">
+            {links.map(([to, label]) => (
+              <NavLink key={to} to={to}>
+                {label}
+              </NavLink>
+            ))}
+            {user?.role === "PATIENT" && (
+              <Link to="/dashboard/patient">Patient Portal</Link>
+            )}
+            <Link to="/login">Patient/Doctor login</Link>
+            <Link to="/admin-login">Admin login</Link>
+            <Link to="/register">Create account</Link>
+          </div>
+        )}
+      </header>
+      <main className={compactAbout ? "compact-about-main" : ""}>
+        {children}
+      </main>
+      {!compactAbout && (
+        <footer>
+          <div className="footer-grid">
+            <div>
+              <Link to="/" className="brand">
+                <span>
+                  <HeartPulse />
+                </span>
+                <b>UHS</b>
+              </Link>
+              <p>
+                Healthcare that understands you. One intelligent platform for a
+                healthier life.
+              </p>
+            </div>
+            <div>
+              <h4>Platform</h4>
+              <Link to="/doctors">Find doctors</Link>
+              <Link to="/predict">AI prediction</Link>
+              <Link to="/hospitals">Hospitals</Link>
+            </div>
+            <div>
+              <h4>Company</h4>
+              <Link to="/about">About us</Link>
+              <Link to="/library">Health library</Link>
+              <Link to="/contact">Contact</Link>
+            </div>
+            <div>
+              <h4>Get in touch</h4>
+              <p>
+                <Phone />
+                +92 51 111 847 847
+              </p>
+              <p>care@uhs.health</p>
+              <p>
+                <MapPin />
+                Islamabad, Pakistan
+              </p>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <span>© 2026 Universal Health System</span>
+            <span>Privacy · Terms · Accessibility</span>
+          </div>
+        </footer>
+      )}
+      <ChatAssistant />
+    </>
+  );
+}

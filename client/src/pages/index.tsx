@@ -49,6 +49,7 @@ import { authApi } from "../services/api";
 import { useAuth } from "../context/AuthContext";
 import { BlogModal, HealthLibrary } from "../components/HealthLibrary";
 import { healthBlogs, type HealthBlog } from "../data/healthBlogs";
+import { MlPrediction, PredictionHistory } from "../components/MlPrediction";
 const reveal = {
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1, y: 0 },
@@ -823,186 +824,7 @@ function RecenterMap({
   return null;
 }
 export function Prediction() {
-  const location = useLocation();
-  const [selected, setSelected] = useState<string[]>([]),
-    [result, setResult] = useState<{
-      disease: string;
-      confidence: number;
-      severity: string;
-      specialist: string;
-      recommendedMedicines: string[];
-      suggestedTests: string[];
-    } | null>(null),
-    [age, setAge] = useState(28),
-    [gender, setGender] = useState("Female"),
-    [loading, setLoading] = useState(false),
-    [error, setError] = useState("");
-  useEffect(() => {
-    const saved = new URLSearchParams(location.search).get("symptoms");
-    if (saved)
-      setSelected(
-        saved
-          .split(",")
-          .map((item) => item.trim())
-          .filter((item) => symptoms.includes(item)),
-      );
-  }, [location.search]);
-  const analyze = async () => {
-    setLoading(true);
-    setError("");
-    try {
-      setResult(
-        await api("/predictions", {
-          method: "POST",
-          body: JSON.stringify({ symptoms: selected, age, gender }),
-        }),
-      );
-    } catch (e) {
-      setError(e instanceof Error ? e.message : "Assessment failed");
-    } finally {
-      setLoading(false);
-    }
-  };
-  return (
-    <div className="prediction-page">
-      <div className="prediction-intro">
-        <span className="eyebrow">
-          <Sparkles /> UHS Intelligence
-        </span>
-        <h1>Understand what your body is telling you.</h1>
-        <p>
-          Tell us what you’re experiencing. Our AI-assisted assessment will
-          organize your symptoms and suggest sensible next steps.
-        </p>
-        <div>
-          <ShieldCheck />
-          Your answers are private and encrypted
-        </div>
-      </div>
-      <div className="prediction-shell">
-        <section className="assessment card">
-          <div className="step-head">
-            <div>
-              <small>STEP 1 OF 3</small>
-              <h2>What are you feeling?</h2>
-            </div>
-            <span>33%</span>
-          </div>
-          <div className="progress">
-            <i style={{ width: "33%" }} />
-          </div>
-          <label>
-            Search symptoms
-            <div className="input">
-              <Search />
-              <input placeholder="Type a symptom..." />
-            </div>
-          </label>
-          <p>Select all that apply</p>
-          <div className="symptom-grid">
-            {symptoms.map((s) => (
-              <button
-                className={selected.includes(s) ? "chosen" : ""}
-                onClick={() =>
-                  setSelected((x) =>
-                    x.includes(s) ? x.filter((y) => y !== s) : [...x, s],
-                  )
-                }
-                key={s}
-              >
-                {selected.includes(s) && <Check />}
-                {s}
-              </button>
-            ))}
-          </div>
-          <div className="form-row">
-            <label>
-              Age
-              <input
-                type="number"
-                value={age}
-                onChange={(event) => setAge(Number(event.target.value))}
-                min="0"
-                max="120"
-              />
-            </label>
-            <label>
-              Gender
-              <select
-                value={gender}
-                onChange={(event) => setGender(event.target.value)}
-              >
-                <option>Female</option>
-                <option>Male</option>
-                <option>Other</option>
-              </select>
-            </label>
-          </div>
-          {error && (
-            <p role="alert" className="form-error">
-              {error}
-            </p>
-          )}
-          <Button onClick={analyze} disabled={!selected.length || loading}>
-            {loading ? "Analyzing securely..." : "Analyze my symptoms"}{" "}
-            <Sparkles />
-          </Button>
-        </section>
-        <aside className={`prediction-result card ${result ? "revealed" : ""}`}>
-          {result ? (
-            <>
-              <div className="result-icon">
-                <Wind />
-              </div>
-              <span className="pill">AI ASSESSMENT COMPLETE</span>
-              <h2>{result.disease}</h2>
-              <p>
-                Your symptom pattern is commonly associated with a seasonal
-                upper respiratory infection.
-              </p>
-              <div className="confidence">
-                <span>Confidence</span>
-                <b>{Math.round(result.confidence * 100)}%</b>
-                <i>
-                  <em style={{ width: `${result.confidence * 100}%` }} />
-                </i>
-              </div>
-              <div className="severity">
-                <span>Severity</span>
-                <b>{result.severity.replaceAll("_", " ").toLowerCase()}</b>
-              </div>
-              <h3>Recommended next steps</h3>
-              {[`Consult a ${result.specialist}`, ...result.suggestedTests].map(
-                (x) => (
-                  <p className="check-line" key={x}>
-                    <Check />
-                    {x}
-                  </p>
-                ),
-              )}
-              <Button to="/book">Book a physician</Button>
-              <Button variant="ghost">Download report</Button>
-              <small>
-                This assessment is informational and does not replace a medical
-                diagnosis.
-              </small>
-            </>
-          ) : (
-            <>
-              <div className="result-empty">
-                <BrainCircuit />
-                <h3>Your assessment will appear here</h3>
-                <p>
-                  Select your symptoms to receive a clear, personalized health
-                  summary.
-                </p>
-              </div>
-            </>
-          )}
-        </aside>
-      </div>
-    </div>
-  );
+  return <MlPrediction />;
 }
 
 export function Hospitals() {
@@ -3186,16 +3008,7 @@ export function Dashboard() {
                 </article>
               )}
               {active === "AI Predictions" && (
-                <article className="card">
-                  <h3>AI prediction history</h3>
-                  {(data?.predictions ?? []).map((p: any) => (
-                    <p className="check-line" key={p.id}>
-                      <BrainCircuit />
-                      {p.result?.disease} ·{" "}
-                      {Math.round((p.confidence ?? 0) * 100)}%
-                    </p>
-                  ))}
-                </article>
+                <PredictionHistory />
               )}
               {active === "Diet Plans" && (
                 <article className="card">

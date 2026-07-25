@@ -726,6 +726,34 @@ p {
 .blog-reader-content section h2 { margin-bottom:11px; font-size:24px; font-weight:800; }
 .blog-reader-content section p { color:var(--ink); line-height:1.85; margin-bottom:15px; }
 .blog-disclaimer { margin:25px 0; padding:15px 17px; border-left:4px solid var(--primary); border-radius:10px; background:var(--soft); color:var(--muted); }
+.prediction-model-note { align-self:start; text-align:center; padding:42px 28px; }
+.prediction-model-note>svg { width:52px; height:52px; color:var(--primary); }
+.prediction-model-note p,.prediction-help { color:var(--ink); }
+.symptom-search-results { margin-top:-12px; display:grid; max-height:250px; overflow:auto; border:1px solid var(--line); border-radius:14px; background:var(--card); box-shadow:0 15px 35px rgba(18,49,84,.12); }
+.symptom-search-results button { border:0; border-bottom:1px solid var(--line); padding:12px 15px; text-align:left; color:var(--ink); background:transparent; cursor:pointer; }
+.symptom-search-results button:hover { background:var(--soft); }
+.selected-symptom-tags { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0; }
+.selected-symptom-tags>span { display:inline-flex; align-items:center; gap:7px; padding:9px 12px; border-radius:999px; color:var(--ink); background:var(--soft); font-weight:700; font-size:13px; }
+.selected-symptom-tags svg { width:15px; height:15px; color:var(--primary); }
+.selected-symptom-tags button { display:grid; place-items:center; border:0; padding:0; color:var(--ink); background:transparent; cursor:pointer; }
+.ml-report { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin-top:28px; }
+.ml-result-primary,.ml-disclaimer { grid-column:1/-1; }
+.ml-result-primary h2 { margin:12px 0; font-size:clamp(30px,4vw,48px); }
+.low-confidence-note { margin:18px 0; padding:13px 15px; border-left:4px solid #d97706; border-radius:10px; color:var(--ink); background:#fff7ed; }
+.ml-result-meta { display:flex; flex-wrap:wrap; gap:18px; color:var(--ink); }
+.ml-result-meta span { display:inline-flex; align-items:center; gap:6px; }
+.ml-result-meta svg { width:17px; }
+.top-predictions { max-width:620px; margin:22px 0; padding:16px 18px; border:1px solid var(--line); border-radius:14px; background:var(--soft); }
+.top-predictions h3 { margin:0 0 10px; }
+.top-predictions div { display:flex; justify-content:space-between; gap:16px; padding:8px 0; color:var(--ink); border-top:1px solid var(--line); }
+.ml-report-card { display:flex; align-items:flex-start; gap:16px; }
+.ml-report-card>svg { flex:0 0 auto; width:28px; height:28px; color:var(--primary); }
+.ml-report-card h3 { margin:0 0 12px; }
+.ml-report-card h4 { margin:18px 0 8px; }
+.ml-report-card p,.ml-disclaimer,.prediction-history-grid p { color:var(--ink); }
+.ml-disclaimer { padding:18px 20px; border-left:4px solid var(--primary); border-radius:12px; background:var(--card); line-height:1.7; }
+.prediction-history-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:18px; }
+.prediction-history-modal { position:relative; width:min(950px,100%); max-height:90vh; overflow:auto; padding:28px; border-radius:22px; background:var(--soft); }
 .about-page { overflow: hidden; }
 .compact-about-main { height: calc(100vh - 78px); overflow: hidden; }
 .about-compact { min-height: 100%; height: 100%; padding: clamp(35px,6vh,70px) max(6vw,30px); display: grid; grid-template-columns: 1fr; grid-template-rows: auto 1fr; gap: 30px; align-items: center; background: radial-gradient(circle at 76% 38%, #e0f3ff 0, transparent 25%), linear-gradient(145deg,var(--card),var(--soft)); }
@@ -2257,6 +2285,7 @@ footer {
   .blog-reader { max-height:94vh; border-radius:16px; }
   .blog-pagination { align-items:stretch; flex-direction:column; }
   .blog-pagination div { justify-content:center; }
+  .ml-report,.prediction-history-grid { grid-template-columns:1fr; }
 }
 .route-loading{width:42px;height:42px;margin:150px auto;border:3px solid var(--line);border-top-color:var(--blue);border-radius:50%;animation:route-spin .7s linear infinite}@keyframes route-spin{to{transform:rotate(360deg)}}
 .form-error{padding:10px 12px;border-radius:9px;background:#fef2f2;color:#b91c1c;font-size:13px}
