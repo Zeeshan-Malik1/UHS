@@ -83,6 +83,7 @@ router.post("/", authorize("PATIENT"), async (req, res) => {
         where: {
           doctorId: doctor.id,
           selectedDay: data.selectedDay,
+          selectedTime: data.selectedTime,
           status: { in: ["PENDING", "APPROVED"] },
         },
         orderBy: { bookingTimestamp: "asc" },
@@ -90,17 +91,7 @@ router.post("/", authorize("PATIENT"), async (req, res) => {
       });
       const now = new Date();
       const ahead = activeQueue.length;
-      const queueStartedAt =
-        activeQueue[0]?.bookingTimestamp.getTime() ?? now.getTime();
-      const estimatedWaitMinutes = Math.max(
-        0,
-        Math.ceil(
-          (queueStartedAt +
-            ahead * CONSULTATION_MINUTES * 60000 -
-            now.getTime()) /
-            60000,
-        ),
-      );
+      const estimatedWaitMinutes = ahead * CONSULTATION_MINUTES;
       return tx.appointment.create({
         data: {
           patientId: patient.id,

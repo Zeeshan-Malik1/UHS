@@ -3006,8 +3006,7 @@ export function Dashboard() {
                             a.bookingTimestamp ?? a.createdAt,
                           ).toLocaleTimeString()}{" "}
                           · Queue #{a.queuePosition} · Estimated wait{" "}
-                          {a.estimatedWaitMinutes} min · Live wait{" "}
-                          {a.liveWaitMinutes ?? 0} min{" "}
+                          {a.estimatedWaitMinutes} min{" "}
                           <AppointmentCountdown
                             startsAt={a.startsAt}
                             status={a.status}

@@ -24,21 +24,16 @@ export function liveQueueValues<
   const activeWindows = queue
     .map((item, originalIndex) => ({
       item,
-      projectedStart:
-        queueStartedAt + originalIndex * CONSULTATION_MINUTES * 60000,
       projectedEnd:
         queueStartedAt + (originalIndex + 1) * CONSULTATION_MINUTES * 60000,
     }))
     .filter((window) => window.projectedEnd > now.getTime());
-  return activeWindows.map(({ item, projectedStart }, index) => {
+  return activeWindows.map(({ item }, index) => {
     const queuePosition = index + 1;
     return {
       ...item,
       queuePosition,
-      liveWaitMinutes: Math.max(
-        0,
-        Math.ceil((projectedStart - now.getTime()) / 60000),
-      ),
+      liveWaitMinutes: index * CONSULTATION_MINUTES,
     };
   });
 }
@@ -53,7 +48,18 @@ export async function recalculateDoctorQueue(
     where: { doctorId, selectedDay, status: { in: [...activeStatuses] } },
     orderBy: { createdAt: "asc" },
   });
-  const queue = liveQueueValues(appointments, now);
+  const queues = new Map<string, typeof appointments>();
+  for (const appointment of appointments) {
+    const queueTime =
+      appointment.selectedTime ?? appointment.startsAt.toISOString().slice(11, 16);
+    queues.set(queueTime, [
+      ...(queues.get(queueTime) ?? []),
+      appointment,
+    ]);
+  }
+  const queue = [...queues.values()].flatMap((items) =>
+    liveQueueValues(items, now),
+  );
   await Promise.all(
     queue.map((item) =>
       db.appointment.update({
@@ -76,38 +82,58 @@ export async function appointmentsWithLiveQueue<
     createdAt: Date;
     bookingTimestamp: Date;
     startsAt: Date;
+    selectedTime: string | null;
     status: string;
     queuePosition: number;
   },
 >(db: Db, appointments: T[]) {
-  const groups = new Map<string, { doctorId: string; selectedDay: number }>();
+  const groups = new Map<
+    string,
+    { doctorId: string; selectedDay: number; selectedTime: string | null }
+  >();
   for (const appointment of appointments) {
     const selectedDay =
       appointment.selectedDay ?? appointment.startsAt.getDay();
-    const key = `${appointment.doctorId}:${selectedDay}`;
-    groups.set(key, { doctorId: appointment.doctorId, selectedDay });
+    const queueTime =
+      appointment.selectedTime ?? appointment.startsAt.toISOString().slice(11, 16);
+    const key = `${appointment.doctorId}:${selectedDay}:${queueTime}`;
+    groups.set(key, {
+      doctorId: appointment.doctorId,
+      selectedDay,
+      selectedTime: appointment.selectedTime,
+    });
   }
   const values = new Map<
     string,
-    { queuePosition: number; liveWaitMinutes: number }
+    {
+      queuePosition: number;
+      liveWaitMinutes: number;
+      estimatedWaitMinutes: number;
+    }
   >();
   for (const group of groups.values()) {
     const completeQueue = await db.appointment.findMany({
       where: {
         doctorId: group.doctorId,
         selectedDay: group.selectedDay,
+        selectedTime: group.selectedTime,
         status: { in: [...activeStatuses] },
       },
       orderBy: { bookingTimestamp: "asc" },
     });
     for (const item of liveQueueValues(completeQueue))
-      values.set(item.id, item);
+      values.set(item.id, {
+        queuePosition: item.queuePosition,
+        liveWaitMinutes: item.liveWaitMinutes,
+        estimatedWaitMinutes: item.liveWaitMinutes,
+      });
   }
   return appointments.map((item) => ({
     ...item,
     ...(values.get(item.id) ?? {
       queuePosition: item.queuePosition,
       liveWaitMinutes: 0,
+      estimatedWaitMinutes: 0,
     }),
   }));
 }
