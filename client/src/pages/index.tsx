@@ -56,6 +56,23 @@ const reveal = {
   viewport: { once: true, margin: "-60px" },
   transition: { duration: 0.55 },
 };
+function AppointmentCountdown({startsAt,status}:{startsAt:string;status?:string}){
+  const [now,setNow]=useState(Date.now());
+  useEffect(()=>{
+    const timer=window.setInterval(()=>setNow(Date.now()),1000);
+    return()=>window.clearInterval(timer);
+  },[]);
+  if(!startsAt||["COMPLETED","CANCELLED","REJECTED"].includes(status??""))return null;
+  const remaining=Math.max(0,new Date(startsAt).getTime()-now);
+  if(remaining===0)return <span className="appointment-countdown">Appointment time reached</span>;
+  const totalSeconds=Math.floor(remaining/1000);
+  const days=Math.floor(totalSeconds/86400);
+  const hours=Math.floor(totalSeconds%86400/3600);
+  const minutes=Math.floor(totalSeconds%3600/60);
+  const seconds=totalSeconds%60;
+  const parts=[days?`${days}d`:"",hours||days?`${hours}h`:"",minutes||hours||days?`${minutes}m`:"",`${seconds}s`].filter(Boolean);
+  return <span className="appointment-countdown" aria-live="off">Starts in {parts.join(" ")}</span>;
+}
 const services = [
   {
     icon: BrainCircuit,
@@ -1674,7 +1691,11 @@ export function Book() {
             <p>
               Queue position: {created?.queuePosition} - Estimated wait:{" "}
               {created?.liveWaitMinutes ?? created?.estimatedWaitMinutes ?? 0}{" "}
-              minutes
+              minutes{" "}
+              <AppointmentCountdown
+                startsAt={created?.startsAt ?? new Date(`${date}T${time}:00`).toISOString()}
+                status={created?.status}
+              />
             </p>
             <p>
               Status: {created?.status ?? "PENDING"} - Appointment Confirmed
@@ -2944,7 +2965,12 @@ export function Dashboard() {
                           ).toLocaleTimeString()}{" "}
                           · Queue #{a.queuePosition} · Estimated wait{" "}
                           {a.estimatedWaitMinutes} min · Live wait{" "}
-                          {a.liveWaitMinutes ?? 0} min · {a.status}
+                          {a.liveWaitMinutes ?? 0} min{" "}
+                          <AppointmentCountdown
+                            startsAt={a.startsAt}
+                            status={a.status}
+                          />{" "}
+                          · {a.status}
                         </p>
                       </div>
                       {["PENDING", "APPROVED"].includes(a.status) && (
