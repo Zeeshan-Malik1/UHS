@@ -11,9 +11,11 @@ import {
   Mail,
   MapPin,
   LogOut,
+  Languages,
 } from "lucide-react";
 import { ChatAssistant } from "./ChatAssistant";
 import { useAuth } from "../context/AuthContext";
+import { useLanguage } from "../context/LanguageContext";
 const links = [
   ["/", "Home"],
   ["/doctors", "Find Doctors"],
@@ -30,6 +32,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
   const loc = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
+  const { language, setLanguage } = useLanguage();
   const handleLogout = async () => {
     await logout();
     navigate("/");
@@ -76,7 +79,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
           ))}
         </nav>
         <div className="nav-actions">
-          <button aria-label="Search">
+          <label className="language-switcher">
+            <Languages />
+            <select value={language} onChange={(event)=>setLanguage(event.target.value as "en"|"ur")} aria-label="Website language">
+              <option value="en">English</option>
+              <option value="ur">اردو</option>
+            </select>
+          </label>
+          <button className="nav-search" aria-label="Search">
             <Search />
           </button>
           <button aria-label="Toggle theme" onClick={() => setDark(!dark)}>
@@ -104,6 +114,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         </div>
         {open && (
           <div className="mobile-menu">
+            <label className="mobile-language-switcher">
+              <Languages />
+              <select value={language} onChange={(event)=>setLanguage(event.target.value as "en"|"ur")} aria-label="Website language">
+                <option value="en">English</option>
+                <option value="ur">اردو</option>
+              </select>
+            </label>
             {links.map(([to, label]) => (
               <NavLink key={to} to={to}>
                 {label}

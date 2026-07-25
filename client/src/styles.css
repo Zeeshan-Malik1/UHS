@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap");
 :root {
   font-family: "DM Sans", sans-serif;
   color: #12213a;
@@ -121,6 +121,10 @@ p {
   align-items: center;
   gap: 12px;
 }
+.language-switcher,.mobile-language-switcher { display:flex; align-items:center; gap:6px; color:var(--ink); }
+.language-switcher svg,.mobile-language-switcher svg { width:17px; }
+.language-switcher select,.mobile-language-switcher select { border:1px solid var(--line); border-radius:9px; padding:7px 8px; background:var(--card); color:var(--ink); font:inherit; font-weight:700; }
+.mobile-language-switcher { display:none; }
 .nav-actions button {
   border: 0;
   background: transparent;
@@ -2059,12 +2063,14 @@ footer {
   .nav-actions > .login-link,
   .nav-actions > .nav-cta,
   .nav-actions > .logout-link,
-  .nav-actions > button:first-child {
+  .nav-actions > .language-switcher,
+  .nav-actions > .nav-search {
     display: none;
   }
   .mobile-menu {
     top: 68px;
   }
+  .mobile-language-switcher { display:flex; }
   .hero {
     min-height: 700px;
     padding: 58px 20px;
@@ -2319,6 +2325,10 @@ footer {
 }
 .route-loading{width:42px;height:42px;margin:150px auto;border:3px solid var(--line);border-top-color:var(--blue);border-radius:50%;animation:route-spin .7s linear infinite}@keyframes route-spin{to{transform:rotate(360deg)}}
 .form-error{padding:10px 12px;border-radius:9px;background:#fef2f2;color:#b91c1c;font-size:13px}
+[dir="rtl"] body { font-family:"Noto Nastaliq Urdu","Segoe UI",Tahoma,sans-serif; }
+[dir="rtl"] .navbar,[dir="rtl"] .footer-grid,[dir="rtl"] .dashboard,[dir="rtl"] .booking-doctor,[dir="rtl"] .check-line { direction:rtl; }
+[dir="rtl"] input,[dir="rtl"] textarea,[dir="rtl"] select { text-align:right; }
+[dir="rtl"] .symptom-search-results button,[dir="rtl"] .big-search input { text-align:right; }
 
 /* Compact record cards for booking and role portals */
 .booking-card > .booking-doctor {
