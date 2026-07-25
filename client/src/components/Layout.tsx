@@ -41,6 +41,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
     document.documentElement.dataset.theme = dark ? "dark" : "light";
   }, [dark]);
   const compactAbout = loc.pathname === "/about";
+  const panel =
+    user?.role === "PATIENT"
+      ? { to: "/dashboard/patient", label: "Patient Portal" }
+      : user?.role === "DOCTOR"
+        ? { to: "/dashboard/doctor", label: "Doctor Panel" }
+        : user?.role === "ADMIN"
+          ? { to: "/dashboard/admin", label: "Admin Panel" }
+          : null;
   return (
     <>
       <header className={`navbar ${scrolled ? "scrolled" : ""}`}>
@@ -68,20 +76,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <button aria-label="Toggle theme" onClick={() => setDark(!dark)}>
             {dark ? <Sun /> : <Moon />}
           </button>
-          {user?.role === "PATIENT" && (
-            <Link to="/dashboard/patient" className="login-link">
-              Patient Portal
-            </Link>
+          {panel ? (
+            <Link to={panel.to} className="nav-cta">{panel.label}</Link>
+          ) : (
+            <>
+              <Link to="/login" className="login-link">Patient/Doctor</Link>
+              <Link to="/admin-login" className="login-link">Admin</Link>
+              <Link to="/register" className="nav-cta">Get started</Link>
+            </>
           )}
-          <Link to="/login" className="login-link">
-            Patient/Doctor
-          </Link>
-          <Link to="/admin-login" className="login-link">
-            Admin
-          </Link>
-          <Link to="/register" className="nav-cta">
-            Get started
-          </Link>
           <button
             className="menu"
             aria-label="Menu"
@@ -97,12 +100,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 {label}
               </NavLink>
             ))}
-            {user?.role === "PATIENT" && (
-              <Link to="/dashboard/patient">Patient Portal</Link>
+            {panel ? (
+              <Link to={panel.to}>{panel.label}</Link>
+            ) : (
+              <>
+                <Link to="/login">Patient/Doctor login</Link>
+                <Link to="/admin-login">Admin login</Link>
+                <Link to="/register">Create account</Link>
+              </>
             )}
-            <Link to="/login">Patient/Doctor login</Link>
-            <Link to="/admin-login">Admin login</Link>
-            <Link to="/register">Create account</Link>
           </div>
         )}
       </header>
