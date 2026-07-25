@@ -1,4 +1,5 @@
 import {createContext,useContext,useEffect,useMemo,useRef,useState} from "react";
+import {api} from "../services/api";
 
 export type Language="en"|"ur";
 type LanguageValue={language:Language;setLanguage:(language:Language)=>void};
@@ -12,7 +13,6 @@ const urdu:Record<string,string>={
   "Create account":"اکاؤنٹ بنائیں","Search":"تلاش","Toggle theme":"تھیم تبدیل کریں","Menu":"مینو","Website language":"ویب سائٹ کی زبان",
   "English":"انگریزی",
   "Healthcare that understands you. One intelligent platform for a healthier life.":"صحت کی دیکھ بھال جو آپ کو سمجھتی ہے۔ بہتر صحت کے لیے ایک ذہین پلیٹ فارم۔",
-  "Universal Standard for":"عالمی معیار برائے","Modern Healthcare":"جدید صحت کی دیکھ بھال",
   "One secure platform to understand your health, find trusted doctors, and access better care wherever life takes you.":"اپنی صحت سمجھنے، قابل اعتماد ڈاکٹر تلاش کرنے اور ہر جگہ بہتر نگہداشت حاصل کرنے کے لیے ایک محفوظ پلیٹ فارم۔",
   "Check your symptoms":"اپنی علامات چیک کریں","Patient rating":"مریضوں کی درجہ بندی","People supported":"لوگوں کی معاونت",
   "Care access":"نگہداشت تک رسائی","Care without complexity":"آسان نگہداشت",
@@ -105,6 +105,8 @@ const fragments:Record<string,string>={
   "with Dr.":"ڈاکٹر کے ساتھ","Dr.":"ڈاکٹر","years":"سال","registered":"رجسٹرڈ","created":"بنایا گیا",
   "No phone":"فون نہیں","Not provided":"فراہم نہیں کیا گیا","None added":"کچھ شامل نہیں","Results":"نتائج"
 };
+const protectedEnglish=new Set(["Universal Standard for","Modern Healthcare","UHS"]);
+const mustRemainEnglish=(value:string)=>protectedEnglish.has(value)||/^(?:https?:\/\/|www\.)/i.test(value)||/^[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}$/.test(value)||/^UHS-[A-Z0-9-]+$/.test(value);
 
 export function translate(value:string){
   const trimmed=value.trim();
@@ -129,14 +131,54 @@ export function LanguageProvider({children}:{children:React.ReactNode}){
 function TranslationLayer({language}:{language:Language}){
   const textOriginal=useRef(new WeakMap<Text,string>()).current;
   const attributeOriginal=useRef(new WeakMap<Element,Map<string,string>>()).current;
+  const runtimeRef=useRef<Map<string,string>|null>(null);
+  if(!runtimeRef.current){
+    let entries:[string,string][]=[];
+    try{entries=Object.entries(JSON.parse(localStorage.getItem("uhs-urdu-cache")??"{}")) as [string,string][]}catch{}
+    runtimeRef.current=new Map(entries);
+  }
+  const runtimeTranslations=runtimeRef.current;
+  const requested=useRef(new Set<string>()).current;
   useEffect(()=>{
+    let stopped=false;
+    let flushTimer:number|undefined;
+    const pending=new Set<string>();
+    const render=(value:string)=>{
+      const trimmed=value.trim();
+      if(mustRemainEnglish(trimmed))return value;
+      const runtime=runtimeTranslations.get(trimmed);
+      if(runtime)return `${value.match(/^\s*/)?.[0]??""}${runtime}${value.match(/\s*$/)?.[0]??""}`;
+      return translate(value);
+    };
+    const persist=()=>{
+      try{localStorage.setItem("uhs-urdu-cache",JSON.stringify(Object.fromEntries([...runtimeTranslations].slice(-600))))}catch{}
+    };
+    const schedule=(source:string)=>{
+      const trimmed=source.trim();
+      if(language!=="ur"||mustRemainEnglish(trimmed)||requested.has(trimmed)||!/[A-Za-z]{2}/.test(render(source)))return;
+      requested.add(trimmed);pending.add(trimmed);
+      if(flushTimer===undefined)flushTimer=window.setTimeout(flush,120);
+    };
+    const flush=async()=>{
+      flushTimer=undefined;
+      const texts=[...pending].slice(0,40);texts.forEach(text=>pending.delete(text));
+      if(!texts.length||stopped)return;
+      try{
+        const results=await api<string[]>("/translation/urdu",{method:"POST",body:JSON.stringify({texts})});
+        texts.forEach((text,index)=>runtimeTranslations.set(text,results[index]??text));
+        persist();
+        process(document.body);
+      }catch{texts.forEach(text=>requested.delete(text))}
+      if(pending.size&&!stopped)flushTimer=window.setTimeout(flush,120);
+    };
     const processText=(node:Text)=>{
       const current=node.nodeValue??"";
       const stored=textOriginal.get(node);
       if(language==="en"){if(stored!==undefined&&current!==stored)node.nodeValue=stored;return}
       if(stored===undefined)textOriginal.set(node,current);
-      else if(current!==stored&&current!==translate(stored))textOriginal.set(node,current);
-      const source=textOriginal.get(node)??current,output=translate(source);
+      else if(current!==stored&&current!==render(stored))textOriginal.set(node,current);
+      const source=textOriginal.get(node)??current,output=render(source);
+      schedule(source);
       if(node.nodeValue!==output)node.nodeValue=output;
     };
     const processElement=(element:Element)=>{
@@ -146,8 +188,8 @@ function TranslationLayer({language}:{language:Language}){
         const stored=originals.get(name);
         if(language==="en"){if(stored!==undefined&&current!==stored)element.setAttribute(name,stored);continue}
         if(stored===undefined)originals.set(name,current);
-        else if(current!==stored&&current!==translate(stored))originals.set(name,current);
-        const output=translate(originals.get(name)??current);if(current!==output)element.setAttribute(name,output);
+        else if(current!==stored&&current!==render(stored))originals.set(name,current);
+        const source=originals.get(name)??current,output=render(source);schedule(source);if(current!==output)element.setAttribute(name,output);
       }
     };
     const process=(root:Node)=>{
@@ -163,7 +205,7 @@ function TranslationLayer({language}:{language:Language}){
       record.addedNodes.forEach(process);
     }));
     observer.observe(document.body,{subtree:true,childList:true,characterData:true});
-    return()=>observer.disconnect();
+    return()=>{stopped=true;if(flushTimer!==undefined)window.clearTimeout(flushTimer);observer.disconnect()};
   },[language]);
   return null;
 }
